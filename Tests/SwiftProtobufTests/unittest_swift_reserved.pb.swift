@@ -608,7 +608,6 @@ extension ProtobufUnittest_SwiftReservedTest: SwiftProtobuf.Message, SwiftProtob
     if let v = self._requiredInt {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 30)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_SwiftReservedTest, rhs: ProtobufUnittest_SwiftReservedTest) -> Bool {
@@ -620,7 +619,6 @@ extension ProtobufUnittest_SwiftReservedTest: SwiftProtobuf.Message, SwiftProtob
     if lhs._hashValue_p != rhs._hashValue_p {return false}
     if lhs._debugDescription_p != rhs._debugDescription_p {return false}
     if lhs._requiredInt != rhs._requiredInt {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -661,11 +659,9 @@ extension ProtobufUnittest_SwiftReservedTest.classMessage: SwiftProtobuf.Message
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 2001)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_SwiftReservedTest.classMessage, rhs: ProtobufUnittest_SwiftReservedTest.classMessage) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -690,11 +686,9 @@ extension ProtobufUnittest_SwiftReservedTest.TypeMessage: SwiftProtobuf.Message,
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 2001)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_SwiftReservedTest.TypeMessage, rhs: ProtobufUnittest_SwiftReservedTest.TypeMessage) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -710,11 +704,9 @@ extension ProtobufUnittest_SwiftReservedTest.isEqual: SwiftProtobuf.Message, Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_SwiftReservedTest.isEqual, rhs: ProtobufUnittest_SwiftReservedTest.isEqual) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -729,11 +721,9 @@ extension ProtobufUnittest_SwiftReservedTestExt: SwiftProtobuf.Message, SwiftPro
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_SwiftReservedTestExt, rhs: ProtobufUnittest_SwiftReservedTestExt) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

@@ -509,12 +509,10 @@ extension Conformance_FailureSet: SwiftProtobuf.Message, SwiftProtobuf._MessageI
     if !self.failure.isEmpty {
       try visitor.visitRepeatedStringField(value: self.failure, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Conformance_FailureSet, rhs: Conformance_FailureSet) -> Bool {
     if lhs.failure != rhs.failure {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -598,7 +596,6 @@ extension Conformance_ConformanceRequest: SwiftProtobuf.Message, SwiftProtobuf._
     if self.printUnknownFields != false {
       try visitor.visitSingularBoolField(value: self.printUnknownFields, fieldNumber: 9)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Conformance_ConformanceRequest, rhs: Conformance_ConformanceRequest) -> Bool {
@@ -608,7 +605,6 @@ extension Conformance_ConformanceRequest: SwiftProtobuf.Message, SwiftProtobuf._
     if lhs.testCategory != rhs.testCategory {return false}
     if lhs._jspbEncodingOptions != rhs._jspbEncodingOptions {return false}
     if lhs.printUnknownFields != rhs.printUnknownFields {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -694,12 +690,10 @@ extension Conformance_ConformanceResponse: SwiftProtobuf.Message, SwiftProtobuf.
       try visitor.visitSingularStringField(value: v, fieldNumber: 8)
     case nil: break
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Conformance_ConformanceResponse, rhs: Conformance_ConformanceResponse) -> Bool {
     if lhs.result != rhs.result {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -723,12 +717,10 @@ extension Conformance_JspbEncodingConfig: SwiftProtobuf.Message, SwiftProtobuf._
     if self.useJspbArrayAnyFormat != false {
       try visitor.visitSingularBoolField(value: self.useJspbArrayAnyFormat, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Conformance_JspbEncodingConfig, rhs: Conformance_JspbEncodingConfig) -> Bool {
     if lhs.useJspbArrayAnyFormat != rhs.useJspbArrayAnyFormat {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

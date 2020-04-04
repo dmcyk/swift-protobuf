@@ -489,7 +489,6 @@ extension Swift_Performance_TestAllTypes: SwiftProtobuf.Message, SwiftProtobuf._
         try visitor.visitMapField(fieldType: SwiftProtobuf._ProtobufMessageMap<SwiftProtobuf.ProtobufString,Swift_Performance_TestAllTypes>.self, value: _storage._mapStringMessage, fieldNumber: 71)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Swift_Performance_TestAllTypes, rhs: Swift_Performance_TestAllTypes) -> Bool {
@@ -533,7 +532,6 @@ extension Swift_Performance_TestAllTypes: SwiftProtobuf.Message, SwiftProtobuf._
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

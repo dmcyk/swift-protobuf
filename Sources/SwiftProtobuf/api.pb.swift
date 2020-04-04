@@ -298,7 +298,6 @@ extension Google_Protobuf_Api: SwiftProtobuf.Message, SwiftProtobuf._MessageImpl
     if self.syntax != .proto2 {
       try visitor.visitSingularEnumField(value: self.syntax, fieldNumber: 7)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Api, rhs: Google_Protobuf_Api) -> Bool {
@@ -309,7 +308,6 @@ extension Google_Protobuf_Api: SwiftProtobuf.Message, SwiftProtobuf._MessageImpl
     if lhs._sourceContext != rhs._sourceContext {return false}
     if lhs.mixins != rhs.mixins {return false}
     if lhs.syntax != rhs.syntax {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -363,7 +361,6 @@ extension Google_Protobuf_Method: SwiftProtobuf.Message, SwiftProtobuf._MessageI
     if self.syntax != .proto2 {
       try visitor.visitSingularEnumField(value: self.syntax, fieldNumber: 7)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Method, rhs: Google_Protobuf_Method) -> Bool {
@@ -374,7 +371,6 @@ extension Google_Protobuf_Method: SwiftProtobuf.Message, SwiftProtobuf._MessageI
     if lhs.responseStreaming != rhs.responseStreaming {return false}
     if lhs.options != rhs.options {return false}
     if lhs.syntax != rhs.syntax {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -403,13 +399,11 @@ extension Google_Protobuf_Mixin: SwiftProtobuf.Message, SwiftProtobuf._MessageIm
     if !self.root.isEmpty {
       try visitor.visitSingularStringField(value: self.root, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Mixin, rhs: Google_Protobuf_Mixin) -> Bool {
     if lhs.name != rhs.name {return false}
     if lhs.root != rhs.root {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

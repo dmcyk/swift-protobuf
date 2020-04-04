@@ -336,7 +336,6 @@ extension Google_Protobuf_Compiler_Version: SwiftProtobuf.Message, SwiftProtobuf
     if let v = self._suffix {
       try visitor.visitSingularStringField(value: v, fieldNumber: 4)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Compiler_Version, rhs: Google_Protobuf_Compiler_Version) -> Bool {
@@ -344,7 +343,6 @@ extension Google_Protobuf_Compiler_Version: SwiftProtobuf.Message, SwiftProtobuf
     if lhs._minor != rhs._minor {return false}
     if lhs._patch != rhs._patch {return false}
     if lhs._suffix != rhs._suffix {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -388,7 +386,6 @@ extension Google_Protobuf_Compiler_CodeGeneratorRequest: SwiftProtobuf.Message, 
     if !self.protoFile.isEmpty {
       try visitor.visitRepeatedMessageField(value: self.protoFile, fieldNumber: 15)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Compiler_CodeGeneratorRequest, rhs: Google_Protobuf_Compiler_CodeGeneratorRequest) -> Bool {
@@ -396,7 +393,6 @@ extension Google_Protobuf_Compiler_CodeGeneratorRequest: SwiftProtobuf.Message, 
     if lhs._parameter != rhs._parameter {return false}
     if lhs.protoFile != rhs.protoFile {return false}
     if lhs._compilerVersion != rhs._compilerVersion {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -425,13 +421,11 @@ extension Google_Protobuf_Compiler_CodeGeneratorResponse: SwiftProtobuf.Message,
     if !self.file.isEmpty {
       try visitor.visitRepeatedMessageField(value: self.file, fieldNumber: 15)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Compiler_CodeGeneratorResponse, rhs: Google_Protobuf_Compiler_CodeGeneratorResponse) -> Bool {
     if lhs._error != rhs._error {return false}
     if lhs.file != rhs.file {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -465,14 +459,12 @@ extension Google_Protobuf_Compiler_CodeGeneratorResponse.File: SwiftProtobuf.Mes
     if let v = self._content {
       try visitor.visitSingularStringField(value: v, fieldNumber: 15)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Compiler_CodeGeneratorResponse.File, rhs: Google_Protobuf_Compiler_CodeGeneratorResponse.File) -> Bool {
     if lhs._name != rhs._name {return false}
     if lhs._insertionPoint != rhs._insertionPoint {return false}
     if lhs._content != rhs._content {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

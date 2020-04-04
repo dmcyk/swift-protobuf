@@ -88,12 +88,10 @@ extension Google_Protobuf_SourceContext: SwiftProtobuf.Message, SwiftProtobuf._M
     if !self.fileName.isEmpty {
       try visitor.visitSingularStringField(value: self.fileName, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_SourceContext, rhs: Google_Protobuf_SourceContext) -> Bool {
     if lhs.fileName != rhs.fileName {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

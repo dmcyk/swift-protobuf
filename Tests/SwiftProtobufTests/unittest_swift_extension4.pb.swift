@@ -218,11 +218,9 @@ extension Ext4MyMessage: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementa
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Ext4MyMessage, rhs: Ext4MyMessage) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -246,12 +244,10 @@ extension Ext4MyMessage.C: SwiftProtobuf.Message, SwiftProtobuf._MessageImplemen
     if let v = self._c {
       try visitor.visitSingularInt64Field(value: v, fieldNumber: 1410)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Ext4MyMessage.C, rhs: Ext4MyMessage.C) -> Bool {
     if lhs._c != rhs._c {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -275,12 +271,10 @@ extension Ext4C: SwiftProtobuf.Message, SwiftProtobuf._MessageImplementationBase
     if let v = self._c {
       try visitor.visitSingularInt64Field(value: v, fieldNumber: 1420)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Ext4C, rhs: Ext4C) -> Bool {
     if lhs._c != rhs._c {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

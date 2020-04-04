@@ -90,12 +90,10 @@ extension SwiftProtobuf_GenSwift_ModuleMappings: SwiftProtobuf.Message, SwiftPro
     if !self.mapping.isEmpty {
       try visitor.visitRepeatedMessageField(value: self.mapping, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: SwiftProtobuf_GenSwift_ModuleMappings, rhs: SwiftProtobuf_GenSwift_ModuleMappings) -> Bool {
     if lhs.mapping != rhs.mapping {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -124,13 +122,11 @@ extension SwiftProtobuf_GenSwift_ModuleMappings.Entry: SwiftProtobuf.Message, Sw
     if !self.protoFilePath.isEmpty {
       try visitor.visitRepeatedStringField(value: self.protoFilePath, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: SwiftProtobuf_GenSwift_ModuleMappings.Entry, rhs: SwiftProtobuf_GenSwift_ModuleMappings.Entry) -> Bool {
     if lhs.moduleName != rhs.moduleName {return false}
     if lhs.protoFilePath != rhs.protoFilePath {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

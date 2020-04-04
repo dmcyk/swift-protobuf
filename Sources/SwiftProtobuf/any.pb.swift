@@ -221,7 +221,6 @@ extension Google_Protobuf_Any: SwiftProtobuf.Message, SwiftProtobuf._MessageImpl
         try visitor.visitSingularBytesField(value: _storage._value, fieldNumber: 2)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Any, rhs: Google_Protobuf_Any) -> Bool {
@@ -229,7 +228,6 @@ extension Google_Protobuf_Any: SwiftProtobuf.Message, SwiftProtobuf._MessageImpl
       let storagesAreEqual: Bool = lhs._storage.isEqualTo(other: rhs._storage)
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

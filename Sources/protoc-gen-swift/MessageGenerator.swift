@@ -343,7 +343,7 @@ class MessageGenerator {
         nextRange = ranges.next()
       }
     }
-    p.print("try unknownFields.traverse(visitor: &visitor)\n")
+//    p.print("try unknownFields.traverse(visitor: &visitor)\n")
     p.outdent()
     p.print("}\n")
   }
@@ -378,7 +378,7 @@ class MessageGenerator {
       p.outdent()
       p.print("}\n")
     }
-    p.print("if lhs.unknownFields != rhs.unknownFields {return false}\n")
+//    p.print("if lhs.unknownFields != rhs.unknownFields {return false}\n")
     if isExtensible {
       p.print("if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}\n")
     }

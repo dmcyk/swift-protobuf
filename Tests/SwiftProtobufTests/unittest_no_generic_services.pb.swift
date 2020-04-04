@@ -189,12 +189,10 @@ extension ProtobufUnittest_NoGenericServicesTest_TestMessage: SwiftProtobuf.Mess
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_NoGenericServicesTest_TestMessage, rhs: ProtobufUnittest_NoGenericServicesTest_TestMessage) -> Bool {
     if lhs._a != rhs._a {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }

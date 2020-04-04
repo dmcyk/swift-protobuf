@@ -10372,7 +10372,6 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedFields: SwiftProtobuf.
         try visitor.visitSingularInt32Field(value: _storage._yday, fieldNumber: 858)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedFields, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedFields) -> Bool {
@@ -11242,7 +11241,6 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedFields: SwiftProtobuf.
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

@@ -27508,11 +27508,9 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedEnums: SwiftProtobuf.M
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedEnums, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedEnums) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

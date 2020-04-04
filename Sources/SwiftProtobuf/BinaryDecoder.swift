@@ -928,9 +928,9 @@ internal struct BinaryDecoder: Decoder {
       guard complete else {
         throw BinaryDecodingError.trailingGarbage
       }
-      if let unknownData = unknownData {
-        message.unknownFields.append(protobufData: unknownData)
-      }
+//      if let unknownData = unknownData {
+//        message.unknownFields.append(protobufData: unknownData)
+//      }
     }
 
     internal mutating func decodeSingularGroupField<G: Message>(value: inout G?) throws {
@@ -972,9 +972,9 @@ internal struct BinaryDecoder: Decoder {
         guard subDecoder.fieldNumber == fieldNumber && subDecoder.fieldWireFormat == .endGroup else {
             throw BinaryDecodingError.truncated
         }
-        if let groupUnknowns = subDecoder.unknownData {
-            group.unknownFields.append(protobufData: groupUnknowns)
-        }
+//        if let groupUnknowns = subDecoder.unknownData {
+//            group.unknownFields.append(protobufData: groupUnknowns)
+//        }
         // Advance over what was parsed.
         consume(length: available - subDecoder.available)
         assert(recursionBudget == subDecoder.recursionBudget)

@@ -1489,7 +1489,6 @@ extension ProtobufUnittestNoArena_TestAllTypes: SwiftProtobuf.Message, SwiftProt
       case nil: break
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestNoArena_TestAllTypes, rhs: ProtobufUnittestNoArena_TestAllTypes) -> Bool {
@@ -1573,7 +1572,6 @@ extension ProtobufUnittestNoArena_TestAllTypes: SwiftProtobuf.Message, SwiftProt
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1606,12 +1604,10 @@ extension ProtobufUnittestNoArena_TestAllTypes.NestedMessage: SwiftProtobuf.Mess
     if let v = self._bb {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestNoArena_TestAllTypes.NestedMessage, rhs: ProtobufUnittestNoArena_TestAllTypes.NestedMessage) -> Bool {
     if lhs._bb != rhs._bb {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1635,12 +1631,10 @@ extension ProtobufUnittestNoArena_TestAllTypes.OptionalGroup: SwiftProtobuf.Mess
     if let v = self._a {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 17)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestNoArena_TestAllTypes.OptionalGroup, rhs: ProtobufUnittestNoArena_TestAllTypes.OptionalGroup) -> Bool {
     if lhs._a != rhs._a {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1664,12 +1658,10 @@ extension ProtobufUnittestNoArena_TestAllTypes.RepeatedGroup: SwiftProtobuf.Mess
     if let v = self._a {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 47)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestNoArena_TestAllTypes.RepeatedGroup, rhs: ProtobufUnittestNoArena_TestAllTypes.RepeatedGroup) -> Bool {
     if lhs._a != rhs._a {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1693,12 +1685,10 @@ extension ProtobufUnittestNoArena_ForeignMessage: SwiftProtobuf.Message, SwiftPr
     if let v = self._c {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestNoArena_ForeignMessage, rhs: ProtobufUnittestNoArena_ForeignMessage) -> Bool {
     if lhs._c != rhs._c {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1722,12 +1712,10 @@ extension ProtobufUnittestNoArena_TestNoArenaMessage: SwiftProtobuf.Message, Swi
     if let v = self._arenaMessage {
       try visitor.visitSingularMessageField(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestNoArena_TestNoArenaMessage, rhs: ProtobufUnittestNoArena_TestNoArenaMessage) -> Bool {
     if lhs._arenaMessage != rhs._arenaMessage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1751,12 +1739,10 @@ extension ProtobufUnittestNoArena_OneString: SwiftProtobuf.Message, SwiftProtobu
     if let v = self._data {
       try visitor.visitSingularStringField(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestNoArena_OneString, rhs: ProtobufUnittestNoArena_OneString) -> Bool {
     if lhs._data != rhs._data {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

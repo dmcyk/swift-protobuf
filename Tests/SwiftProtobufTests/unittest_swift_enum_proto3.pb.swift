@@ -314,7 +314,6 @@ extension Protobuf3Unittest_SwiftEnumTest: SwiftProtobuf.Message, SwiftProtobuf.
     if !self.values4.isEmpty {
       try visitor.visitPackedEnumField(value: self.values4, fieldNumber: 4)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Protobuf3Unittest_SwiftEnumTest, rhs: Protobuf3Unittest_SwiftEnumTest) -> Bool {
@@ -322,7 +321,6 @@ extension Protobuf3Unittest_SwiftEnumTest: SwiftProtobuf.Message, SwiftProtobuf.
     if lhs.values2 != rhs.values2 {return false}
     if lhs.values3 != rhs.values3 {return false}
     if lhs.values4 != rhs.values4 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -374,12 +372,10 @@ extension Protobuf3Unittest_SwiftEnumWithAliasTest: SwiftProtobuf.Message, Swift
     if !self.values.isEmpty {
       try visitor.visitPackedEnumField(value: self.values, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Protobuf3Unittest_SwiftEnumWithAliasTest, rhs: Protobuf3Unittest_SwiftEnumWithAliasTest) -> Bool {
     if lhs.values != rhs.values {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

@@ -218,11 +218,9 @@ extension ProtobufUnittest_Extend3_MyMessage: SwiftProtobuf.Message, SwiftProtob
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_Extend3_MyMessage, rhs: ProtobufUnittest_Extend3_MyMessage) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -246,12 +244,10 @@ extension ProtobufUnittest_Extend3_MyMessage.C: SwiftProtobuf.Message, SwiftProt
     if let v = self._c {
       try visitor.visitSingularInt64Field(value: v, fieldNumber: 1310)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_Extend3_MyMessage.C, rhs: ProtobufUnittest_Extend3_MyMessage.C) -> Bool {
     if lhs._c != rhs._c {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -275,12 +271,10 @@ extension ProtobufUnittest_Extend3_C: SwiftProtobuf.Message, SwiftProtobuf._Mess
     if let v = self._c {
       try visitor.visitSingularInt64Field(value: v, fieldNumber: 1320)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_Extend3_C, rhs: ProtobufUnittest_Extend3_C) -> Bool {
     if lhs._c != rhs._c {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

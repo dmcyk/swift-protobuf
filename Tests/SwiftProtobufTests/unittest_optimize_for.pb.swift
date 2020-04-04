@@ -290,14 +290,12 @@ extension ProtobufUnittest_TestOptimizedForSize: SwiftProtobuf.Message, SwiftPro
       try visitor.visitSingularMessageField(value: v, fieldNumber: 19)
     }
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestOptimizedForSize, rhs: ProtobufUnittest_TestOptimizedForSize) -> Bool {
     if lhs._i != rhs._i {return false}
     if lhs._msg != rhs._msg {return false}
     if lhs.foo != rhs.foo {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -327,12 +325,10 @@ extension ProtobufUnittest_TestRequiredOptimizedForSize: SwiftProtobuf.Message, 
     if let v = self._x {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestRequiredOptimizedForSize, rhs: ProtobufUnittest_TestRequiredOptimizedForSize) -> Bool {
     if lhs._x != rhs._x {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -361,12 +357,10 @@ extension ProtobufUnittest_TestOptionalOptimizedForSize: SwiftProtobuf.Message, 
     if let v = self._o {
       try visitor.visitSingularMessageField(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestOptionalOptimizedForSize, rhs: ProtobufUnittest_TestOptionalOptimizedForSize) -> Bool {
     if lhs._o != rhs._o {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

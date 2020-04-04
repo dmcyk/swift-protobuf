@@ -1925,13 +1925,11 @@ extension ProtobufUnittest_TestMessageWithCustomOptions: SwiftProtobuf.Message, 
     if case .oneofField(let v)? = self.anOneof {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestMessageWithCustomOptions, rhs: ProtobufUnittest_TestMessageWithCustomOptions) -> Bool {
     if lhs._field1 != rhs._field1 {return false}
     if lhs.anOneof != rhs.anOneof {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1953,11 +1951,9 @@ extension ProtobufUnittest_CustomOptionFooRequest: SwiftProtobuf.Message, SwiftP
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_CustomOptionFooRequest, rhs: ProtobufUnittest_CustomOptionFooRequest) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1972,11 +1968,9 @@ extension ProtobufUnittest_CustomOptionFooResponse: SwiftProtobuf.Message, Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_CustomOptionFooResponse, rhs: ProtobufUnittest_CustomOptionFooResponse) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1991,11 +1985,9 @@ extension ProtobufUnittest_CustomOptionFooClientMessage: SwiftProtobuf.Message, 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_CustomOptionFooClientMessage, rhs: ProtobufUnittest_CustomOptionFooClientMessage) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2010,11 +2002,9 @@ extension ProtobufUnittest_CustomOptionFooServerMessage: SwiftProtobuf.Message, 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_CustomOptionFooServerMessage, rhs: ProtobufUnittest_CustomOptionFooServerMessage) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2029,11 +2019,9 @@ extension ProtobufUnittest_DummyMessageContainingEnum: SwiftProtobuf.Message, Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_DummyMessageContainingEnum, rhs: ProtobufUnittest_DummyMessageContainingEnum) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2055,11 +2043,9 @@ extension ProtobufUnittest_DummyMessageInvalidAsOptionType: SwiftProtobuf.Messag
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_DummyMessageInvalidAsOptionType, rhs: ProtobufUnittest_DummyMessageInvalidAsOptionType) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2074,11 +2060,9 @@ extension ProtobufUnittest_CustomOptionMinIntegerValues: SwiftProtobuf.Message, 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_CustomOptionMinIntegerValues, rhs: ProtobufUnittest_CustomOptionMinIntegerValues) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2093,11 +2077,9 @@ extension ProtobufUnittest_CustomOptionMaxIntegerValues: SwiftProtobuf.Message, 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_CustomOptionMaxIntegerValues, rhs: ProtobufUnittest_CustomOptionMaxIntegerValues) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2112,11 +2094,9 @@ extension ProtobufUnittest_CustomOptionOtherValues: SwiftProtobuf.Message, Swift
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_CustomOptionOtherValues, rhs: ProtobufUnittest_CustomOptionOtherValues) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2131,11 +2111,9 @@ extension ProtobufUnittest_SettingRealsFromPositiveInts: SwiftProtobuf.Message, 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_SettingRealsFromPositiveInts, rhs: ProtobufUnittest_SettingRealsFromPositiveInts) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2150,11 +2128,9 @@ extension ProtobufUnittest_SettingRealsFromNegativeInts: SwiftProtobuf.Message, 
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_SettingRealsFromNegativeInts, rhs: ProtobufUnittest_SettingRealsFromNegativeInts) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2201,7 +2177,6 @@ extension ProtobufUnittest_ComplexOptionType1: SwiftProtobuf.Message, SwiftProto
       try visitor.visitRepeatedInt32Field(value: self.foo4, fieldNumber: 4)
     }
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 100, end: 536870912)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_ComplexOptionType1, rhs: ProtobufUnittest_ComplexOptionType1) -> Bool {
@@ -2209,7 +2184,6 @@ extension ProtobufUnittest_ComplexOptionType1: SwiftProtobuf.Message, SwiftProto
     if lhs._foo2 != rhs._foo2 {return false}
     if lhs._foo3 != rhs._foo3 {return false}
     if lhs.foo4 != rhs.foo4 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -2258,7 +2232,6 @@ extension ProtobufUnittest_ComplexOptionType2: SwiftProtobuf.Message, SwiftProto
       try visitor.visitRepeatedMessageField(value: self.barney, fieldNumber: 4)
     }
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 100, end: 536870912)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_ComplexOptionType2, rhs: ProtobufUnittest_ComplexOptionType2) -> Bool {
@@ -2266,7 +2239,6 @@ extension ProtobufUnittest_ComplexOptionType2: SwiftProtobuf.Message, SwiftProto
     if lhs._baz != rhs._baz {return false}
     if lhs._fred != rhs._fred {return false}
     if lhs.barney != rhs.barney {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -2291,12 +2263,10 @@ extension ProtobufUnittest_ComplexOptionType2.ComplexOptionType4: SwiftProtobuf.
     if let v = self._waldo {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_ComplexOptionType2.ComplexOptionType4, rhs: ProtobufUnittest_ComplexOptionType2.ComplexOptionType4) -> Bool {
     if lhs._waldo != rhs._waldo {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2325,13 +2295,11 @@ extension ProtobufUnittest_ComplexOptionType3: SwiftProtobuf.Message, SwiftProto
     if let v = self._complexOptionType5 {
       try visitor.visitSingularGroupField(value: v, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_ComplexOptionType3, rhs: ProtobufUnittest_ComplexOptionType3) -> Bool {
     if lhs._qux != rhs._qux {return false}
     if lhs._complexOptionType5 != rhs._complexOptionType5 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2355,12 +2323,10 @@ extension ProtobufUnittest_ComplexOptionType3.ComplexOptionType5: SwiftProtobuf.
     if let v = self._plugh {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 3)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_ComplexOptionType3.ComplexOptionType5, rhs: ProtobufUnittest_ComplexOptionType3.ComplexOptionType5) -> Bool {
     if lhs._plugh != rhs._plugh {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2384,12 +2350,10 @@ extension ProtobufUnittest_ComplexOpt6: SwiftProtobuf.Message, SwiftProtobuf._Me
     if let v = self._xyzzy {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 7593951)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_ComplexOpt6, rhs: ProtobufUnittest_ComplexOpt6) -> Bool {
     if lhs._xyzzy != rhs._xyzzy {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2404,11 +2368,9 @@ extension ProtobufUnittest_VariousComplexOptions: SwiftProtobuf.Message, SwiftPr
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_VariousComplexOptions, rhs: ProtobufUnittest_VariousComplexOptions) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2428,11 +2390,9 @@ extension ProtobufUnittest_AggregateMessageSet: SwiftProtobuf.Message, SwiftProt
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
     try visitor.visitExtensionFieldsAsMessageSet(fields: _protobuf_extensionFieldValues, start: 4, end: 2147483647)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_AggregateMessageSet, rhs: ProtobufUnittest_AggregateMessageSet) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -2457,12 +2417,10 @@ extension ProtobufUnittest_AggregateMessageSetElement: SwiftProtobuf.Message, Sw
     if let v = self._s {
       try visitor.visitSingularStringField(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_AggregateMessageSetElement, rhs: ProtobufUnittest_AggregateMessageSetElement) -> Bool {
     if lhs._s != rhs._s {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2547,7 +2505,6 @@ extension ProtobufUnittest_Aggregate: SwiftProtobuf.Message, SwiftProtobuf._Mess
         try visitor.visitSingularMessageField(value: v, fieldNumber: 5)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_Aggregate, rhs: ProtobufUnittest_Aggregate) -> Bool {
@@ -2564,7 +2521,6 @@ extension ProtobufUnittest_Aggregate: SwiftProtobuf.Message, SwiftProtobuf._Mess
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2588,12 +2544,10 @@ extension ProtobufUnittest_AggregateMessage: SwiftProtobuf.Message, SwiftProtobu
     if let v = self._fieldname {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_AggregateMessage, rhs: ProtobufUnittest_AggregateMessage) -> Bool {
     if lhs._fieldname != rhs._fieldname {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2608,11 +2562,9 @@ extension ProtobufUnittest_NestedOptionType: SwiftProtobuf.Message, SwiftProtobu
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_NestedOptionType, rhs: ProtobufUnittest_NestedOptionType) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2642,12 +2594,10 @@ extension ProtobufUnittest_NestedOptionType.NestedMessage: SwiftProtobuf.Message
     if let v = self._nestedField {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_NestedOptionType.NestedMessage, rhs: ProtobufUnittest_NestedOptionType.NestedMessage) -> Bool {
     if lhs._nestedField != rhs._nestedField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2676,12 +2626,10 @@ extension ProtobufUnittest_OldOptionType: SwiftProtobuf.Message, SwiftProtobuf._
     if let v = self._value {
       try visitor.visitSingularEnumField(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_OldOptionType, rhs: ProtobufUnittest_OldOptionType) -> Bool {
     if lhs._value != rhs._value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2716,12 +2664,10 @@ extension ProtobufUnittest_NewOptionType: SwiftProtobuf.Message, SwiftProtobuf._
     if let v = self._value {
       try visitor.visitSingularEnumField(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_NewOptionType, rhs: ProtobufUnittest_NewOptionType) -> Bool {
     if lhs._value != rhs._value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2743,11 +2689,9 @@ extension ProtobufUnittest_TestMessageWithRequiredEnumOption: SwiftProtobuf.Mess
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestMessageWithRequiredEnumOption, rhs: ProtobufUnittest_TestMessageWithRequiredEnumOption) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

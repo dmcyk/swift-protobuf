@@ -319,7 +319,6 @@ extension Proto3PreserveUnknownEnumUnittest_MyMessage: SwiftProtobuf.Message, Sw
       try visitor.visitSingularEnumField(value: v, fieldNumber: 6)
     case nil: break
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto3PreserveUnknownEnumUnittest_MyMessage, rhs: Proto3PreserveUnknownEnumUnittest_MyMessage) -> Bool {
@@ -328,7 +327,6 @@ extension Proto3PreserveUnknownEnumUnittest_MyMessage: SwiftProtobuf.Message, Sw
     if lhs.repeatedPackedE != rhs.repeatedPackedE {return false}
     if lhs.repeatedPackedUnexpectedE != rhs.repeatedPackedUnexpectedE {return false}
     if lhs.o != rhs.o {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -386,7 +384,6 @@ extension Proto3PreserveUnknownEnumUnittest_MyMessagePlusExtra: SwiftProtobuf.Me
       try visitor.visitSingularEnumField(value: v, fieldNumber: 6)
     case nil: break
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto3PreserveUnknownEnumUnittest_MyMessagePlusExtra, rhs: Proto3PreserveUnknownEnumUnittest_MyMessagePlusExtra) -> Bool {
@@ -395,7 +392,6 @@ extension Proto3PreserveUnknownEnumUnittest_MyMessagePlusExtra: SwiftProtobuf.Me
     if lhs.repeatedPackedE != rhs.repeatedPackedE {return false}
     if lhs.repeatedPackedUnexpectedE != rhs.repeatedPackedUnexpectedE {return false}
     if lhs.o != rhs.o {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

@@ -180,13 +180,11 @@ extension Google_Protobuf_Timestamp: SwiftProtobuf.Message, SwiftProtobuf._Messa
     if self.nanos != 0 {
       try visitor.visitSingularInt32Field(value: self.nanos, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Timestamp, rhs: Google_Protobuf_Timestamp) -> Bool {
     if lhs.seconds != rhs.seconds {return false}
     if lhs.nanos != rhs.nanos {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

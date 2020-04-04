@@ -119,13 +119,11 @@ extension ProtobufUnittest_TestLiteImportsNonlite: SwiftProtobuf.Message, SwiftP
     if let v = self._messageWithRequired {
       try visitor.visitSingularMessageField(value: v, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestLiteImportsNonlite, rhs: ProtobufUnittest_TestLiteImportsNonlite) -> Bool {
     if lhs._message != rhs._message {return false}
     if lhs._messageWithRequired != rhs._messageWithRequired {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

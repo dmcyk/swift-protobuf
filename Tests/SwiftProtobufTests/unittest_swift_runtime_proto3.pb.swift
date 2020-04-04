@@ -1200,7 +1200,6 @@ extension ProtobufUnittest_Message3: SwiftProtobuf.Message, SwiftProtobuf._Messa
         try visitor.visitMapField(fieldType: SwiftProtobuf._ProtobufMessageMap<SwiftProtobuf.ProtobufInt32,ProtobufUnittest_Message3>.self, value: _storage._mapInt32Message, fieldNumber: 88)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_Message3, rhs: ProtobufUnittest_Message3) -> Bool {
@@ -1266,7 +1265,6 @@ extension ProtobufUnittest_Message3: SwiftProtobuf.Message, SwiftProtobuf._Messa
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1290,11 +1288,9 @@ extension ProtobufUnittest_Msg3NoStorage: SwiftProtobuf.Message, SwiftProtobuf._
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_Msg3NoStorage, rhs: ProtobufUnittest_Msg3NoStorage) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1342,7 +1338,6 @@ extension ProtobufUnittest_Msg3UsesStorage: SwiftProtobuf.Message, SwiftProtobuf
         try visitor.visitSingularMessageField(value: v, fieldNumber: 999)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_Msg3UsesStorage, rhs: ProtobufUnittest_Msg3UsesStorage) -> Bool {
@@ -1355,7 +1350,6 @@ extension ProtobufUnittest_Msg3UsesStorage: SwiftProtobuf.Message, SwiftProtobuf
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1389,14 +1383,12 @@ extension ProtobufUnittest_Msg3NamesNoStorage: SwiftProtobuf.Message, SwiftProto
     if self.hasValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasValue_p, fieldNumber: 3)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_Msg3NamesNoStorage, rhs: ProtobufUnittest_Msg3NamesNoStorage) -> Bool {
     if lhs.isInitialized_p != rhs.isInitialized_p {return false}
     if lhs.debugDescription_p != rhs.debugDescription_p {return false}
     if lhs.hasValue_p != rhs.hasValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1430,14 +1422,12 @@ extension ProtobufUnittest_Msg3NamesUsesStorage: SwiftProtobuf.Message, SwiftPro
     if let v = self._value {
       try visitor.visitSingularMessageField(value: v, fieldNumber: 3)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_Msg3NamesUsesStorage, rhs: ProtobufUnittest_Msg3NamesUsesStorage) -> Bool {
     if lhs.isInitialized_p != rhs.isInitialized_p {return false}
     if lhs.debugDescription_p != rhs.debugDescription_p {return false}
     if lhs._value != rhs._value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

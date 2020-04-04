@@ -108,14 +108,12 @@ extension ProtobufUnittest_TestAny: SwiftProtobuf.Message, SwiftProtobuf._Messag
     if !self.repeatedAnyValue.isEmpty {
       try visitor.visitRepeatedMessageField(value: self.repeatedAnyValue, fieldNumber: 3)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestAny, rhs: ProtobufUnittest_TestAny) -> Bool {
     if lhs.int32Value != rhs.int32Value {return false}
     if lhs._anyValue != rhs._anyValue {return false}
     if lhs.repeatedAnyValue != rhs.repeatedAnyValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

@@ -2032,12 +2032,10 @@ extension Google_Protobuf_FileDescriptorSet: SwiftProtobuf.Message, SwiftProtobu
     if !self.file.isEmpty {
       try visitor.visitRepeatedMessageField(value: self.file, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_FileDescriptorSet, rhs: Google_Protobuf_FileDescriptorSet) -> Bool {
     if lhs.file != rhs.file {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2125,7 +2123,6 @@ extension Google_Protobuf_FileDescriptorProto: SwiftProtobuf.Message, SwiftProto
     if let v = self._syntax {
       try visitor.visitSingularStringField(value: v, fieldNumber: 12)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_FileDescriptorProto, rhs: Google_Protobuf_FileDescriptorProto) -> Bool {
@@ -2141,7 +2138,6 @@ extension Google_Protobuf_FileDescriptorProto: SwiftProtobuf.Message, SwiftProto
     if lhs._options != rhs._options {return false}
     if lhs._sourceCodeInfo != rhs._sourceCodeInfo {return false}
     if lhs._syntax != rhs._syntax {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2221,7 +2217,6 @@ extension Google_Protobuf_DescriptorProto: SwiftProtobuf.Message, SwiftProtobuf.
     if !self.reservedName.isEmpty {
       try visitor.visitRepeatedStringField(value: self.reservedName, fieldNumber: 10)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_DescriptorProto, rhs: Google_Protobuf_DescriptorProto) -> Bool {
@@ -2235,7 +2230,6 @@ extension Google_Protobuf_DescriptorProto: SwiftProtobuf.Message, SwiftProtobuf.
     if lhs._options != rhs._options {return false}
     if lhs.reservedRange != rhs.reservedRange {return false}
     if lhs.reservedName != rhs.reservedName {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2274,14 +2268,12 @@ extension Google_Protobuf_DescriptorProto.ExtensionRange: SwiftProtobuf.Message,
     if let v = self._options {
       try visitor.visitSingularMessageField(value: v, fieldNumber: 3)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_DescriptorProto.ExtensionRange, rhs: Google_Protobuf_DescriptorProto.ExtensionRange) -> Bool {
     if lhs._start != rhs._start {return false}
     if lhs._end != rhs._end {return false}
     if lhs._options != rhs._options {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2310,13 +2302,11 @@ extension Google_Protobuf_DescriptorProto.ReservedRange: SwiftProtobuf.Message, 
     if let v = self._end {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_DescriptorProto.ReservedRange, rhs: Google_Protobuf_DescriptorProto.ReservedRange) -> Bool {
     if lhs._start != rhs._start {return false}
     if lhs._end != rhs._end {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2349,12 +2339,10 @@ extension Google_Protobuf_ExtensionRangeOptions: SwiftProtobuf.Message, SwiftPro
       try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
     }
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_ExtensionRangeOptions, rhs: Google_Protobuf_ExtensionRangeOptions) -> Bool {
     if lhs.uninterpretedOption != rhs.uninterpretedOption {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -2429,7 +2417,6 @@ extension Google_Protobuf_FieldDescriptorProto: SwiftProtobuf.Message, SwiftProt
     if let v = self._jsonName {
       try visitor.visitSingularStringField(value: v, fieldNumber: 10)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_FieldDescriptorProto, rhs: Google_Protobuf_FieldDescriptorProto) -> Bool {
@@ -2443,7 +2430,6 @@ extension Google_Protobuf_FieldDescriptorProto: SwiftProtobuf.Message, SwiftProt
     if lhs._oneofIndex != rhs._oneofIndex {return false}
     if lhs._jsonName != rhs._jsonName {return false}
     if lhs._options != rhs._options {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2508,13 +2494,11 @@ extension Google_Protobuf_OneofDescriptorProto: SwiftProtobuf.Message, SwiftProt
     if let v = self._options {
       try visitor.visitSingularMessageField(value: v, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_OneofDescriptorProto, rhs: Google_Protobuf_OneofDescriptorProto) -> Bool {
     if lhs._name != rhs._name {return false}
     if lhs._options != rhs._options {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2564,7 +2548,6 @@ extension Google_Protobuf_EnumDescriptorProto: SwiftProtobuf.Message, SwiftProto
     if !self.reservedName.isEmpty {
       try visitor.visitRepeatedStringField(value: self.reservedName, fieldNumber: 5)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_EnumDescriptorProto, rhs: Google_Protobuf_EnumDescriptorProto) -> Bool {
@@ -2573,7 +2556,6 @@ extension Google_Protobuf_EnumDescriptorProto: SwiftProtobuf.Message, SwiftProto
     if lhs._options != rhs._options {return false}
     if lhs.reservedRange != rhs.reservedRange {return false}
     if lhs.reservedName != rhs.reservedName {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2602,13 +2584,11 @@ extension Google_Protobuf_EnumDescriptorProto.EnumReservedRange: SwiftProtobuf.M
     if let v = self._end {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_EnumDescriptorProto.EnumReservedRange, rhs: Google_Protobuf_EnumDescriptorProto.EnumReservedRange) -> Bool {
     if lhs._start != rhs._start {return false}
     if lhs._end != rhs._end {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2647,14 +2627,12 @@ extension Google_Protobuf_EnumValueDescriptorProto: SwiftProtobuf.Message, Swift
     if let v = self._options {
       try visitor.visitSingularMessageField(value: v, fieldNumber: 3)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_EnumValueDescriptorProto, rhs: Google_Protobuf_EnumValueDescriptorProto) -> Bool {
     if lhs._name != rhs._name {return false}
     if lhs._number != rhs._number {return false}
     if lhs._options != rhs._options {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2694,14 +2672,12 @@ extension Google_Protobuf_ServiceDescriptorProto: SwiftProtobuf.Message, SwiftPr
     if let v = self._options {
       try visitor.visitSingularMessageField(value: v, fieldNumber: 3)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_ServiceDescriptorProto, rhs: Google_Protobuf_ServiceDescriptorProto) -> Bool {
     if lhs._name != rhs._name {return false}
     if lhs.method != rhs.method {return false}
     if lhs._options != rhs._options {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2755,7 +2731,6 @@ extension Google_Protobuf_MethodDescriptorProto: SwiftProtobuf.Message, SwiftPro
     if let v = self._serverStreaming {
       try visitor.visitSingularBoolField(value: v, fieldNumber: 6)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_MethodDescriptorProto, rhs: Google_Protobuf_MethodDescriptorProto) -> Bool {
@@ -2765,7 +2740,6 @@ extension Google_Protobuf_MethodDescriptorProto: SwiftProtobuf.Message, SwiftPro
     if lhs._options != rhs._options {return false}
     if lhs._clientStreaming != rhs._clientStreaming {return false}
     if lhs._serverStreaming != rhs._serverStreaming {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2964,7 +2938,6 @@ extension Google_Protobuf_FileOptions: SwiftProtobuf.Message, SwiftProtobuf._Mes
       }
       try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_FileOptions, rhs: Google_Protobuf_FileOptions) -> Bool {
@@ -2997,7 +2970,6 @@ extension Google_Protobuf_FileOptions: SwiftProtobuf.Message, SwiftProtobuf._Mes
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -3059,7 +3031,6 @@ extension Google_Protobuf_MessageOptions: SwiftProtobuf.Message, SwiftProtobuf._
       try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
     }
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_MessageOptions, rhs: Google_Protobuf_MessageOptions) -> Bool {
@@ -3068,7 +3039,6 @@ extension Google_Protobuf_MessageOptions: SwiftProtobuf.Message, SwiftProtobuf._
     if lhs._deprecated != rhs._deprecated {return false}
     if lhs._mapEntry != rhs._mapEntry {return false}
     if lhs.uninterpretedOption != rhs.uninterpretedOption {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -3132,7 +3102,6 @@ extension Google_Protobuf_FieldOptions: SwiftProtobuf.Message, SwiftProtobuf._Me
       try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
     }
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_FieldOptions, rhs: Google_Protobuf_FieldOptions) -> Bool {
@@ -3143,7 +3112,6 @@ extension Google_Protobuf_FieldOptions: SwiftProtobuf.Message, SwiftProtobuf._Me
     if lhs._deprecated != rhs._deprecated {return false}
     if lhs._weak != rhs._weak {return false}
     if lhs.uninterpretedOption != rhs.uninterpretedOption {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -3193,12 +3161,10 @@ extension Google_Protobuf_OneofOptions: SwiftProtobuf.Message, SwiftProtobuf._Me
       try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
     }
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_OneofOptions, rhs: Google_Protobuf_OneofOptions) -> Bool {
     if lhs.uninterpretedOption != rhs.uninterpretedOption {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -3242,14 +3208,12 @@ extension Google_Protobuf_EnumOptions: SwiftProtobuf.Message, SwiftProtobuf._Mes
       try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
     }
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_EnumOptions, rhs: Google_Protobuf_EnumOptions) -> Bool {
     if lhs._allowAlias != rhs._allowAlias {return false}
     if lhs._deprecated != rhs._deprecated {return false}
     if lhs.uninterpretedOption != rhs.uninterpretedOption {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -3288,13 +3252,11 @@ extension Google_Protobuf_EnumValueOptions: SwiftProtobuf.Message, SwiftProtobuf
       try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
     }
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_EnumValueOptions, rhs: Google_Protobuf_EnumValueOptions) -> Bool {
     if lhs._deprecated != rhs._deprecated {return false}
     if lhs.uninterpretedOption != rhs.uninterpretedOption {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -3333,13 +3295,11 @@ extension Google_Protobuf_ServiceOptions: SwiftProtobuf.Message, SwiftProtobuf._
       try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
     }
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_ServiceOptions, rhs: Google_Protobuf_ServiceOptions) -> Bool {
     if lhs._deprecated != rhs._deprecated {return false}
     if lhs.uninterpretedOption != rhs.uninterpretedOption {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -3383,14 +3343,12 @@ extension Google_Protobuf_MethodOptions: SwiftProtobuf.Message, SwiftProtobuf._M
       try visitor.visitRepeatedMessageField(value: self.uninterpretedOption, fieldNumber: 999)
     }
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1000, end: 536870912)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_MethodOptions, rhs: Google_Protobuf_MethodOptions) -> Bool {
     if lhs._deprecated != rhs._deprecated {return false}
     if lhs._idempotencyLevel != rhs._idempotencyLevel {return false}
     if lhs.uninterpretedOption != rhs.uninterpretedOption {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -3458,7 +3416,6 @@ extension Google_Protobuf_UninterpretedOption: SwiftProtobuf.Message, SwiftProto
     if let v = self._aggregateValue {
       try visitor.visitSingularStringField(value: v, fieldNumber: 8)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_UninterpretedOption, rhs: Google_Protobuf_UninterpretedOption) -> Bool {
@@ -3469,7 +3426,6 @@ extension Google_Protobuf_UninterpretedOption: SwiftProtobuf.Message, SwiftProto
     if lhs._doubleValue != rhs._doubleValue {return false}
     if lhs._stringValue != rhs._stringValue {return false}
     if lhs._aggregateValue != rhs._aggregateValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -3504,13 +3460,11 @@ extension Google_Protobuf_UninterpretedOption.NamePart: SwiftProtobuf.Message, S
     if let v = self._isExtension {
       try visitor.visitSingularBoolField(value: v, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_UninterpretedOption.NamePart, rhs: Google_Protobuf_UninterpretedOption.NamePart) -> Bool {
     if lhs._namePart != rhs._namePart {return false}
     if lhs._isExtension != rhs._isExtension {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -3534,12 +3488,10 @@ extension Google_Protobuf_SourceCodeInfo: SwiftProtobuf.Message, SwiftProtobuf._
     if !self.location.isEmpty {
       try visitor.visitRepeatedMessageField(value: self.location, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_SourceCodeInfo, rhs: Google_Protobuf_SourceCodeInfo) -> Bool {
     if lhs.location != rhs.location {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -3583,7 +3535,6 @@ extension Google_Protobuf_SourceCodeInfo.Location: SwiftProtobuf.Message, SwiftP
     if !self.leadingDetachedComments.isEmpty {
       try visitor.visitRepeatedStringField(value: self.leadingDetachedComments, fieldNumber: 6)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_SourceCodeInfo.Location, rhs: Google_Protobuf_SourceCodeInfo.Location) -> Bool {
@@ -3592,7 +3543,6 @@ extension Google_Protobuf_SourceCodeInfo.Location: SwiftProtobuf.Message, SwiftP
     if lhs._leadingComments != rhs._leadingComments {return false}
     if lhs._trailingComments != rhs._trailingComments {return false}
     if lhs.leadingDetachedComments != rhs.leadingDetachedComments {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -3616,12 +3566,10 @@ extension Google_Protobuf_GeneratedCodeInfo: SwiftProtobuf.Message, SwiftProtobu
     if !self.annotation.isEmpty {
       try visitor.visitRepeatedMessageField(value: self.annotation, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_GeneratedCodeInfo, rhs: Google_Protobuf_GeneratedCodeInfo) -> Bool {
     if lhs.annotation != rhs.annotation {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -3660,7 +3608,6 @@ extension Google_Protobuf_GeneratedCodeInfo.Annotation: SwiftProtobuf.Message, S
     if let v = self._end {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 4)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_GeneratedCodeInfo.Annotation, rhs: Google_Protobuf_GeneratedCodeInfo.Annotation) -> Bool {
@@ -3668,7 +3615,6 @@ extension Google_Protobuf_GeneratedCodeInfo.Annotation: SwiftProtobuf.Message, S
     if lhs._sourceFile != rhs._sourceFile {return false}
     if lhs._begin != rhs._begin {return false}
     if lhs._end != rhs._end {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

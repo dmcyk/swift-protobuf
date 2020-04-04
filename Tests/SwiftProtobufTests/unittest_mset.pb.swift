@@ -288,12 +288,10 @@ extension ProtobufUnittest_TestMessageSetContainer: SwiftProtobuf.Message, Swift
     if let v = self._messageSet {
       try visitor.visitSingularMessageField(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestMessageSetContainer, rhs: ProtobufUnittest_TestMessageSetContainer) -> Bool {
     if lhs._messageSet != rhs._messageSet {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -332,14 +330,12 @@ extension ProtobufUnittest_TestMessageSetExtension1: SwiftProtobuf.Message, Swif
     if let v = self._testAliasing {
       try visitor.visitSingularStringField(value: v, fieldNumber: 17)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestMessageSetExtension1, rhs: ProtobufUnittest_TestMessageSetExtension1) -> Bool {
     if lhs._i != rhs._i {return false}
     if lhs._recursive != rhs._recursive {return false}
     if lhs._testAliasing != rhs._testAliasing {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -363,12 +359,10 @@ extension ProtobufUnittest_TestMessageSetExtension2: SwiftProtobuf.Message, Swif
     if let v = self._str {
       try visitor.visitSingularStringField(value: v, fieldNumber: 25)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestMessageSetExtension2, rhs: ProtobufUnittest_TestMessageSetExtension2) -> Bool {
     if lhs._str != rhs._str {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -397,12 +391,10 @@ extension ProtobufUnittest_RawMessageSet: SwiftProtobuf.Message, SwiftProtobuf._
     if !self.item.isEmpty {
       try visitor.visitRepeatedGroupField(value: self.item, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_RawMessageSet, rhs: ProtobufUnittest_RawMessageSet) -> Bool {
     if lhs.item != rhs.item {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -437,13 +429,11 @@ extension ProtobufUnittest_RawMessageSet.Item: SwiftProtobuf.Message, SwiftProto
     if let v = self._message {
       try visitor.visitSingularBytesField(value: v, fieldNumber: 3)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_RawMessageSet.Item, rhs: ProtobufUnittest_RawMessageSet.Item) -> Bool {
     if lhs._typeID != rhs._typeID {return false}
     if lhs._message != rhs._message {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

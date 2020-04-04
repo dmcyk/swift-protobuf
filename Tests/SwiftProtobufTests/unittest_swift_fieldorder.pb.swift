@@ -490,7 +490,6 @@ extension Swift_Protobuf_TestFieldOrderings: SwiftProtobuf.Message, SwiftProtobu
     if let v = self._optionalNestedMessage {
       try visitor.visitSingularMessageField(value: v, fieldNumber: 200)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Swift_Protobuf_TestFieldOrderings, rhs: Swift_Protobuf_TestFieldOrderings) -> Bool {
@@ -499,7 +498,6 @@ extension Swift_Protobuf_TestFieldOrderings: SwiftProtobuf.Message, SwiftProtobu
     if lhs._myFloat != rhs._myFloat {return false}
     if lhs.options != rhs.options {return false}
     if lhs._optionalNestedMessage != rhs._optionalNestedMessage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -529,13 +527,11 @@ extension Swift_Protobuf_TestFieldOrderings.NestedMessage: SwiftProtobuf.Message
     if let v = self._oo {
       try visitor.visitSingularInt64Field(value: v, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Swift_Protobuf_TestFieldOrderings.NestedMessage, rhs: Swift_Protobuf_TestFieldOrderings.NestedMessage) -> Bool {
     if lhs._oo != rhs._oo {return false}
     if lhs._bb != rhs._bb {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -641,7 +637,6 @@ extension Swift_Protobuf_OneofTraversalGeneration: SwiftProtobuf.Message, SwiftP
     if case .b4(let v)? = self.oConflictExtensionsEnd {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 326)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Swift_Protobuf_OneofTraversalGeneration, rhs: Swift_Protobuf_OneofTraversalGeneration) -> Bool {
@@ -650,7 +645,6 @@ extension Swift_Protobuf_OneofTraversalGeneration: SwiftProtobuf.Message, SwiftP
     if lhs._m != rhs._m {return false}
     if lhs.oConflictExtensionsStart != rhs.oConflictExtensionsStart {return false}
     if lhs.oConflictExtensionsEnd != rhs.oConflictExtensionsEnd {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }

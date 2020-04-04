@@ -797,7 +797,6 @@ extension ProtobufUnittest_TestWellKnownTypes: SwiftProtobuf.Message, SwiftProto
         try visitor.visitSingularMessageField(value: v, fieldNumber: 19)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestWellKnownTypes, rhs: ProtobufUnittest_TestWellKnownTypes) -> Bool {
@@ -828,7 +827,6 @@ extension ProtobufUnittest_TestWellKnownTypes: SwiftProtobuf.Message, SwiftProto
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -995,7 +993,6 @@ extension ProtobufUnittest_RepeatedWellKnownTypes: SwiftProtobuf.Message, SwiftP
         try visitor.visitRepeatedMessageField(value: _storage._bytesField, fieldNumber: 18)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_RepeatedWellKnownTypes, rhs: ProtobufUnittest_RepeatedWellKnownTypes) -> Bool {
@@ -1025,7 +1022,6 @@ extension ProtobufUnittest_RepeatedWellKnownTypes: SwiftProtobuf.Message, SwiftP
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1269,7 +1265,6 @@ extension ProtobufUnittest_OneofWellKnownTypes: SwiftProtobuf.Message, SwiftProt
       case nil: break
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_OneofWellKnownTypes, rhs: ProtobufUnittest_OneofWellKnownTypes) -> Bool {
@@ -1282,7 +1277,6 @@ extension ProtobufUnittest_OneofWellKnownTypes: SwiftProtobuf.Message, SwiftProt
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1449,7 +1443,6 @@ extension ProtobufUnittest_MapWellKnownTypes: SwiftProtobuf.Message, SwiftProtob
         try visitor.visitMapField(fieldType: SwiftProtobuf._ProtobufMessageMap<SwiftProtobuf.ProtobufInt32,SwiftProtobuf.Google_Protobuf_BytesValue>.self, value: _storage._bytesField, fieldNumber: 18)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_MapWellKnownTypes, rhs: ProtobufUnittest_MapWellKnownTypes) -> Bool {
@@ -1479,7 +1472,6 @@ extension ProtobufUnittest_MapWellKnownTypes: SwiftProtobuf.Message, SwiftProtob
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

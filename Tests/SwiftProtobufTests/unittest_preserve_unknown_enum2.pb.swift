@@ -213,7 +213,6 @@ extension Proto2PreserveUnknownEnumUnittest_MyMessage: SwiftProtobuf.Message, Sw
       try visitor.visitSingularEnumField(value: v, fieldNumber: 6)
     case nil: break
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto2PreserveUnknownEnumUnittest_MyMessage, rhs: Proto2PreserveUnknownEnumUnittest_MyMessage) -> Bool {
@@ -222,7 +221,6 @@ extension Proto2PreserveUnknownEnumUnittest_MyMessage: SwiftProtobuf.Message, Sw
     if lhs.repeatedPackedE != rhs.repeatedPackedE {return false}
     if lhs.repeatedPackedUnexpectedE != rhs.repeatedPackedUnexpectedE {return false}
     if lhs.o != rhs.o {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

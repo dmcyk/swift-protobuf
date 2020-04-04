@@ -284,12 +284,10 @@ extension Google_Protobuf_FieldMask: SwiftProtobuf.Message, SwiftProtobuf._Messa
     if !self.paths.isEmpty {
       try visitor.visitRepeatedStringField(value: self.paths, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_FieldMask, rhs: Google_Protobuf_FieldMask) -> Bool {
     if lhs.paths != rhs.paths {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

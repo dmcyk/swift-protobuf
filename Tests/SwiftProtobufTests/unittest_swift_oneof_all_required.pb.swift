@@ -214,12 +214,10 @@ extension ProtobufUnittest_OneOfOptionMessage1: SwiftProtobuf.Message, SwiftProt
     if let v = self._requiredField {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_OneOfOptionMessage1, rhs: ProtobufUnittest_OneOfOptionMessage1) -> Bool {
     if lhs._requiredField != rhs._requiredField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -248,12 +246,10 @@ extension ProtobufUnittest_OneOfOptionMessage2: SwiftProtobuf.Message, SwiftProt
     if let v = self._requiredField {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_OneOfOptionMessage2, rhs: ProtobufUnittest_OneOfOptionMessage2) -> Bool {
     if lhs._requiredField != rhs._requiredField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -326,12 +322,10 @@ extension ProtobufUnittest_OneOfContainer: SwiftProtobuf.Message, SwiftProtobuf.
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 6)
     case nil: break
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_OneOfContainer, rhs: ProtobufUnittest_OneOfContainer) -> Bool {
     if lhs.option != rhs.option {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -365,13 +359,11 @@ extension ProtobufUnittest_OneOfContainer.Option3: SwiftProtobuf.Message, SwiftP
     if let v = self._b {
       try visitor.visitSingularStringField(value: v, fieldNumber: 5)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_OneOfContainer.Option3, rhs: ProtobufUnittest_OneOfContainer.Option3) -> Bool {
     if lhs._a != rhs._a {return false}
     if lhs._b != rhs._b {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

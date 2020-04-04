@@ -80,12 +80,10 @@ extension _4fun_Mumble_MyMessage: SwiftProtobuf.Message, SwiftProtobuf._MessageI
     if let v = self._a {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: _4fun_Mumble_MyMessage, rhs: _4fun_Mumble_MyMessage) -> Bool {
     if lhs._a != rhs._a {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

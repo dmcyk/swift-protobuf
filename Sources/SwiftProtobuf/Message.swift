@@ -50,7 +50,7 @@ public protocol Message: CustomDebugStringConvertible {
 
   /// Some formats include enough information to transport fields that were
   /// not known at generation time. When encountered, they are stored here.
-  var unknownFields: UnknownStorage { get set }
+//  var unknownFields: UnknownStorage { get set }
 
   //
   // General serialization/deserialization machinery

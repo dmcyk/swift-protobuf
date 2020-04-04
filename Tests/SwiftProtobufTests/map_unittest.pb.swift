@@ -621,7 +621,6 @@ extension ProtobufUnittest_TestMap: SwiftProtobuf.Message, SwiftProtobuf._Messag
         try visitor.visitMapField(fieldType: SwiftProtobuf._ProtobufMessageMap<SwiftProtobuf.ProtobufInt32,ProtobufUnittest_TestAllTypes>.self, value: _storage._mapInt32AllTypes, fieldNumber: 19)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestMap, rhs: ProtobufUnittest_TestMap) -> Bool {
@@ -652,7 +651,6 @@ extension ProtobufUnittest_TestMap: SwiftProtobuf.Message, SwiftProtobuf._Messag
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -676,12 +674,10 @@ extension ProtobufUnittest_TestMapSubmessage: SwiftProtobuf.Message, SwiftProtob
     if let v = self._testMap {
       try visitor.visitSingularMessageField(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestMapSubmessage, rhs: ProtobufUnittest_TestMapSubmessage) -> Bool {
     if lhs._testMap != rhs._testMap {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -705,12 +701,10 @@ extension ProtobufUnittest_TestMessageMap: SwiftProtobuf.Message, SwiftProtobuf.
     if !self.mapInt32Message.isEmpty {
       try visitor.visitMapField(fieldType: SwiftProtobuf._ProtobufMessageMap<SwiftProtobuf.ProtobufInt32,ProtobufUnittest_TestAllTypes>.self, value: self.mapInt32Message, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestMessageMap, rhs: ProtobufUnittest_TestMessageMap) -> Bool {
     if lhs.mapInt32Message != rhs.mapInt32Message {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -739,13 +733,11 @@ extension ProtobufUnittest_TestSameTypeMap: SwiftProtobuf.Message, SwiftProtobuf
     if !self.map2.isEmpty {
       try visitor.visitMapField(fieldType: SwiftProtobuf._ProtobufMap<SwiftProtobuf.ProtobufInt32,SwiftProtobuf.ProtobufInt32>.self, value: self.map2, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestSameTypeMap, rhs: ProtobufUnittest_TestSameTypeMap) -> Bool {
     if lhs.map1 != rhs.map1 {return false}
     if lhs.map2 != rhs.map2 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -774,12 +766,10 @@ extension ProtobufUnittest_TestRequiredMessageMap: SwiftProtobuf.Message, SwiftP
     if !self.mapField.isEmpty {
       try visitor.visitMapField(fieldType: SwiftProtobuf._ProtobufMessageMap<SwiftProtobuf.ProtobufInt32,ProtobufUnittest_TestRequired>.self, value: self.mapField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestRequiredMessageMap, rhs: ProtobufUnittest_TestRequiredMessageMap) -> Bool {
     if lhs.mapField != rhs.mapField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -946,7 +936,6 @@ extension ProtobufUnittest_TestArenaMap: SwiftProtobuf.Message, SwiftProtobuf._M
         try visitor.visitMapField(fieldType: SwiftProtobuf._ProtobufMessageMap<SwiftProtobuf.ProtobufInt32,ProtobufUnittestNoArena_ForeignMessage>.self, value: _storage._mapInt32ForeignMessageNoArena, fieldNumber: 18)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestArenaMap, rhs: ProtobufUnittest_TestArenaMap) -> Bool {
@@ -976,7 +965,6 @@ extension ProtobufUnittest_TestArenaMap: SwiftProtobuf.Message, SwiftProtobuf._M
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1000,12 +988,10 @@ extension ProtobufUnittest_MessageContainingEnumCalledType: SwiftProtobuf.Messag
     if !self.type.isEmpty {
       try visitor.visitMapField(fieldType: SwiftProtobuf._ProtobufMessageMap<SwiftProtobuf.ProtobufString,ProtobufUnittest_MessageContainingEnumCalledType>.self, value: self.type, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_MessageContainingEnumCalledType, rhs: ProtobufUnittest_MessageContainingEnumCalledType) -> Bool {
     if lhs.type != rhs.type {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1035,12 +1021,10 @@ extension ProtobufUnittest_MessageContainingMapCalledEntry: SwiftProtobuf.Messag
     if !self.entry.isEmpty {
       try visitor.visitMapField(fieldType: SwiftProtobuf._ProtobufMap<SwiftProtobuf.ProtobufInt32,SwiftProtobuf.ProtobufInt32>.self, value: self.entry, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_MessageContainingMapCalledEntry, rhs: ProtobufUnittest_MessageContainingMapCalledEntry) -> Bool {
     if lhs.entry != rhs.entry {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1064,12 +1048,10 @@ extension ProtobufUnittest_TestRecursiveMapMessage: SwiftProtobuf.Message, Swift
     if !self.a.isEmpty {
       try visitor.visitMapField(fieldType: SwiftProtobuf._ProtobufMessageMap<SwiftProtobuf.ProtobufString,ProtobufUnittest_TestRecursiveMapMessage>.self, value: self.a, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestRecursiveMapMessage, rhs: ProtobufUnittest_TestRecursiveMapMessage) -> Bool {
     if lhs.a != rhs.a {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

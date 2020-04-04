@@ -226,12 +226,10 @@ extension Google_Protobuf_DoubleValue: SwiftProtobuf.Message, SwiftProtobuf._Mes
     if self.value != 0 {
       try visitor.visitSingularDoubleField(value: self.value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_DoubleValue, rhs: Google_Protobuf_DoubleValue) -> Bool {
     if lhs.value != rhs.value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -255,12 +253,10 @@ extension Google_Protobuf_FloatValue: SwiftProtobuf.Message, SwiftProtobuf._Mess
     if self.value != 0 {
       try visitor.visitSingularFloatField(value: self.value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_FloatValue, rhs: Google_Protobuf_FloatValue) -> Bool {
     if lhs.value != rhs.value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -284,12 +280,10 @@ extension Google_Protobuf_Int64Value: SwiftProtobuf.Message, SwiftProtobuf._Mess
     if self.value != 0 {
       try visitor.visitSingularInt64Field(value: self.value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Int64Value, rhs: Google_Protobuf_Int64Value) -> Bool {
     if lhs.value != rhs.value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -313,12 +307,10 @@ extension Google_Protobuf_UInt64Value: SwiftProtobuf.Message, SwiftProtobuf._Mes
     if self.value != 0 {
       try visitor.visitSingularUInt64Field(value: self.value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_UInt64Value, rhs: Google_Protobuf_UInt64Value) -> Bool {
     if lhs.value != rhs.value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -342,12 +334,10 @@ extension Google_Protobuf_Int32Value: SwiftProtobuf.Message, SwiftProtobuf._Mess
     if self.value != 0 {
       try visitor.visitSingularInt32Field(value: self.value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Int32Value, rhs: Google_Protobuf_Int32Value) -> Bool {
     if lhs.value != rhs.value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -371,12 +361,10 @@ extension Google_Protobuf_UInt32Value: SwiftProtobuf.Message, SwiftProtobuf._Mes
     if self.value != 0 {
       try visitor.visitSingularUInt32Field(value: self.value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_UInt32Value, rhs: Google_Protobuf_UInt32Value) -> Bool {
     if lhs.value != rhs.value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -400,12 +388,10 @@ extension Google_Protobuf_BoolValue: SwiftProtobuf.Message, SwiftProtobuf._Messa
     if self.value != false {
       try visitor.visitSingularBoolField(value: self.value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_BoolValue, rhs: Google_Protobuf_BoolValue) -> Bool {
     if lhs.value != rhs.value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -429,12 +415,10 @@ extension Google_Protobuf_StringValue: SwiftProtobuf.Message, SwiftProtobuf._Mes
     if !self.value.isEmpty {
       try visitor.visitSingularStringField(value: self.value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_StringValue, rhs: Google_Protobuf_StringValue) -> Bool {
     if lhs.value != rhs.value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -458,12 +442,10 @@ extension Google_Protobuf_BytesValue: SwiftProtobuf.Message, SwiftProtobuf._Mess
     if !self.value.isEmpty {
       try visitor.visitSingularBytesField(value: self.value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_BytesValue, rhs: Google_Protobuf_BytesValue) -> Bool {
     if lhs.value != rhs.value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

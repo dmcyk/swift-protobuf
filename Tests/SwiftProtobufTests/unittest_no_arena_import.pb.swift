@@ -94,12 +94,10 @@ extension Proto2ArenaUnittest_ImportNoArenaNestedMessage: SwiftProtobuf.Message,
     if let v = self._d {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto2ArenaUnittest_ImportNoArenaNestedMessage, rhs: Proto2ArenaUnittest_ImportNoArenaNestedMessage) -> Bool {
     if lhs._d != rhs._d {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

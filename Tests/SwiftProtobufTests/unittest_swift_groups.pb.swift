@@ -362,12 +362,10 @@ extension SwiftTestGroupExtensions: SwiftProtobuf.Message, SwiftProtobuf._Messag
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 2, end: 11)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: SwiftTestGroupExtensions, rhs: SwiftTestGroupExtensions) -> Bool {
     if lhs._a != rhs._a {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -392,12 +390,10 @@ extension ExtensionGroup: SwiftProtobuf.Message, SwiftProtobuf._MessageImplement
     if let v = self._a {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ExtensionGroup, rhs: ExtensionGroup) -> Bool {
     if lhs._a != rhs._a {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -421,12 +417,10 @@ extension RepeatedExtensionGroup: SwiftProtobuf.Message, SwiftProtobuf._MessageI
     if let v = self._a {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: RepeatedExtensionGroup, rhs: RepeatedExtensionGroup) -> Bool {
     if lhs._a != rhs._a {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -450,12 +444,10 @@ extension SwiftTestGroupUnextended: SwiftProtobuf.Message, SwiftProtobuf._Messag
     if let v = self._a {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: SwiftTestGroupUnextended, rhs: SwiftTestGroupUnextended) -> Bool {
     if lhs._a != rhs._a {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -489,14 +481,12 @@ extension SwiftTestNestingGroupsMessage: SwiftProtobuf.Message, SwiftProtobuf._M
     if !self.subGroup3.isEmpty {
       try visitor.visitRepeatedGroupField(value: self.subGroup3, fieldNumber: 3)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: SwiftTestNestingGroupsMessage, rhs: SwiftTestNestingGroupsMessage) -> Bool {
     if lhs._outerA != rhs._outerA {return false}
     if lhs._subGroup1 != rhs._subGroup1 {return false}
     if lhs.subGroup3 != rhs.subGroup3 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -525,13 +515,11 @@ extension SwiftTestNestingGroupsMessage.SubGroup1: SwiftProtobuf.Message, SwiftP
     if let v = self._subGroup2 {
       try visitor.visitSingularGroupField(value: v, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: SwiftTestNestingGroupsMessage.SubGroup1, rhs: SwiftTestNestingGroupsMessage.SubGroup1) -> Bool {
     if lhs._sub1A != rhs._sub1A {return false}
     if lhs._subGroup2 != rhs._subGroup2 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -555,12 +543,10 @@ extension SwiftTestNestingGroupsMessage.SubGroup1.SubGroup2: SwiftProtobuf.Messa
     if let v = self._sub2A {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: SwiftTestNestingGroupsMessage.SubGroup1.SubGroup2, rhs: SwiftTestNestingGroupsMessage.SubGroup1.SubGroup2) -> Bool {
     if lhs._sub2A != rhs._sub2A {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -589,13 +575,11 @@ extension SwiftTestNestingGroupsMessage.SubGroup3: SwiftProtobuf.Message, SwiftP
     if !self.subGroup4.isEmpty {
       try visitor.visitRepeatedGroupField(value: self.subGroup4, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: SwiftTestNestingGroupsMessage.SubGroup3, rhs: SwiftTestNestingGroupsMessage.SubGroup3) -> Bool {
     if lhs._sub3A != rhs._sub3A {return false}
     if lhs.subGroup4 != rhs.subGroup4 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -619,12 +603,10 @@ extension SwiftTestNestingGroupsMessage.SubGroup3.SubGroup4: SwiftProtobuf.Messa
     if let v = self._sub4A {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: SwiftTestNestingGroupsMessage.SubGroup3.SubGroup4, rhs: SwiftTestNestingGroupsMessage.SubGroup3.SubGroup4) -> Bool {
     if lhs._sub4A != rhs._sub4A {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

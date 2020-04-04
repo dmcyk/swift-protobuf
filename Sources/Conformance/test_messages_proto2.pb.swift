@@ -2205,7 +2205,6 @@ extension ProtobufTestMessages_Proto2_TestAllTypesProto2: SwiftProtobuf.Message,
         try visitor.visitSingularInt32Field(value: v, fieldNumber: 418)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufTestMessages_Proto2_TestAllTypesProto2, rhs: ProtobufTestMessages_Proto2_TestAllTypesProto2) -> Bool {
@@ -2327,7 +2326,6 @@ extension ProtobufTestMessages_Proto2_TestAllTypesProto2: SwiftProtobuf.Message,
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -2399,7 +2397,6 @@ extension ProtobufTestMessages_Proto2_TestAllTypesProto2.NestedMessage: SwiftPro
         try visitor.visitSingularMessageField(value: v, fieldNumber: 2)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufTestMessages_Proto2_TestAllTypesProto2.NestedMessage, rhs: ProtobufTestMessages_Proto2_TestAllTypesProto2.NestedMessage) -> Bool {
@@ -2413,7 +2410,6 @@ extension ProtobufTestMessages_Proto2_TestAllTypesProto2.NestedMessage: SwiftPro
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2442,13 +2438,11 @@ extension ProtobufTestMessages_Proto2_TestAllTypesProto2.DataMessage: SwiftProto
     if let v = self._groupUint32 {
       try visitor.visitSingularUInt32Field(value: v, fieldNumber: 203)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufTestMessages_Proto2_TestAllTypesProto2.DataMessage, rhs: ProtobufTestMessages_Proto2_TestAllTypesProto2.DataMessage) -> Bool {
     if lhs._groupInt32 != rhs._groupInt32 {return false}
     if lhs._groupUint32 != rhs._groupUint32 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2468,11 +2462,9 @@ extension ProtobufTestMessages_Proto2_TestAllTypesProto2.MessageSetCorrect: Swif
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
     try visitor.visitExtensionFieldsAsMessageSet(fields: _protobuf_extensionFieldValues, start: 4, end: 2147483647)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufTestMessages_Proto2_TestAllTypesProto2.MessageSetCorrect, rhs: ProtobufTestMessages_Proto2_TestAllTypesProto2.MessageSetCorrect) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -2497,12 +2489,10 @@ extension ProtobufTestMessages_Proto2_TestAllTypesProto2.MessageSetCorrectExtens
     if let v = self._str {
       try visitor.visitSingularStringField(value: v, fieldNumber: 25)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufTestMessages_Proto2_TestAllTypesProto2.MessageSetCorrectExtension1, rhs: ProtobufTestMessages_Proto2_TestAllTypesProto2.MessageSetCorrectExtension1) -> Bool {
     if lhs._str != rhs._str {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2526,12 +2516,10 @@ extension ProtobufTestMessages_Proto2_TestAllTypesProto2.MessageSetCorrectExtens
     if let v = self._i {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 9)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufTestMessages_Proto2_TestAllTypesProto2.MessageSetCorrectExtension2, rhs: ProtobufTestMessages_Proto2_TestAllTypesProto2.MessageSetCorrectExtension2) -> Bool {
     if lhs._i != rhs._i {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2555,12 +2543,10 @@ extension ProtobufTestMessages_Proto2_ForeignMessageProto2: SwiftProtobuf.Messag
     if let v = self._c {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufTestMessages_Proto2_ForeignMessageProto2, rhs: ProtobufTestMessages_Proto2_ForeignMessageProto2) -> Bool {
     if lhs._c != rhs._c {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2609,7 +2595,6 @@ extension ProtobufTestMessages_Proto2_UnknownToTestAllTypes: SwiftProtobuf.Messa
     if !self.repeatedInt32.isEmpty {
       try visitor.visitRepeatedInt32Field(value: self.repeatedInt32, fieldNumber: 1011)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufTestMessages_Proto2_UnknownToTestAllTypes, rhs: ProtobufTestMessages_Proto2_UnknownToTestAllTypes) -> Bool {
@@ -2619,7 +2604,6 @@ extension ProtobufTestMessages_Proto2_UnknownToTestAllTypes: SwiftProtobuf.Messa
     if lhs._optionalGroup != rhs._optionalGroup {return false}
     if lhs._optionalBool != rhs._optionalBool {return false}
     if lhs.repeatedInt32 != rhs.repeatedInt32 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2643,12 +2627,10 @@ extension ProtobufTestMessages_Proto2_UnknownToTestAllTypes.OptionalGroup: Swift
     if let v = self._a {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufTestMessages_Proto2_UnknownToTestAllTypes.OptionalGroup, rhs: ProtobufTestMessages_Proto2_UnknownToTestAllTypes.OptionalGroup) -> Bool {
     if lhs._a != rhs._a {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

@@ -108,12 +108,10 @@ extension Proto2ArenaUnittest_NestedMessage: SwiftProtobuf.Message, SwiftProtobu
     if let v = self._d {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto2ArenaUnittest_NestedMessage, rhs: Proto2ArenaUnittest_NestedMessage) -> Bool {
     if lhs._d != rhs._d {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -142,13 +140,11 @@ extension Proto2ArenaUnittest_ArenaMessage: SwiftProtobuf.Message, SwiftProtobuf
     if !self.repeatedImportNoArenaMessage.isEmpty {
       try visitor.visitRepeatedMessageField(value: self.repeatedImportNoArenaMessage, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto2ArenaUnittest_ArenaMessage, rhs: Proto2ArenaUnittest_ArenaMessage) -> Bool {
     if lhs.repeatedNestedMessage != rhs.repeatedNestedMessage {return false}
     if lhs.repeatedImportNoArenaMessage != rhs.repeatedImportNoArenaMessage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

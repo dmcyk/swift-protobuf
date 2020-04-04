@@ -10344,11 +10344,9 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages: SwiftProtobu
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10372,12 +10370,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.adjusted: Swi
     if self.adjusted != 0 {
       try visitor.visitSingularInt32Field(value: self.adjusted, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.adjusted, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.adjusted) -> Bool {
     if lhs.adjusted != rhs.adjusted {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10401,12 +10397,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.aggregateValu
     if self.aggregateValue != 0 {
       try visitor.visitSingularInt32Field(value: self.aggregateValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.aggregateValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.aggregateValue) -> Bool {
     if lhs.aggregateValue != rhs.aggregateValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10430,12 +10424,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.allCases: Swi
     if self.allCases != 0 {
       try visitor.visitSingularInt32Field(value: self.allCases, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.allCases, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.allCases) -> Bool {
     if lhs.allCases != rhs.allCases {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10459,12 +10451,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.allocate: Swi
     if self.allocate != 0 {
       try visitor.visitSingularInt32Field(value: self.allocate, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.allocate, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.allocate) -> Bool {
     if lhs.allocate != rhs.allocate {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10488,12 +10478,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.allowAlias: S
     if self.allowAlias != 0 {
       try visitor.visitSingularInt32Field(value: self.allowAlias, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.allowAlias, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.allowAlias) -> Bool {
     if lhs.allowAlias != rhs.allowAlias {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10517,12 +10505,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.alwaysPrintEn
     if self.alwaysPrintEnumsAsInts != 0 {
       try visitor.visitSingularInt32Field(value: self.alwaysPrintEnumsAsInts, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.alwaysPrintEnumsAsInts, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.alwaysPrintEnumsAsInts) -> Bool {
     if lhs.alwaysPrintEnumsAsInts != rhs.alwaysPrintEnumsAsInts {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10546,12 +10532,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.annotation: S
     if self.annotation != 0 {
       try visitor.visitSingularInt32Field(value: self.annotation, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.annotation, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.annotation) -> Bool {
     if lhs.annotation != rhs.annotation {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10575,12 +10559,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.any: SwiftPro
     if self.any != 0 {
       try visitor.visitSingularInt32Field(value: self.any, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.any, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.any) -> Bool {
     if lhs.any != rhs.any {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10604,12 +10586,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyExtensionF
     if self.anyExtensionField != 0 {
       try visitor.visitSingularInt32Field(value: self.anyExtensionField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyExtensionField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyExtensionField) -> Bool {
     if lhs.anyExtensionField != rhs.anyExtensionField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10633,12 +10613,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyMessageExt
     if self.anyMessageExtension != 0 {
       try visitor.visitSingularInt32Field(value: self.anyMessageExtension, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyMessageExtension, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyMessageExtension) -> Bool {
     if lhs.anyMessageExtension != rhs.anyMessageExtension {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10662,12 +10640,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyMessageSto
     if self.anyMessageStorage != 0 {
       try visitor.visitSingularInt32Field(value: self.anyMessageStorage, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyMessageStorage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyMessageStorage) -> Bool {
     if lhs.anyMessageStorage != rhs.anyMessageStorage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10691,12 +10667,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyUnpackErro
     if self.anyUnpackError != 0 {
       try visitor.visitSingularInt32Field(value: self.anyUnpackError, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyUnpackError, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.AnyUnpackError) -> Bool {
     if lhs.anyUnpackError != rhs.anyUnpackError {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10720,12 +10694,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Api: SwiftPro
     if self.api != 0 {
       try visitor.visitSingularInt32Field(value: self.api, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Api, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Api) -> Bool {
     if lhs.api != rhs.api {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10749,12 +10721,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.appended: Swi
     if self.appended != 0 {
       try visitor.visitSingularInt32Field(value: self.appended, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.appended, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.appended) -> Bool {
     if lhs.appended != rhs.appended {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10778,12 +10748,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.appendUIntHex
     if self.appendUintHex != 0 {
       try visitor.visitSingularInt32Field(value: self.appendUintHex, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.appendUIntHex, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.appendUIntHex) -> Bool {
     if lhs.appendUintHex != rhs.appendUintHex {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10807,12 +10775,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.appendUnknown
     if self.appendUnknown != 0 {
       try visitor.visitSingularInt32Field(value: self.appendUnknown, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.appendUnknown, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.appendUnknown) -> Bool {
     if lhs.appendUnknown != rhs.appendUnknown {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10836,12 +10802,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.areAllInitial
     if self.areAllInitialized != 0 {
       try visitor.visitSingularInt32Field(value: self.areAllInitialized, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.areAllInitialized, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.areAllInitialized) -> Bool {
     if lhs.areAllInitialized != rhs.areAllInitialized {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10865,12 +10829,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.array: SwiftP
     if self.array != 0 {
       try visitor.visitSingularInt32Field(value: self.array, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.array, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.array) -> Bool {
     if lhs.array != rhs.array {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10894,12 +10856,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.arrayLiteral:
     if self.arrayLiteral != 0 {
       try visitor.visitSingularInt32Field(value: self.arrayLiteral, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.arrayLiteral, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.arrayLiteral) -> Bool {
     if lhs.arrayLiteral != rhs.arrayLiteral {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10923,12 +10883,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.arraySeparato
     if self.arraySeparator != 0 {
       try visitor.visitSingularInt32Field(value: self.arraySeparator, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.arraySeparator, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.arraySeparator) -> Bool {
     if lhs.arraySeparator != rhs.arraySeparator {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10952,12 +10910,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.asMessage: Sw
     if self.`as` != 0 {
       try visitor.visitSingularInt32Field(value: self.`as`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.asMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.asMessage) -> Bool {
     if lhs.`as` != rhs.`as` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -10981,12 +10937,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.asciiOpenCurl
     if self.asciiOpenCurlyBracket != 0 {
       try visitor.visitSingularInt32Field(value: self.asciiOpenCurlyBracket, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.asciiOpenCurlyBracket, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.asciiOpenCurlyBracket) -> Bool {
     if lhs.asciiOpenCurlyBracket != rhs.asciiOpenCurlyBracket {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11010,12 +10964,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.asciiZero: Sw
     if self.asciiZero != 0 {
       try visitor.visitSingularInt32Field(value: self.asciiZero, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.asciiZero, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.asciiZero) -> Bool {
     if lhs.asciiZero != rhs.asciiZero {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11039,12 +10991,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.available: Sw
     if self.available != 0 {
       try visitor.visitSingularInt32Field(value: self.available, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.available, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.available) -> Bool {
     if lhs.available != rhs.available {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11068,12 +11018,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.b: SwiftProto
     if self.b != 0 {
       try visitor.visitSingularInt32Field(value: self.b, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.b, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.b) -> Bool {
     if lhs.b != rhs.b {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11097,12 +11045,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.base64Values:
     if self.base64Values != 0 {
       try visitor.visitSingularInt32Field(value: self.base64Values, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.base64Values, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.base64Values) -> Bool {
     if lhs.base64Values != rhs.base64Values {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11126,12 +11072,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.baseAddress: 
     if self.baseAddress != 0 {
       try visitor.visitSingularInt32Field(value: self.baseAddress, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.baseAddress, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.baseAddress) -> Bool {
     if lhs.baseAddress != rhs.baseAddress {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11155,12 +11099,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BaseType: Swi
     if self.baseType != 0 {
       try visitor.visitSingularInt32Field(value: self.baseType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BaseType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BaseType) -> Bool {
     if lhs.baseType != rhs.baseType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11184,12 +11126,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.begin: SwiftP
     if self.begin != 0 {
       try visitor.visitSingularInt32Field(value: self.begin, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.begin, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.begin) -> Bool {
     if lhs.begin != rhs.begin {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11213,12 +11153,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.binary: Swift
     if self.binary != 0 {
       try visitor.visitSingularInt32Field(value: self.binary, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.binary, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.binary) -> Bool {
     if lhs.binary != rhs.binary {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11242,12 +11180,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDecoder
     if self.binaryDecoder != 0 {
       try visitor.visitSingularInt32Field(value: self.binaryDecoder, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDecoder, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDecoder) -> Bool {
     if lhs.binaryDecoder != rhs.binaryDecoder {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11271,12 +11207,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDecodin
     if self.binaryDecodingError != 0 {
       try visitor.visitSingularInt32Field(value: self.binaryDecodingError, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDecodingError, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDecodingError) -> Bool {
     if lhs.binaryDecodingError != rhs.binaryDecodingError {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11300,12 +11234,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDecodin
     if self.binaryDecodingOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.binaryDecodingOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDecodingOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDecodingOptions) -> Bool {
     if lhs.binaryDecodingOptions != rhs.binaryDecodingOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11329,12 +11261,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDelimit
     if self.binaryDelimited != 0 {
       try visitor.visitSingularInt32Field(value: self.binaryDelimited, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDelimited, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryDelimited) -> Bool {
     if lhs.binaryDelimited != rhs.binaryDelimited {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11358,12 +11288,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncoder
     if self.binaryEncoder != 0 {
       try visitor.visitSingularInt32Field(value: self.binaryEncoder, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncoder, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncoder) -> Bool {
     if lhs.binaryEncoder != rhs.binaryEncoder {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11387,12 +11315,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodin
     if self.binaryEncodingError != 0 {
       try visitor.visitSingularInt32Field(value: self.binaryEncodingError, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodingError, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodingError) -> Bool {
     if lhs.binaryEncodingError != rhs.binaryEncodingError {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11416,12 +11342,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodin
     if self.binaryEncodingMessageSetSizeVisitor != 0 {
       try visitor.visitSingularInt32Field(value: self.binaryEncodingMessageSetSizeVisitor, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodingMessageSetSizeVisitor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodingMessageSetSizeVisitor) -> Bool {
     if lhs.binaryEncodingMessageSetSizeVisitor != rhs.binaryEncodingMessageSetSizeVisitor {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11445,12 +11369,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodin
     if self.binaryEncodingMessageSetVisitor != 0 {
       try visitor.visitSingularInt32Field(value: self.binaryEncodingMessageSetVisitor, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodingMessageSetVisitor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodingMessageSetVisitor) -> Bool {
     if lhs.binaryEncodingMessageSetVisitor != rhs.binaryEncodingMessageSetVisitor {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11474,12 +11396,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodin
     if self.binaryEncodingSizeVisitor != 0 {
       try visitor.visitSingularInt32Field(value: self.binaryEncodingSizeVisitor, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodingSizeVisitor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodingSizeVisitor) -> Bool {
     if lhs.binaryEncodingSizeVisitor != rhs.binaryEncodingSizeVisitor {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11503,12 +11423,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodin
     if self.binaryEncodingVisitor != 0 {
       try visitor.visitSingularInt32Field(value: self.binaryEncodingVisitor, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodingVisitor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BinaryEncodingVisitor) -> Bool {
     if lhs.binaryEncodingVisitor != rhs.binaryEncodingVisitor {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11532,12 +11450,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.binaryOptions
     if self.binaryOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.binaryOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.binaryOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.binaryOptions) -> Bool {
     if lhs.binaryOptions != rhs.binaryOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11561,12 +11477,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.body: SwiftPr
     if self.body != 0 {
       try visitor.visitSingularInt32Field(value: self.body, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.body, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.body) -> Bool {
     if lhs.body != rhs.body {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11590,12 +11504,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bodySize: Swi
     if self.bodySize != 0 {
       try visitor.visitSingularInt32Field(value: self.bodySize, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bodySize, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bodySize) -> Bool {
     if lhs.bodySize != rhs.bodySize {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11619,12 +11531,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BoolMessage: 
     if self.bool != 0 {
       try visitor.visitSingularInt32Field(value: self.bool, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BoolMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BoolMessage) -> Bool {
     if lhs.bool != rhs.bool {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11648,12 +11558,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.booleanLitera
     if self.booleanLiteral != 0 {
       try visitor.visitSingularInt32Field(value: self.booleanLiteral, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.booleanLiteral, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.booleanLiteral) -> Bool {
     if lhs.booleanLiteral != rhs.booleanLiteral {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11677,12 +11585,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BooleanLitera
     if self.booleanLiteralType != 0 {
       try visitor.visitSingularInt32Field(value: self.booleanLiteralType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BooleanLiteralType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BooleanLiteralType) -> Bool {
     if lhs.booleanLiteralType != rhs.booleanLiteralType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11706,12 +11612,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.boolValue: Sw
     if self.boolValue != 0 {
       try visitor.visitSingularInt32Field(value: self.boolValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.boolValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.boolValue) -> Bool {
     if lhs.boolValue != rhs.boolValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11735,12 +11639,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bytes: SwiftP
     if self.bytes != 0 {
       try visitor.visitSingularInt32Field(value: self.bytes, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bytes, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bytes) -> Bool {
     if lhs.bytes != rhs.bytes {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11764,12 +11666,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bytesInGroup:
     if self.bytesInGroup != 0 {
       try visitor.visitSingularInt32Field(value: self.bytesInGroup, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bytesInGroup, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bytesInGroup) -> Bool {
     if lhs.bytesInGroup != rhs.bytesInGroup {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11793,12 +11693,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bytesRead: Sw
     if self.bytesRead != 0 {
       try visitor.visitSingularInt32Field(value: self.bytesRead, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bytesRead, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.bytesRead) -> Bool {
     if lhs.bytesRead != rhs.bytesRead {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11822,12 +11720,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BytesValue: S
     if self.bytesValue != 0 {
       try visitor.visitSingularInt32Field(value: self.bytesValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BytesValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.BytesValue) -> Bool {
     if lhs.bytesValue != rhs.bytesValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11851,12 +11747,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.c: SwiftProto
     if self.c != 0 {
       try visitor.visitSingularInt32Field(value: self.c, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.c, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.c) -> Bool {
     if lhs.c != rhs.c {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11880,12 +11774,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.capacity: Swi
     if self.capacity != 0 {
       try visitor.visitSingularInt32Field(value: self.capacity, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.capacity, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.capacity) -> Bool {
     if lhs.capacity != rhs.capacity {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11909,12 +11801,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.capitalizeNex
     if self.capitalizeNext != 0 {
       try visitor.visitSingularInt32Field(value: self.capitalizeNext, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.capitalizeNext, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.capitalizeNext) -> Bool {
     if lhs.capitalizeNext != rhs.capitalizeNext {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11938,12 +11828,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.cardinality: 
     if self.cardinality != 0 {
       try visitor.visitSingularInt32Field(value: self.cardinality, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.cardinality, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.cardinality) -> Bool {
     if lhs.cardinality != rhs.cardinality {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11967,12 +11855,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ccEnableArena
     if self.ccEnableArenas != 0 {
       try visitor.visitSingularInt32Field(value: self.ccEnableArenas, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ccEnableArenas, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ccEnableArenas) -> Bool {
     if lhs.ccEnableArenas != rhs.ccEnableArenas {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -11996,12 +11882,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ccGenericServ
     if self.ccGenericServices != 0 {
       try visitor.visitSingularInt32Field(value: self.ccGenericServices, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ccGenericServices, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ccGenericServices) -> Bool {
     if lhs.ccGenericServices != rhs.ccGenericServices {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12025,12 +11909,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Character: Sw
     if self.character != 0 {
       try visitor.visitSingularInt32Field(value: self.character, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Character, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Character) -> Bool {
     if lhs.character != rhs.character {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12054,12 +11936,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.chars: SwiftP
     if self.chars != 0 {
       try visitor.visitSingularInt32Field(value: self.chars, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.chars, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.chars) -> Bool {
     if lhs.chars != rhs.chars {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12083,12 +11963,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.classMessage:
     if self.`class` != 0 {
       try visitor.visitSingularInt32Field(value: self.`class`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.classMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.classMessage) -> Bool {
     if lhs.`class` != rhs.`class` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12112,12 +11990,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearAggregat
     if self.clearAggregateValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearAggregateValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearAggregateValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearAggregateValue) -> Bool {
     if lhs.clearAggregateValue_p != rhs.clearAggregateValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12141,12 +12017,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearAllowAli
     if self.clearAllowAlias_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearAllowAlias_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearAllowAlias, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearAllowAlias) -> Bool {
     if lhs.clearAllowAlias_p != rhs.clearAllowAlias_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12170,12 +12044,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearBegin: S
     if self.clearBegin_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearBegin_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearBegin, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearBegin) -> Bool {
     if lhs.clearBegin_p != rhs.clearBegin_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12199,12 +12071,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearCcEnable
     if self.clearCcEnableArenas_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearCcEnableArenas_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearCcEnableArenas, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearCcEnableArenas) -> Bool {
     if lhs.clearCcEnableArenas_p != rhs.clearCcEnableArenas_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12228,12 +12098,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearCcGeneri
     if self.clearCcGenericServices_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearCcGenericServices_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearCcGenericServices, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearCcGenericServices) -> Bool {
     if lhs.clearCcGenericServices_p != rhs.clearCcGenericServices_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12257,12 +12125,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearClientSt
     if self.clearClientStreaming_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearClientStreaming_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearClientStreaming, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearClientStreaming) -> Bool {
     if lhs.clearClientStreaming_p != rhs.clearClientStreaming_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12286,12 +12152,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearCsharpNa
     if self.clearCsharpNamespace_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearCsharpNamespace_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearCsharpNamespace, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearCsharpNamespace) -> Bool {
     if lhs.clearCsharpNamespace_p != rhs.clearCsharpNamespace_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12315,12 +12179,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearCtype: S
     if self.clearCtype_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearCtype_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearCtype, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearCtype) -> Bool {
     if lhs.clearCtype_p != rhs.clearCtype_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12344,12 +12206,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearDefaultV
     if self.clearDefaultValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearDefaultValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearDefaultValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearDefaultValue) -> Bool {
     if lhs.clearDefaultValue_p != rhs.clearDefaultValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12373,12 +12233,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearDeprecat
     if self.clearDeprecated_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearDeprecated_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearDeprecated, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearDeprecated) -> Bool {
     if lhs.clearDeprecated_p != rhs.clearDeprecated_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12402,12 +12260,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearDoubleVa
     if self.clearDoubleValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearDoubleValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearDoubleValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearDoubleValue) -> Bool {
     if lhs.clearDoubleValue_p != rhs.clearDoubleValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12431,12 +12287,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearEnd: Swi
     if self.clearEnd_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearEnd_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearEnd, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearEnd) -> Bool {
     if lhs.clearEnd_p != rhs.clearEnd_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12460,12 +12314,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearExtendee
     if self.clearExtendee_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearExtendee_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearExtendee, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearExtendee) -> Bool {
     if lhs.clearExtendee_p != rhs.clearExtendee_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12489,12 +12341,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearExtensio
     if self.clearExtensionValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearExtensionValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearExtensionValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearExtensionValue) -> Bool {
     if lhs.clearExtensionValue_p != rhs.clearExtensionValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12518,12 +12368,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearGoPackag
     if self.clearGoPackage_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearGoPackage_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearGoPackage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearGoPackage) -> Bool {
     if lhs.clearGoPackage_p != rhs.clearGoPackage_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12547,12 +12395,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearIdempote
     if self.clearIdempotencyLevel_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearIdempotencyLevel_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearIdempotencyLevel, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearIdempotencyLevel) -> Bool {
     if lhs.clearIdempotencyLevel_p != rhs.clearIdempotencyLevel_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12576,12 +12422,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearIdentifi
     if self.clearIdentifierValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearIdentifierValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearIdentifierValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearIdentifierValue) -> Bool {
     if lhs.clearIdentifierValue_p != rhs.clearIdentifierValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12605,12 +12449,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearInputTyp
     if self.clearInputType_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearInputType_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearInputType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearInputType) -> Bool {
     if lhs.clearInputType_p != rhs.clearInputType_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12634,12 +12476,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearIsExtens
     if self.clearIsExtension_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearIsExtension_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearIsExtension, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearIsExtension) -> Bool {
     if lhs.clearIsExtension_p != rhs.clearIsExtension_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12663,12 +12503,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaGene
     if self.clearJavaGenerateEqualsAndHash_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearJavaGenerateEqualsAndHash_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaGenerateEqualsAndHash, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaGenerateEqualsAndHash) -> Bool {
     if lhs.clearJavaGenerateEqualsAndHash_p != rhs.clearJavaGenerateEqualsAndHash_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12692,12 +12530,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaGene
     if self.clearJavaGenericServices_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearJavaGenericServices_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaGenericServices, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaGenericServices) -> Bool {
     if lhs.clearJavaGenericServices_p != rhs.clearJavaGenericServices_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12721,12 +12557,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaMult
     if self.clearJavaMultipleFiles_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearJavaMultipleFiles_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaMultipleFiles, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaMultipleFiles) -> Bool {
     if lhs.clearJavaMultipleFiles_p != rhs.clearJavaMultipleFiles_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12750,12 +12584,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaOute
     if self.clearJavaOuterClassname_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearJavaOuterClassname_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaOuterClassname, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaOuterClassname) -> Bool {
     if lhs.clearJavaOuterClassname_p != rhs.clearJavaOuterClassname_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12779,12 +12611,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaPack
     if self.clearJavaPackage_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearJavaPackage_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaPackage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaPackage) -> Bool {
     if lhs.clearJavaPackage_p != rhs.clearJavaPackage_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12808,12 +12638,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaStri
     if self.clearJavaStringCheckUtf8_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearJavaStringCheckUtf8_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaStringCheckUtf8, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJavaStringCheckUtf8) -> Bool {
     if lhs.clearJavaStringCheckUtf8_p != rhs.clearJavaStringCheckUtf8_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12837,12 +12665,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJsonName
     if self.clearJsonName_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearJsonName_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJsonName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJsonName) -> Bool {
     if lhs.clearJsonName_p != rhs.clearJsonName_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12866,12 +12692,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJstype: 
     if self.clearJstype_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearJstype_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJstype, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearJstype) -> Bool {
     if lhs.clearJstype_p != rhs.clearJstype_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12895,12 +12719,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearLabel: S
     if self.clearLabel_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearLabel_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearLabel, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearLabel) -> Bool {
     if lhs.clearLabel_p != rhs.clearLabel_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12924,12 +12746,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearLazy: Sw
     if self.clearLazy_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearLazy_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearLazy, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearLazy) -> Bool {
     if lhs.clearLazy_p != rhs.clearLazy_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12953,12 +12773,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearLeadingC
     if self.clearLeadingComments_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearLeadingComments_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearLeadingComments, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearLeadingComments) -> Bool {
     if lhs.clearLeadingComments_p != rhs.clearLeadingComments_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -12982,12 +12800,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearMapEntry
     if self.clearMapEntry_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearMapEntry_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearMapEntry, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearMapEntry) -> Bool {
     if lhs.clearMapEntry_p != rhs.clearMapEntry_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13011,12 +12827,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearMessageS
     if self.clearMessageSetWireFormat_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearMessageSetWireFormat_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearMessageSetWireFormat, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearMessageSetWireFormat) -> Bool {
     if lhs.clearMessageSetWireFormat_p != rhs.clearMessageSetWireFormat_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13040,12 +12854,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearName: Sw
     if self.clearName_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearName_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearName) -> Bool {
     if lhs.clearName_p != rhs.clearName_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13069,12 +12881,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearNamePart
     if self.clearNamePart_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearNamePart_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearNamePart, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearNamePart) -> Bool {
     if lhs.clearNamePart_p != rhs.clearNamePart_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13098,12 +12908,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearNegative
     if self.clearNegativeIntValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearNegativeIntValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearNegativeIntValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearNegativeIntValue) -> Bool {
     if lhs.clearNegativeIntValue_p != rhs.clearNegativeIntValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13127,12 +12935,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearNoStanda
     if self.clearNoStandardDescriptorAccessor_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearNoStandardDescriptorAccessor_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearNoStandardDescriptorAccessor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearNoStandardDescriptorAccessor) -> Bool {
     if lhs.clearNoStandardDescriptorAccessor_p != rhs.clearNoStandardDescriptorAccessor_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13156,12 +12962,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearNumber: 
     if self.clearNumber_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearNumber_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearNumber, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearNumber) -> Bool {
     if lhs.clearNumber_p != rhs.clearNumber_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13185,12 +12989,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearObjcClas
     if self.clearObjcClassPrefix_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearObjcClassPrefix_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearObjcClassPrefix, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearObjcClassPrefix) -> Bool {
     if lhs.clearObjcClassPrefix_p != rhs.clearObjcClassPrefix_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13214,12 +13016,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearOneofInd
     if self.clearOneofIndex_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearOneofIndex_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearOneofIndex, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearOneofIndex) -> Bool {
     if lhs.clearOneofIndex_p != rhs.clearOneofIndex_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13243,12 +13043,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearOptimize
     if self.clearOptimizeFor_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearOptimizeFor_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearOptimizeFor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearOptimizeFor) -> Bool {
     if lhs.clearOptimizeFor_p != rhs.clearOptimizeFor_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13272,12 +13070,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearOptions:
     if self.clearOptions_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearOptions_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearOptions) -> Bool {
     if lhs.clearOptions_p != rhs.clearOptions_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13301,12 +13097,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearOutputTy
     if self.clearOutputType_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearOutputType_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearOutputType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearOutputType) -> Bool {
     if lhs.clearOutputType_p != rhs.clearOutputType_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13330,12 +13124,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPackage:
     if self.clearPackage_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearPackage_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPackage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPackage) -> Bool {
     if lhs.clearPackage_p != rhs.clearPackage_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13359,12 +13151,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPacked: 
     if self.clearPacked_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearPacked_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPacked, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPacked) -> Bool {
     if lhs.clearPacked_p != rhs.clearPacked_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13388,12 +13178,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPhpClass
     if self.clearPhpClassPrefix_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearPhpClassPrefix_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPhpClassPrefix, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPhpClassPrefix) -> Bool {
     if lhs.clearPhpClassPrefix_p != rhs.clearPhpClassPrefix_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13417,12 +13205,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPhpGener
     if self.clearPhpGenericServices_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearPhpGenericServices_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPhpGenericServices, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPhpGenericServices) -> Bool {
     if lhs.clearPhpGenericServices_p != rhs.clearPhpGenericServices_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13446,12 +13232,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPhpMetad
     if self.clearPhpMetadataNamespace_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearPhpMetadataNamespace_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPhpMetadataNamespace, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPhpMetadataNamespace) -> Bool {
     if lhs.clearPhpMetadataNamespace_p != rhs.clearPhpMetadataNamespace_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13475,12 +13259,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPhpNames
     if self.clearPhpNamespace_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearPhpNamespace_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPhpNamespace, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPhpNamespace) -> Bool {
     if lhs.clearPhpNamespace_p != rhs.clearPhpNamespace_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13504,12 +13286,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPositive
     if self.clearPositiveIntValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearPositiveIntValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPositiveIntValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPositiveIntValue) -> Bool {
     if lhs.clearPositiveIntValue_p != rhs.clearPositiveIntValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13533,12 +13313,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPyGeneri
     if self.clearPyGenericServices_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearPyGenericServices_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPyGenericServices, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearPyGenericServices) -> Bool {
     if lhs.clearPyGenericServices_p != rhs.clearPyGenericServices_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13562,12 +13340,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearRubyPack
     if self.clearRubyPackage_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearRubyPackage_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearRubyPackage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearRubyPackage) -> Bool {
     if lhs.clearRubyPackage_p != rhs.clearRubyPackage_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13591,12 +13367,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearServerSt
     if self.clearServerStreaming_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearServerStreaming_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearServerStreaming, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearServerStreaming) -> Bool {
     if lhs.clearServerStreaming_p != rhs.clearServerStreaming_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13620,12 +13394,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSourceCo
     if self.clearSourceCodeInfo_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearSourceCodeInfo_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSourceCodeInfo, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSourceCodeInfo) -> Bool {
     if lhs.clearSourceCodeInfo_p != rhs.clearSourceCodeInfo_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13649,12 +13421,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSourceCo
     if self.clearSourceContext_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearSourceContext_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSourceContext, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSourceContext) -> Bool {
     if lhs.clearSourceContext_p != rhs.clearSourceContext_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13678,12 +13448,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSourceFi
     if self.clearSourceFile_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearSourceFile_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSourceFile, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSourceFile) -> Bool {
     if lhs.clearSourceFile_p != rhs.clearSourceFile_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13707,12 +13475,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearStart: S
     if self.clearStart_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearStart_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearStart, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearStart) -> Bool {
     if lhs.clearStart_p != rhs.clearStart_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13736,12 +13502,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearStringVa
     if self.clearStringValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearStringValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearStringValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearStringValue) -> Bool {
     if lhs.clearStringValue_p != rhs.clearStringValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13765,12 +13529,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSwiftPre
     if self.clearSwiftPrefix_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearSwiftPrefix_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSwiftPrefix, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSwiftPrefix) -> Bool {
     if lhs.clearSwiftPrefix_p != rhs.clearSwiftPrefix_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13794,12 +13556,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSyntax: 
     if self.clearSyntax_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearSyntax_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSyntax, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearSyntax) -> Bool {
     if lhs.clearSyntax_p != rhs.clearSyntax_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13823,12 +13583,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearTrailing
     if self.clearTrailingComments_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearTrailingComments_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearTrailingComments, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearTrailingComments) -> Bool {
     if lhs.clearTrailingComments_p != rhs.clearTrailingComments_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13852,12 +13610,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearType: Sw
     if self.clearType_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearType_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearType) -> Bool {
     if lhs.clearType_p != rhs.clearType_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13881,12 +13637,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearTypeName
     if self.clearTypeName_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearTypeName_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearTypeName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearTypeName) -> Bool {
     if lhs.clearTypeName_p != rhs.clearTypeName_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13910,12 +13664,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearValue: S
     if self.clearValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearValue) -> Bool {
     if lhs.clearValue_p != rhs.clearValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13939,12 +13691,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearWeak: Sw
     if self.clearWeak_p != 0 {
       try visitor.visitSingularInt32Field(value: self.clearWeak_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearWeak, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clearWeak) -> Bool {
     if lhs.clearWeak_p != rhs.clearWeak_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13968,12 +13718,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clientStreami
     if self.clientStreaming != 0 {
       try visitor.visitSingularInt32Field(value: self.clientStreaming, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clientStreaming, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.clientStreaming) -> Bool {
     if lhs.clientStreaming != rhs.clientStreaming {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -13997,12 +13745,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.codeUnits: Sw
     if self.codeUnits != 0 {
       try visitor.visitSingularInt32Field(value: self.codeUnits, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.codeUnits, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.codeUnits) -> Bool {
     if lhs.codeUnits != rhs.codeUnits {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14026,12 +13772,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Collection: S
     if self.collection != 0 {
       try visitor.visitSingularInt32Field(value: self.collection, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Collection, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Collection) -> Bool {
     if lhs.collection != rhs.collection {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14055,12 +13799,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.com: SwiftPro
     if self.com != 0 {
       try visitor.visitSingularInt32Field(value: self.com, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.com, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.com) -> Bool {
     if lhs.com != rhs.com {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14084,12 +13826,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.comma: SwiftP
     if self.comma != 0 {
       try visitor.visitSingularInt32Field(value: self.comma, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.comma, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.comma) -> Bool {
     if lhs.comma != rhs.comma {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14113,12 +13853,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.contentsOf: S
     if self.contentsOf != 0 {
       try visitor.visitSingularInt32Field(value: self.contentsOf, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.contentsOf, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.contentsOf) -> Bool {
     if lhs.contentsOf != rhs.contentsOf {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14142,12 +13880,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ContiguousByt
     if self.contiguousBytes != 0 {
       try visitor.visitSingularInt32Field(value: self.contiguousBytes, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ContiguousBytes, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ContiguousBytes) -> Bool {
     if lhs.contiguousBytes != rhs.contiguousBytes {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14171,12 +13907,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.count: SwiftP
     if self.count != 0 {
       try visitor.visitSingularInt32Field(value: self.count, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.count, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.count) -> Bool {
     if lhs.count != rhs.count {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14200,12 +13934,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.countVarintsI
     if self.countVarintsInBuffer != 0 {
       try visitor.visitSingularInt32Field(value: self.countVarintsInBuffer, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.countVarintsInBuffer, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.countVarintsInBuffer) -> Bool {
     if lhs.countVarintsInBuffer != rhs.countVarintsInBuffer {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14229,12 +13961,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.csharpNamespa
     if self.csharpNamespace != 0 {
       try visitor.visitSingularInt32Field(value: self.csharpNamespace, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.csharpNamespace, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.csharpNamespace) -> Bool {
     if lhs.csharpNamespace != rhs.csharpNamespace {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14258,12 +13988,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ctype: SwiftP
     if self.ctype != 0 {
       try visitor.visitSingularInt32Field(value: self.ctype, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ctype, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ctype) -> Bool {
     if lhs.ctype != rhs.ctype {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14287,12 +14015,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.customCodable
     if self.customCodable != 0 {
       try visitor.visitSingularInt32Field(value: self.customCodable, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.customCodable, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.customCodable) -> Bool {
     if lhs.customCodable != rhs.customCodable {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14316,12 +14042,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.CustomDebugSt
     if self.customDebugStringConvertible != 0 {
       try visitor.visitSingularInt32Field(value: self.customDebugStringConvertible, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.CustomDebugStringConvertible, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.CustomDebugStringConvertible) -> Bool {
     if lhs.customDebugStringConvertible != rhs.customDebugStringConvertible {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14345,12 +14069,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.d: SwiftProto
     if self.d != 0 {
       try visitor.visitSingularInt32Field(value: self.d, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.d, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.d) -> Bool {
     if lhs.d != rhs.d {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14374,12 +14096,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.DataMessage: 
     if self.data != 0 {
       try visitor.visitSingularInt32Field(value: self.data, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.DataMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.DataMessage) -> Bool {
     if lhs.data != rhs.data {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14403,12 +14123,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dataResult: S
     if self.dataResult != 0 {
       try visitor.visitSingularInt32Field(value: self.dataResult, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dataResult, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dataResult) -> Bool {
     if lhs.dataResult != rhs.dataResult {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14432,12 +14150,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dataSize: Swi
     if self.dataSize != 0 {
       try visitor.visitSingularInt32Field(value: self.dataSize, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dataSize, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dataSize) -> Bool {
     if lhs.dataSize != rhs.dataSize {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14461,12 +14177,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.date: SwiftPr
     if self.date != 0 {
       try visitor.visitSingularInt32Field(value: self.date, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.date, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.date) -> Bool {
     if lhs.date != rhs.date {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14490,12 +14204,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.daySec: Swift
     if self.daySec != 0 {
       try visitor.visitSingularInt32Field(value: self.daySec, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.daySec, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.daySec) -> Bool {
     if lhs.daySec != rhs.daySec {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14519,12 +14231,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.daysSinceEpoc
     if self.daysSinceEpoch != 0 {
       try visitor.visitSingularInt32Field(value: self.daysSinceEpoch, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.daysSinceEpoch, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.daysSinceEpoch) -> Bool {
     if lhs.daysSinceEpoch != rhs.daysSinceEpoch {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14548,12 +14258,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.debugDescript
     if self.debugDescription_p != 0 {
       try visitor.visitSingularInt32Field(value: self.debugDescription_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.debugDescriptionMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.debugDescriptionMessage) -> Bool {
     if lhs.debugDescription_p != rhs.debugDescription_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14577,12 +14285,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decoded: Swif
     if self.decoded != 0 {
       try visitor.visitSingularInt32Field(value: self.decoded, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decoded, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decoded) -> Bool {
     if lhs.decoded != rhs.decoded {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14606,12 +14312,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodedFromJS
     if self.decodedFromJsonnull != 0 {
       try visitor.visitSingularInt32Field(value: self.decodedFromJsonnull, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodedFromJSONNull, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodedFromJSONNull) -> Bool {
     if lhs.decodedFromJsonnull != rhs.decodedFromJsonnull {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14635,12 +14339,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeExtensi
     if self.decodeExtensionField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeExtensionField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeExtensionField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeExtensionField) -> Bool {
     if lhs.decodeExtensionField != rhs.decodeExtensionField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14664,12 +14366,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeExtensi
     if self.decodeExtensionFieldsAsMessageSet != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeExtensionFieldsAsMessageSet, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeExtensionFieldsAsMessageSet, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeExtensionFieldsAsMessageSet) -> Bool {
     if lhs.decodeExtensionFieldsAsMessageSet != rhs.decodeExtensionFieldsAsMessageSet {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14693,12 +14393,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeJSON: S
     if self.decodeJson != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeJson, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeJSON, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeJSON) -> Bool {
     if lhs.decodeJson != rhs.decodeJson {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14722,12 +14420,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeMapFiel
     if self.decodeMapField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeMapField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeMapField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeMapField) -> Bool {
     if lhs.decodeMapField != rhs.decodeMapField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14751,12 +14447,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeMessage
     if self.decodeMessage != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeMessage, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeMessageMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeMessageMessage) -> Bool {
     if lhs.decodeMessage != rhs.decodeMessage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14780,12 +14474,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decoder: Swif
     if self.decoder != 0 {
       try visitor.visitSingularInt32Field(value: self.decoder, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decoder, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decoder) -> Bool {
     if lhs.decoder != rhs.decoder {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14809,12 +14501,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeated != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeated, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeated, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeated) -> Bool {
     if lhs.decodeRepeated != rhs.decodeRepeated {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14838,12 +14528,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedBoolField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedBoolField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedBoolField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedBoolField) -> Bool {
     if lhs.decodeRepeatedBoolField != rhs.decodeRepeatedBoolField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14867,12 +14555,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedBytesField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedBytesField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedBytesField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedBytesField) -> Bool {
     if lhs.decodeRepeatedBytesField != rhs.decodeRepeatedBytesField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14896,12 +14582,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedDoubleField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedDoubleField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedDoubleField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedDoubleField) -> Bool {
     if lhs.decodeRepeatedDoubleField != rhs.decodeRepeatedDoubleField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14925,12 +14609,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedEnumField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedEnumField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedEnumField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedEnumField) -> Bool {
     if lhs.decodeRepeatedEnumField != rhs.decodeRepeatedEnumField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14954,12 +14636,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedFixed32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedFixed32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedFixed32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedFixed32Field) -> Bool {
     if lhs.decodeRepeatedFixed32Field != rhs.decodeRepeatedFixed32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -14983,12 +14663,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedFixed64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedFixed64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedFixed64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedFixed64Field) -> Bool {
     if lhs.decodeRepeatedFixed64Field != rhs.decodeRepeatedFixed64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15012,12 +14690,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedFloatField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedFloatField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedFloatField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedFloatField) -> Bool {
     if lhs.decodeRepeatedFloatField != rhs.decodeRepeatedFloatField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15041,12 +14717,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedGroupField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedGroupField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedGroupField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedGroupField) -> Bool {
     if lhs.decodeRepeatedGroupField != rhs.decodeRepeatedGroupField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15070,12 +14744,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedInt32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedInt32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedInt32Field) -> Bool {
     if lhs.decodeRepeatedInt32Field != rhs.decodeRepeatedInt32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15099,12 +14771,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedInt64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedInt64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedInt64Field) -> Bool {
     if lhs.decodeRepeatedInt64Field != rhs.decodeRepeatedInt64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15128,12 +14798,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedMessageField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedMessageField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedMessageField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedMessageField) -> Bool {
     if lhs.decodeRepeatedMessageField != rhs.decodeRepeatedMessageField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15157,12 +14825,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedSfixed32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedSfixed32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedSFixed32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedSFixed32Field) -> Bool {
     if lhs.decodeRepeatedSfixed32Field != rhs.decodeRepeatedSfixed32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15186,12 +14852,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedSfixed64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedSfixed64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedSFixed64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedSFixed64Field) -> Bool {
     if lhs.decodeRepeatedSfixed64Field != rhs.decodeRepeatedSfixed64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15215,12 +14879,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedSint32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedSint32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedSInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedSInt32Field) -> Bool {
     if lhs.decodeRepeatedSint32Field != rhs.decodeRepeatedSint32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15244,12 +14906,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedSint64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedSint64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedSInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedSInt64Field) -> Bool {
     if lhs.decodeRepeatedSint64Field != rhs.decodeRepeatedSint64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15273,12 +14933,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedStringField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedStringField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedStringField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedStringField) -> Bool {
     if lhs.decodeRepeatedStringField != rhs.decodeRepeatedStringField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15302,12 +14960,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedUint32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedUint32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedUInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedUInt32Field) -> Bool {
     if lhs.decodeRepeatedUint32Field != rhs.decodeRepeatedUint32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15331,12 +14987,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeate
     if self.decodeRepeatedUint64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeRepeatedUint64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedUInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeRepeatedUInt64Field) -> Bool {
     if lhs.decodeRepeatedUint64Field != rhs.decodeRepeatedUint64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15360,12 +15014,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingular != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingular, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingular, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingular) -> Bool {
     if lhs.decodeSingular != rhs.decodeSingular {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15389,12 +15041,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularBoolField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularBoolField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularBoolField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularBoolField) -> Bool {
     if lhs.decodeSingularBoolField != rhs.decodeSingularBoolField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15418,12 +15068,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularBytesField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularBytesField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularBytesField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularBytesField) -> Bool {
     if lhs.decodeSingularBytesField != rhs.decodeSingularBytesField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15447,12 +15095,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularDoubleField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularDoubleField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularDoubleField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularDoubleField) -> Bool {
     if lhs.decodeSingularDoubleField != rhs.decodeSingularDoubleField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15476,12 +15122,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularEnumField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularEnumField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularEnumField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularEnumField) -> Bool {
     if lhs.decodeSingularEnumField != rhs.decodeSingularEnumField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15505,12 +15149,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularFixed32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularFixed32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularFixed32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularFixed32Field) -> Bool {
     if lhs.decodeSingularFixed32Field != rhs.decodeSingularFixed32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15534,12 +15176,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularFixed64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularFixed64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularFixed64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularFixed64Field) -> Bool {
     if lhs.decodeSingularFixed64Field != rhs.decodeSingularFixed64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15563,12 +15203,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularFloatField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularFloatField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularFloatField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularFloatField) -> Bool {
     if lhs.decodeSingularFloatField != rhs.decodeSingularFloatField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15592,12 +15230,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularGroupField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularGroupField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularGroupField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularGroupField) -> Bool {
     if lhs.decodeSingularGroupField != rhs.decodeSingularGroupField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15621,12 +15257,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularInt32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularInt32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularInt32Field) -> Bool {
     if lhs.decodeSingularInt32Field != rhs.decodeSingularInt32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15650,12 +15284,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularInt64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularInt64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularInt64Field) -> Bool {
     if lhs.decodeSingularInt64Field != rhs.decodeSingularInt64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15679,12 +15311,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularMessageField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularMessageField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularMessageField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularMessageField) -> Bool {
     if lhs.decodeSingularMessageField != rhs.decodeSingularMessageField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15708,12 +15338,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularSfixed32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularSfixed32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularSFixed32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularSFixed32Field) -> Bool {
     if lhs.decodeSingularSfixed32Field != rhs.decodeSingularSfixed32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15737,12 +15365,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularSfixed64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularSfixed64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularSFixed64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularSFixed64Field) -> Bool {
     if lhs.decodeSingularSfixed64Field != rhs.decodeSingularSfixed64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15766,12 +15392,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularSint32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularSint32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularSInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularSInt32Field) -> Bool {
     if lhs.decodeSingularSint32Field != rhs.decodeSingularSint32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15795,12 +15419,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularSint64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularSint64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularSInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularSInt64Field) -> Bool {
     if lhs.decodeSingularSint64Field != rhs.decodeSingularSint64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15824,12 +15446,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularStringField != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularStringField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularStringField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularStringField) -> Bool {
     if lhs.decodeSingularStringField != rhs.decodeSingularStringField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15853,12 +15473,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularUint32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularUint32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularUInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularUInt32Field) -> Bool {
     if lhs.decodeSingularUint32Field != rhs.decodeSingularUint32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15882,12 +15500,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingula
     if self.decodeSingularUint64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeSingularUint64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularUInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeSingularUInt64Field) -> Bool {
     if lhs.decodeSingularUint64Field != rhs.decodeSingularUint64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15911,12 +15527,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeTextFor
     if self.decodeTextFormat != 0 {
       try visitor.visitSingularInt32Field(value: self.decodeTextFormat, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeTextFormat, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.decodeTextFormat) -> Bool {
     if lhs.decodeTextFormat != rhs.decodeTextFormat {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15940,12 +15554,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.defaultAnyTyp
     if self.defaultAnyTypeUrlprefix != 0 {
       try visitor.visitSingularInt32Field(value: self.defaultAnyTypeUrlprefix, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.defaultAnyTypeURLPrefix, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.defaultAnyTypeURLPrefix) -> Bool {
     if lhs.defaultAnyTypeUrlprefix != rhs.defaultAnyTypeUrlprefix {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15969,12 +15581,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.defaultValue:
     if self.defaultValue != 0 {
       try visitor.visitSingularInt32Field(value: self.defaultValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.defaultValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.defaultValue) -> Bool {
     if lhs.defaultValue != rhs.defaultValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -15998,12 +15608,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dependency: S
     if self.dependency != 0 {
       try visitor.visitSingularInt32Field(value: self.dependency, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dependency, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dependency) -> Bool {
     if lhs.dependency != rhs.dependency {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16027,12 +15635,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.deprecated: S
     if self.deprecated != 0 {
       try visitor.visitSingularInt32Field(value: self.deprecated, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.deprecated, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.deprecated) -> Bool {
     if lhs.deprecated != rhs.deprecated {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16056,12 +15662,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.descriptionMe
     if self.description_p != 0 {
       try visitor.visitSingularInt32Field(value: self.description_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.descriptionMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.descriptionMessage) -> Bool {
     if lhs.description_p != rhs.description_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16085,12 +15689,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.DescriptorPro
     if self.descriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.descriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.DescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.DescriptorProto) -> Bool {
     if lhs.descriptorProto != rhs.descriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16114,12 +15716,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Dictionary: S
     if self.dictionary != 0 {
       try visitor.visitSingularInt32Field(value: self.dictionary, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Dictionary, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Dictionary) -> Bool {
     if lhs.dictionary != rhs.dictionary {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16143,12 +15743,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dictionaryLit
     if self.dictionaryLiteral != 0 {
       try visitor.visitSingularInt32Field(value: self.dictionaryLiteral, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dictionaryLiteral, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.dictionaryLiteral) -> Bool {
     if lhs.dictionaryLiteral != rhs.dictionaryLiteral {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16172,12 +15770,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digit: SwiftP
     if self.digit != 0 {
       try visitor.visitSingularInt32Field(value: self.digit, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digit, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digit) -> Bool {
     if lhs.digit != rhs.digit {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16201,12 +15797,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digit0: Swift
     if self.digit0 != 0 {
       try visitor.visitSingularInt32Field(value: self.digit0, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digit0, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digit0) -> Bool {
     if lhs.digit0 != rhs.digit0 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16230,12 +15824,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digit1: Swift
     if self.digit1 != 0 {
       try visitor.visitSingularInt32Field(value: self.digit1, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digit1, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digit1) -> Bool {
     if lhs.digit1 != rhs.digit1 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16259,12 +15851,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digitCount: S
     if self.digitCount != 0 {
       try visitor.visitSingularInt32Field(value: self.digitCount, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digitCount, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digitCount) -> Bool {
     if lhs.digitCount != rhs.digitCount {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16288,12 +15878,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digits: Swift
     if self.digits != 0 {
       try visitor.visitSingularInt32Field(value: self.digits, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digits, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digits) -> Bool {
     if lhs.digits != rhs.digits {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16317,12 +15905,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digitValue: S
     if self.digitValue != 0 {
       try visitor.visitSingularInt32Field(value: self.digitValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digitValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.digitValue) -> Bool {
     if lhs.digitValue != rhs.digitValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16346,12 +15932,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.discardableRe
     if self.discardableResult != 0 {
       try visitor.visitSingularInt32Field(value: self.discardableResult, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.discardableResult, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.discardableResult) -> Bool {
     if lhs.discardableResult != rhs.discardableResult {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16375,12 +15959,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.discardUnknow
     if self.discardUnknownFields != 0 {
       try visitor.visitSingularInt32Field(value: self.discardUnknownFields, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.discardUnknownFields, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.discardUnknownFields) -> Bool {
     if lhs.discardUnknownFields != rhs.discardUnknownFields {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16404,12 +15986,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.distance: Swi
     if self.distance != 0 {
       try visitor.visitSingularInt32Field(value: self.distance, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.distance, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.distance) -> Bool {
     if lhs.distance != rhs.distance {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16433,12 +16013,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.double: Swift
     if self.double != 0 {
       try visitor.visitSingularInt32Field(value: self.double, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.double, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.double) -> Bool {
     if lhs.double != rhs.double {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16462,12 +16040,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.doubleValue: 
     if self.doubleValue != 0 {
       try visitor.visitSingularInt32Field(value: self.doubleValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.doubleValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.doubleValue) -> Bool {
     if lhs.doubleValue != rhs.doubleValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16491,12 +16067,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Duration: Swi
     if self.duration != 0 {
       try visitor.visitSingularInt32Field(value: self.duration, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Duration, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Duration) -> Bool {
     if lhs.duration != rhs.duration {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16520,12 +16094,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.E: SwiftProto
     if self.e != 0 {
       try visitor.visitSingularInt32Field(value: self.e, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.E, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.E) -> Bool {
     if lhs.e != rhs.e {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16549,12 +16121,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Element: Swif
     if self.element != 0 {
       try visitor.visitSingularInt32Field(value: self.element, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Element, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Element) -> Bool {
     if lhs.element != rhs.element {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16578,12 +16148,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.elements: Swi
     if self.elements != 0 {
       try visitor.visitSingularInt32Field(value: self.elements, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.elements, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.elements) -> Bool {
     if lhs.elements != rhs.elements {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16607,12 +16175,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emitExtension
     if self.emitExtensionFieldName != 0 {
       try visitor.visitSingularInt32Field(value: self.emitExtensionFieldName, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emitExtensionFieldName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emitExtensionFieldName) -> Bool {
     if lhs.emitExtensionFieldName != rhs.emitExtensionFieldName {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16636,12 +16202,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emitFieldName
     if self.emitFieldName != 0 {
       try visitor.visitSingularInt32Field(value: self.emitFieldName, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emitFieldName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emitFieldName) -> Bool {
     if lhs.emitFieldName != rhs.emitFieldName {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16665,12 +16229,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emitFieldNumb
     if self.emitFieldNumber != 0 {
       try visitor.visitSingularInt32Field(value: self.emitFieldNumber, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emitFieldNumber, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emitFieldNumber) -> Bool {
     if lhs.emitFieldNumber != rhs.emitFieldNumber {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16694,12 +16256,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Empty: SwiftP
     if self.empty != 0 {
       try visitor.visitSingularInt32Field(value: self.empty, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Empty, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Empty) -> Bool {
     if lhs.empty != rhs.empty {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16723,12 +16283,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emptyData: Sw
     if self.emptyData != 0 {
       try visitor.visitSingularInt32Field(value: self.emptyData, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emptyData, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.emptyData) -> Bool {
     if lhs.emptyData != rhs.emptyData {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16752,12 +16310,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodeAsBytes
     if self.encodeAsBytes != 0 {
       try visitor.visitSingularInt32Field(value: self.encodeAsBytes, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodeAsBytes, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodeAsBytes) -> Bool {
     if lhs.encodeAsBytes != rhs.encodeAsBytes {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16781,12 +16337,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encoded: Swif
     if self.encoded != 0 {
       try visitor.visitSingularInt32Field(value: self.encoded, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encoded, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encoded) -> Bool {
     if lhs.encoded != rhs.encoded {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16810,12 +16364,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodedJSONSt
     if self.encodedJsonstring != 0 {
       try visitor.visitSingularInt32Field(value: self.encodedJsonstring, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodedJSONString, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodedJSONString) -> Bool {
     if lhs.encodedJsonstring != rhs.encodedJsonstring {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16839,12 +16391,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodedSize: 
     if self.encodedSize != 0 {
       try visitor.visitSingularInt32Field(value: self.encodedSize, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodedSize, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodedSize) -> Bool {
     if lhs.encodedSize != rhs.encodedSize {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16868,12 +16418,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodeField: 
     if self.encodeField != 0 {
       try visitor.visitSingularInt32Field(value: self.encodeField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodeField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encodeField) -> Bool {
     if lhs.encodeField != rhs.encodeField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16897,12 +16445,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encoder: Swif
     if self.encoder != 0 {
       try visitor.visitSingularInt32Field(value: self.encoder, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encoder, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.encoder) -> Bool {
     if lhs.encoder != rhs.encoder {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16926,12 +16472,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.end: SwiftPro
     if self.end != 0 {
       try visitor.visitSingularInt32Field(value: self.end, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.end, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.end) -> Bool {
     if lhs.end != rhs.end {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16955,12 +16499,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endArray: Swi
     if self.endArray != 0 {
       try visitor.visitSingularInt32Field(value: self.endArray, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endArray, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endArray) -> Bool {
     if lhs.endArray != rhs.endArray {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -16984,12 +16526,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endMessageFie
     if self.endMessageField != 0 {
       try visitor.visitSingularInt32Field(value: self.endMessageField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endMessageField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endMessageField) -> Bool {
     if lhs.endMessageField != rhs.endMessageField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17013,12 +16553,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endObject: Sw
     if self.endObject != 0 {
       try visitor.visitSingularInt32Field(value: self.endObject, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endObject, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endObject) -> Bool {
     if lhs.endObject != rhs.endObject {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17042,12 +16580,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endRegularFie
     if self.endRegularField != 0 {
       try visitor.visitSingularInt32Field(value: self.endRegularField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endRegularField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.endRegularField) -> Bool {
     if lhs.endRegularField != rhs.endRegularField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17071,12 +16607,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.enumMessage: 
     if self.`enum` != 0 {
       try visitor.visitSingularInt32Field(value: self.`enum`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.enumMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.enumMessage) -> Bool {
     if lhs.`enum` != rhs.`enum` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17100,12 +16634,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumDescripto
     if self.enumDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.enumDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumDescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumDescriptorProto) -> Bool {
     if lhs.enumDescriptorProto != rhs.enumDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17129,12 +16661,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumOptions: 
     if self.enumOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.enumOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumOptions) -> Bool {
     if lhs.enumOptions != rhs.enumOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17158,12 +16688,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumReservedR
     if self.enumReservedRange != 0 {
       try visitor.visitSingularInt32Field(value: self.enumReservedRange, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumReservedRange, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumReservedRange) -> Bool {
     if lhs.enumReservedRange != rhs.enumReservedRange {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17187,12 +16715,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.enumType: Swi
     if self.enumType != 0 {
       try visitor.visitSingularInt32Field(value: self.enumType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.enumType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.enumType) -> Bool {
     if lhs.enumType != rhs.enumType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17216,12 +16742,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.enumvalue: Sw
     if self.enumvalue != 0 {
       try visitor.visitSingularInt32Field(value: self.enumvalue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.enumvalue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.enumvalue) -> Bool {
     if lhs.enumvalue != rhs.enumvalue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17245,12 +16769,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumValueDesc
     if self.enumValueDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.enumValueDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumValueDescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumValueDescriptorProto) -> Bool {
     if lhs.enumValueDescriptorProto != rhs.enumValueDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17274,12 +16796,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumValueOpti
     if self.enumValueOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.enumValueOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumValueOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.EnumValueOptions) -> Bool {
     if lhs.enumValueOptions != rhs.enumValueOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17303,12 +16823,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Equatable: Sw
     if self.equatable != 0 {
       try visitor.visitSingularInt32Field(value: self.equatable, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Equatable, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Equatable) -> Bool {
     if lhs.equatable != rhs.equatable {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17332,12 +16850,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Error: SwiftP
     if self.error != 0 {
       try visitor.visitSingularInt32Field(value: self.error, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Error, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Error) -> Bool {
     if lhs.error != rhs.error {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17361,12 +16877,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExpressibleBy
     if self.expressibleByArrayLiteral != 0 {
       try visitor.visitSingularInt32Field(value: self.expressibleByArrayLiteral, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExpressibleByArrayLiteral, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExpressibleByArrayLiteral) -> Bool {
     if lhs.expressibleByArrayLiteral != rhs.expressibleByArrayLiteral {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17390,12 +16904,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExpressibleBy
     if self.expressibleByDictionaryLiteral != 0 {
       try visitor.visitSingularInt32Field(value: self.expressibleByDictionaryLiteral, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExpressibleByDictionaryLiteral, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExpressibleByDictionaryLiteral) -> Bool {
     if lhs.expressibleByDictionaryLiteral != rhs.expressibleByDictionaryLiteral {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17419,12 +16931,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ext: SwiftPro
     if self.ext != 0 {
       try visitor.visitSingularInt32Field(value: self.ext, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ext, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ext) -> Bool {
     if lhs.ext != rhs.ext {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17448,12 +16958,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extDecoder: S
     if self.extDecoder != 0 {
       try visitor.visitSingularInt32Field(value: self.extDecoder, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extDecoder, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extDecoder) -> Bool {
     if lhs.extDecoder != rhs.extDecoder {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17477,12 +16985,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extendedGraph
     if self.extendedGraphemeClusterLiteral != 0 {
       try visitor.visitSingularInt32Field(value: self.extendedGraphemeClusterLiteral, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extendedGraphemeClusterLiteral, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extendedGraphemeClusterLiteral) -> Bool {
     if lhs.extendedGraphemeClusterLiteral != rhs.extendedGraphemeClusterLiteral {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17506,12 +17012,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtendedGraph
     if self.extendedGraphemeClusterLiteralType != 0 {
       try visitor.visitSingularInt32Field(value: self.extendedGraphemeClusterLiteralType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtendedGraphemeClusterLiteralType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtendedGraphemeClusterLiteralType) -> Bool {
     if lhs.extendedGraphemeClusterLiteralType != rhs.extendedGraphemeClusterLiteralType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17535,12 +17039,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extendee: Swi
     if self.extendee != 0 {
       try visitor.visitSingularInt32Field(value: self.extendee, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extendee, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extendee) -> Bool {
     if lhs.extendee != rhs.extendee {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17564,12 +17066,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensibleMes
     if self.extensibleMessage != 0 {
       try visitor.visitSingularInt32Field(value: self.extensibleMessage, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensibleMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensibleMessage) -> Bool {
     if lhs.extensibleMessage != rhs.extensibleMessage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17593,12 +17093,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extensionMess
     if self.`extension` != 0 {
       try visitor.visitSingularInt32Field(value: self.`extension`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extensionMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extensionMessage) -> Bool {
     if lhs.`extension` != rhs.`extension` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17622,12 +17120,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionFiel
     if self.extensionField != 0 {
       try visitor.visitSingularInt32Field(value: self.extensionField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionField) -> Bool {
     if lhs.extensionField != rhs.extensionField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17651,12 +17147,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extensionFiel
     if self.extensionFieldNumber != 0 {
       try visitor.visitSingularInt32Field(value: self.extensionFieldNumber, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extensionFieldNumber, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extensionFieldNumber) -> Bool {
     if lhs.extensionFieldNumber != rhs.extensionFieldNumber {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17680,12 +17174,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionFiel
     if self.extensionFieldValueSet != 0 {
       try visitor.visitSingularInt32Field(value: self.extensionFieldValueSet, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionFieldValueSet, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionFieldValueSet) -> Bool {
     if lhs.extensionFieldValueSet != rhs.extensionFieldValueSet {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17709,12 +17201,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionMap:
     if self.extensionMap != 0 {
       try visitor.visitSingularInt32Field(value: self.extensionMap, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionMap, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionMap) -> Bool {
     if lhs.extensionMap != rhs.extensionMap {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17738,12 +17228,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extensionRang
     if self.extensionRange != 0 {
       try visitor.visitSingularInt32Field(value: self.extensionRange, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extensionRange, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extensionRange) -> Bool {
     if lhs.extensionRange != rhs.extensionRange {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17767,12 +17255,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionRang
     if self.extensionRangeOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.extensionRangeOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionRangeOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ExtensionRangeOptions) -> Bool {
     if lhs.extensionRangeOptions != rhs.extensionRangeOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17796,12 +17282,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extensions: S
     if self.extensions != 0 {
       try visitor.visitSingularInt32Field(value: self.extensions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extensions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extensions) -> Bool {
     if lhs.extensions != rhs.extensions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17825,12 +17309,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extras: Swift
     if self.extras != 0 {
       try visitor.visitSingularInt32Field(value: self.extras, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extras, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.extras) -> Bool {
     if lhs.extras != rhs.extras {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17854,12 +17336,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.F: SwiftProto
     if self.f != 0 {
       try visitor.visitSingularInt32Field(value: self.f, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.F, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.F) -> Bool {
     if lhs.f != rhs.f {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17883,12 +17363,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.falseMessage:
     if self.`false` != 0 {
       try visitor.visitSingularInt32Field(value: self.`false`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.falseMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.falseMessage) -> Bool {
     if lhs.`false` != rhs.`false` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17912,12 +17390,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.field: SwiftP
     if self.field != 0 {
       try visitor.visitSingularInt32Field(value: self.field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.field) -> Bool {
     if lhs.field != rhs.field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17941,12 +17417,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldData: Sw
     if self.fieldData != 0 {
       try visitor.visitSingularInt32Field(value: self.fieldData, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldData, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldData) -> Bool {
     if lhs.fieldData != rhs.fieldData {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17970,12 +17444,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FieldDescript
     if self.fieldDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.fieldDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FieldDescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FieldDescriptorProto) -> Bool {
     if lhs.fieldDescriptorProto != rhs.fieldDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -17999,12 +17471,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FieldMask: Sw
     if self.fieldMask != 0 {
       try visitor.visitSingularInt32Field(value: self.fieldMask, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FieldMask, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FieldMask) -> Bool {
     if lhs.fieldMask != rhs.fieldMask {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18028,12 +17498,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldName: Sw
     if self.fieldName != 0 {
       try visitor.visitSingularInt32Field(value: self.fieldName, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldName) -> Bool {
     if lhs.fieldName != rhs.fieldName {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18057,12 +17525,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNameCoun
     if self.fieldNameCount != 0 {
       try visitor.visitSingularInt32Field(value: self.fieldNameCount, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNameCount, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNameCount) -> Bool {
     if lhs.fieldNameCount != rhs.fieldNameCount {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18086,12 +17552,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNum: Swi
     if self.fieldNum != 0 {
       try visitor.visitSingularInt32Field(value: self.fieldNum, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNum, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNum) -> Bool {
     if lhs.fieldNum != rhs.fieldNum {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18115,12 +17579,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNumber: 
     if self.fieldNumber != 0 {
       try visitor.visitSingularInt32Field(value: self.fieldNumber, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNumber, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNumber) -> Bool {
     if lhs.fieldNumber != rhs.fieldNumber {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18144,12 +17606,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNumberFo
     if self.fieldNumberForProto != 0 {
       try visitor.visitSingularInt32Field(value: self.fieldNumberForProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNumberForProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldNumberForProto) -> Bool {
     if lhs.fieldNumberForProto != rhs.fieldNumberForProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18173,12 +17633,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FieldOptions:
     if self.fieldOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.fieldOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FieldOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FieldOptions) -> Bool {
     if lhs.fieldOptions != rhs.fieldOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18202,12 +17660,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fields: Swift
     if self.fields != 0 {
       try visitor.visitSingularInt32Field(value: self.fields, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fields, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fields) -> Bool {
     if lhs.fields != rhs.fields {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18231,12 +17687,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldSize: Sw
     if self.fieldSize != 0 {
       try visitor.visitSingularInt32Field(value: self.fieldSize, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldSize, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldSize) -> Bool {
     if lhs.fieldSize != rhs.fieldSize {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18260,12 +17714,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FieldTag: Swi
     if self.fieldTag != 0 {
       try visitor.visitSingularInt32Field(value: self.fieldTag, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FieldTag, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FieldTag) -> Bool {
     if lhs.fieldTag != rhs.fieldTag {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18289,12 +17741,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldType: Sw
     if self.fieldType != 0 {
       try visitor.visitSingularInt32Field(value: self.fieldType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldType) -> Bool {
     if lhs.fieldType != rhs.fieldType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18318,12 +17768,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldValue: S
     if self.fieldValue != 0 {
       try visitor.visitSingularInt32Field(value: self.fieldValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fieldValue) -> Bool {
     if lhs.fieldValue != rhs.fieldValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18347,12 +17795,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.file: SwiftPr
     if self.file != 0 {
       try visitor.visitSingularInt32Field(value: self.file, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.file, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.file) -> Bool {
     if lhs.file != rhs.file {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18376,12 +17822,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FileDescripto
     if self.fileDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.fileDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FileDescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FileDescriptorProto) -> Bool {
     if lhs.fileDescriptorProto != rhs.fileDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18405,12 +17849,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FileDescripto
     if self.fileDescriptorSet != 0 {
       try visitor.visitSingularInt32Field(value: self.fileDescriptorSet, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FileDescriptorSet, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FileDescriptorSet) -> Bool {
     if lhs.fileDescriptorSet != rhs.fileDescriptorSet {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18434,12 +17876,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fileName: Swi
     if self.fileName != 0 {
       try visitor.visitSingularInt32Field(value: self.fileName, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fileName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fileName) -> Bool {
     if lhs.fileName != rhs.fileName {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18463,12 +17903,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FileOptions: 
     if self.fileOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.fileOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FileOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FileOptions) -> Bool {
     if lhs.fileOptions != rhs.fileOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18492,12 +17930,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.filter: Swift
     if self.filter != 0 {
       try visitor.visitSingularInt32Field(value: self.filter, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.filter, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.filter) -> Bool {
     if lhs.filter != rhs.filter {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18521,12 +17957,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.firstItem: Sw
     if self.firstItem != 0 {
       try visitor.visitSingularInt32Field(value: self.firstItem, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.firstItem, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.firstItem) -> Bool {
     if lhs.firstItem != rhs.firstItem {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18550,12 +17984,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.float: SwiftP
     if self.float != 0 {
       try visitor.visitSingularInt32Field(value: self.float, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.float, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.float) -> Bool {
     if lhs.float != rhs.float {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18579,12 +18011,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.floatLiteral:
     if self.floatLiteral != 0 {
       try visitor.visitSingularInt32Field(value: self.floatLiteral, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.floatLiteral, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.floatLiteral) -> Bool {
     if lhs.floatLiteral != rhs.floatLiteral {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18608,12 +18038,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FloatLiteralT
     if self.floatLiteralType != 0 {
       try visitor.visitSingularInt32Field(value: self.floatLiteralType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FloatLiteralType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FloatLiteralType) -> Bool {
     if lhs.floatLiteralType != rhs.floatLiteralType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18637,12 +18065,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FloatValue: S
     if self.floatValue != 0 {
       try visitor.visitSingularInt32Field(value: self.floatValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FloatValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.FloatValue) -> Bool {
     if lhs.floatValue != rhs.floatValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18666,12 +18092,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forMessageNam
     if self.forMessageName != 0 {
       try visitor.visitSingularInt32Field(value: self.forMessageName, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forMessageName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forMessageName) -> Bool {
     if lhs.forMessageName != rhs.forMessageName {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18695,12 +18119,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.formUnion: Sw
     if self.formUnion != 0 {
       try visitor.visitSingularInt32Field(value: self.formUnion, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.formUnion, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.formUnion) -> Bool {
     if lhs.formUnion != rhs.formUnion {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18724,12 +18146,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forReadingFro
     if self.forReadingFrom != 0 {
       try visitor.visitSingularInt32Field(value: self.forReadingFrom, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forReadingFrom, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forReadingFrom) -> Bool {
     if lhs.forReadingFrom != rhs.forReadingFrom {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18753,12 +18173,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forTypeURL: S
     if self.forTypeURL != 0 {
       try visitor.visitSingularInt32Field(value: self.forTypeURL, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forTypeURL, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forTypeURL) -> Bool {
     if lhs.forTypeURL != rhs.forTypeURL {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18782,12 +18200,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ForwardParser
     if self.forwardParser != 0 {
       try visitor.visitSingularInt32Field(value: self.forwardParser, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ForwardParser, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ForwardParser) -> Bool {
     if lhs.forwardParser != rhs.forwardParser {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18811,12 +18227,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forWritingInt
     if self.forWritingInto != 0 {
       try visitor.visitSingularInt32Field(value: self.forWritingInto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forWritingInto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.forWritingInto) -> Bool {
     if lhs.forWritingInto != rhs.forWritingInto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18840,12 +18254,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.from: SwiftPr
     if self.from != 0 {
       try visitor.visitSingularInt32Field(value: self.from, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.from, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.from) -> Bool {
     if lhs.from != rhs.from {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18869,12 +18281,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromAscii2: S
     if self.fromAscii2 != 0 {
       try visitor.visitSingularInt32Field(value: self.fromAscii2, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromAscii2, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromAscii2) -> Bool {
     if lhs.fromAscii2 != rhs.fromAscii2 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18898,12 +18308,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromAscii4: S
     if self.fromAscii4 != 0 {
       try visitor.visitSingularInt32Field(value: self.fromAscii4, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromAscii4, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromAscii4) -> Bool {
     if lhs.fromAscii4 != rhs.fromAscii4 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18927,12 +18335,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromByteOffse
     if self.fromByteOffset != 0 {
       try visitor.visitSingularInt32Field(value: self.fromByteOffset, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromByteOffset, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromByteOffset) -> Bool {
     if lhs.fromByteOffset != rhs.fromByteOffset {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18956,12 +18362,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromHexDigit:
     if self.fromHexDigit != 0 {
       try visitor.visitSingularInt32Field(value: self.fromHexDigit, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromHexDigit, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.fromHexDigit) -> Bool {
     if lhs.fromHexDigit != rhs.fromHexDigit {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -18985,12 +18389,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.funcMessage: 
     if self.`func` != 0 {
       try visitor.visitSingularInt32Field(value: self.`func`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.funcMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.funcMessage) -> Bool {
     if lhs.`func` != rhs.`func` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19014,12 +18416,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.G: SwiftProto
     if self.g != 0 {
       try visitor.visitSingularInt32Field(value: self.g, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.G, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.G) -> Bool {
     if lhs.g != rhs.g {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19043,12 +18443,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.GeneratedCode
     if self.generatedCodeInfo != 0 {
       try visitor.visitSingularInt32Field(value: self.generatedCodeInfo, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.GeneratedCodeInfo, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.GeneratedCodeInfo) -> Bool {
     if lhs.generatedCodeInfo != rhs.generatedCodeInfo {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19072,12 +18470,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.get: SwiftPro
     if self.get != 0 {
       try visitor.visitSingularInt32Field(value: self.get, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.get, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.get) -> Bool {
     if lhs.get != rhs.get {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19101,12 +18497,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.getExtensionV
     if self.getExtensionValue != 0 {
       try visitor.visitSingularInt32Field(value: self.getExtensionValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.getExtensionValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.getExtensionValue) -> Bool {
     if lhs.getExtensionValue != rhs.getExtensionValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19130,12 +18524,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.googleapis: S
     if self.googleapis != 0 {
       try visitor.visitSingularInt32Field(value: self.googleapis, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.googleapis, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.googleapis) -> Bool {
     if lhs.googleapis != rhs.googleapis {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19159,12 +18551,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufAny != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufAny, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Any, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Any) -> Bool {
     if lhs.googleProtobufAny != rhs.googleProtobufAny {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19188,12 +18578,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufApi != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufApi, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Api, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Api) -> Bool {
     if lhs.googleProtobufApi != rhs.googleProtobufApi {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19217,12 +18605,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufBoolValue != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufBoolValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_BoolValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_BoolValue) -> Bool {
     if lhs.googleProtobufBoolValue != rhs.googleProtobufBoolValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19246,12 +18632,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufBytesValue != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufBytesValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_BytesValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_BytesValue) -> Bool {
     if lhs.googleProtobufBytesValue != rhs.googleProtobufBytesValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19275,12 +18659,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_DescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_DescriptorProto) -> Bool {
     if lhs.googleProtobufDescriptorProto != rhs.googleProtobufDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19304,12 +18686,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufDoubleValue != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufDoubleValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_DoubleValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_DoubleValue) -> Bool {
     if lhs.googleProtobufDoubleValue != rhs.googleProtobufDoubleValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19333,12 +18713,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufDuration != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufDuration, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Duration, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Duration) -> Bool {
     if lhs.googleProtobufDuration != rhs.googleProtobufDuration {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19362,12 +18740,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufEmpty != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufEmpty, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Empty, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Empty) -> Bool {
     if lhs.googleProtobufEmpty != rhs.googleProtobufEmpty {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19391,12 +18767,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufEnum != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufEnum, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Enum, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Enum) -> Bool {
     if lhs.googleProtobufEnum != rhs.googleProtobufEnum {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19420,12 +18794,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufEnumDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufEnumDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_EnumDescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_EnumDescriptorProto) -> Bool {
     if lhs.googleProtobufEnumDescriptorProto != rhs.googleProtobufEnumDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19449,12 +18821,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufEnumOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufEnumOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_EnumOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_EnumOptions) -> Bool {
     if lhs.googleProtobufEnumOptions != rhs.googleProtobufEnumOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19478,12 +18848,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufEnumValue != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufEnumValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_EnumValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_EnumValue) -> Bool {
     if lhs.googleProtobufEnumValue != rhs.googleProtobufEnumValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19507,12 +18875,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufEnumValueDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufEnumValueDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_EnumValueDescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_EnumValueDescriptorProto) -> Bool {
     if lhs.googleProtobufEnumValueDescriptorProto != rhs.googleProtobufEnumValueDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19536,12 +18902,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufEnumValueOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufEnumValueOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_EnumValueOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_EnumValueOptions) -> Bool {
     if lhs.googleProtobufEnumValueOptions != rhs.googleProtobufEnumValueOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19565,12 +18929,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufExtensionRangeOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufExtensionRangeOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_ExtensionRangeOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_ExtensionRangeOptions) -> Bool {
     if lhs.googleProtobufExtensionRangeOptions != rhs.googleProtobufExtensionRangeOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19594,12 +18956,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufField != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Field) -> Bool {
     if lhs.googleProtobufField != rhs.googleProtobufField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19623,12 +18983,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufFieldDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufFieldDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_FieldDescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_FieldDescriptorProto) -> Bool {
     if lhs.googleProtobufFieldDescriptorProto != rhs.googleProtobufFieldDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19652,12 +19010,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufFieldMask != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufFieldMask, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_FieldMask, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_FieldMask) -> Bool {
     if lhs.googleProtobufFieldMask != rhs.googleProtobufFieldMask {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19681,12 +19037,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufFieldOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufFieldOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_FieldOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_FieldOptions) -> Bool {
     if lhs.googleProtobufFieldOptions != rhs.googleProtobufFieldOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19710,12 +19064,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufFileDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufFileDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_FileDescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_FileDescriptorProto) -> Bool {
     if lhs.googleProtobufFileDescriptorProto != rhs.googleProtobufFileDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19739,12 +19091,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufFileDescriptorSet != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufFileDescriptorSet, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_FileDescriptorSet, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_FileDescriptorSet) -> Bool {
     if lhs.googleProtobufFileDescriptorSet != rhs.googleProtobufFileDescriptorSet {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19768,12 +19118,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufFileOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufFileOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_FileOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_FileOptions) -> Bool {
     if lhs.googleProtobufFileOptions != rhs.googleProtobufFileOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19797,12 +19145,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufFloatValue != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufFloatValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_FloatValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_FloatValue) -> Bool {
     if lhs.googleProtobufFloatValue != rhs.googleProtobufFloatValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19826,12 +19172,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufGeneratedCodeInfo != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufGeneratedCodeInfo, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_GeneratedCodeInfo, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_GeneratedCodeInfo) -> Bool {
     if lhs.googleProtobufGeneratedCodeInfo != rhs.googleProtobufGeneratedCodeInfo {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19855,12 +19199,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufInt32Value != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufInt32Value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Int32Value, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Int32Value) -> Bool {
     if lhs.googleProtobufInt32Value != rhs.googleProtobufInt32Value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19884,12 +19226,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufInt64Value != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufInt64Value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Int64Value, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Int64Value) -> Bool {
     if lhs.googleProtobufInt64Value != rhs.googleProtobufInt64Value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19913,12 +19253,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufListValue != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufListValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_ListValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_ListValue) -> Bool {
     if lhs.googleProtobufListValue != rhs.googleProtobufListValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19942,12 +19280,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufMessageOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufMessageOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_MessageOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_MessageOptions) -> Bool {
     if lhs.googleProtobufMessageOptions != rhs.googleProtobufMessageOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -19971,12 +19307,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufMethod != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufMethod, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Method, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Method) -> Bool {
     if lhs.googleProtobufMethod != rhs.googleProtobufMethod {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20000,12 +19334,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufMethodDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufMethodDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_MethodDescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_MethodDescriptorProto) -> Bool {
     if lhs.googleProtobufMethodDescriptorProto != rhs.googleProtobufMethodDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20029,12 +19361,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufMethodOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufMethodOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_MethodOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_MethodOptions) -> Bool {
     if lhs.googleProtobufMethodOptions != rhs.googleProtobufMethodOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20058,12 +19388,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufMixin != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufMixin, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Mixin, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Mixin) -> Bool {
     if lhs.googleProtobufMixin != rhs.googleProtobufMixin {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20087,12 +19415,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufNullValue != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufNullValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_NullValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_NullValue) -> Bool {
     if lhs.googleProtobufNullValue != rhs.googleProtobufNullValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20116,12 +19442,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufOneofDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufOneofDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_OneofDescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_OneofDescriptorProto) -> Bool {
     if lhs.googleProtobufOneofDescriptorProto != rhs.googleProtobufOneofDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20145,12 +19469,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufOneofOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufOneofOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_OneofOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_OneofOptions) -> Bool {
     if lhs.googleProtobufOneofOptions != rhs.googleProtobufOneofOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20174,12 +19496,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufOption != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufOption, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Option, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Option) -> Bool {
     if lhs.googleProtobufOption != rhs.googleProtobufOption {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20203,12 +19523,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufServiceDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufServiceDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_ServiceDescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_ServiceDescriptorProto) -> Bool {
     if lhs.googleProtobufServiceDescriptorProto != rhs.googleProtobufServiceDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20232,12 +19550,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufServiceOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufServiceOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_ServiceOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_ServiceOptions) -> Bool {
     if lhs.googleProtobufServiceOptions != rhs.googleProtobufServiceOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20261,12 +19577,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufSourceCodeInfo != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufSourceCodeInfo, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_SourceCodeInfo, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_SourceCodeInfo) -> Bool {
     if lhs.googleProtobufSourceCodeInfo != rhs.googleProtobufSourceCodeInfo {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20290,12 +19604,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufSourceContext != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufSourceContext, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_SourceContext, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_SourceContext) -> Bool {
     if lhs.googleProtobufSourceContext != rhs.googleProtobufSourceContext {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20319,12 +19631,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufStringValue != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufStringValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_StringValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_StringValue) -> Bool {
     if lhs.googleProtobufStringValue != rhs.googleProtobufStringValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20348,12 +19658,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufStruct != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufStruct, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Struct, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Struct) -> Bool {
     if lhs.googleProtobufStruct != rhs.googleProtobufStruct {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20377,12 +19685,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufSyntax != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufSyntax, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Syntax, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Syntax) -> Bool {
     if lhs.googleProtobufSyntax != rhs.googleProtobufSyntax {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20406,12 +19712,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufTimestamp != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufTimestamp, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Timestamp, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Timestamp) -> Bool {
     if lhs.googleProtobufTimestamp != rhs.googleProtobufTimestamp {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20435,12 +19739,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufType != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Type, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Type) -> Bool {
     if lhs.googleProtobufType != rhs.googleProtobufType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20464,12 +19766,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufUint32Value != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufUint32Value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_UInt32Value, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_UInt32Value) -> Bool {
     if lhs.googleProtobufUint32Value != rhs.googleProtobufUint32Value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20493,12 +19793,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufUint64Value != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufUint64Value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_UInt64Value, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_UInt64Value) -> Bool {
     if lhs.googleProtobufUint64Value != rhs.googleProtobufUint64Value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20522,12 +19820,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufUninterpretedOption != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufUninterpretedOption, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_UninterpretedOption, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_UninterpretedOption) -> Bool {
     if lhs.googleProtobufUninterpretedOption != rhs.googleProtobufUninterpretedOption {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20551,12 +19847,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protob
     if self.googleProtobufValue != 0 {
       try visitor.visitSingularInt32Field(value: self.googleProtobufValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Value, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Google_Protobuf_Value) -> Bool {
     if lhs.googleProtobufValue != rhs.googleProtobufValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20580,12 +19874,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.goPackage: Sw
     if self.goPackage != 0 {
       try visitor.visitSingularInt32Field(value: self.goPackage, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.goPackage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.goPackage) -> Bool {
     if lhs.goPackage != rhs.goPackage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20609,12 +19901,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.group: SwiftP
     if self.group != 0 {
       try visitor.visitSingularInt32Field(value: self.group, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.group, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.group) -> Bool {
     if lhs.group != rhs.group {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20638,12 +19928,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.groupFieldNum
     if self.groupFieldNumberStack != 0 {
       try visitor.visitSingularInt32Field(value: self.groupFieldNumberStack, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.groupFieldNumberStack, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.groupFieldNumberStack) -> Bool {
     if lhs.groupFieldNumberStack != rhs.groupFieldNumberStack {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20667,12 +19955,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.groupSize: Sw
     if self.groupSize != 0 {
       try visitor.visitSingularInt32Field(value: self.groupSize, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.groupSize, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.groupSize) -> Bool {
     if lhs.groupSize != rhs.groupSize {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20696,12 +19982,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.h: SwiftProto
     if self.h != 0 {
       try visitor.visitSingularInt32Field(value: self.h, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.h, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.h) -> Bool {
     if lhs.h != rhs.h {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20725,12 +20009,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.handleConflic
     if self.handleConflictingOneOf != 0 {
       try visitor.visitSingularInt32Field(value: self.handleConflictingOneOf, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.handleConflictingOneOf, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.handleConflictingOneOf) -> Bool {
     if lhs.handleConflictingOneOf != rhs.handleConflictingOneOf {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20754,12 +20036,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasAggregateV
     if self.hasAggregateValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasAggregateValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasAggregateValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasAggregateValue) -> Bool {
     if lhs.hasAggregateValue_p != rhs.hasAggregateValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20783,12 +20063,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasAllowAlias
     if self.hasAllowAlias_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasAllowAlias_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasAllowAlias, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasAllowAlias) -> Bool {
     if lhs.hasAllowAlias_p != rhs.hasAllowAlias_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20812,12 +20090,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasBegin: Swi
     if self.hasBegin_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasBegin_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasBegin, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasBegin) -> Bool {
     if lhs.hasBegin_p != rhs.hasBegin_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20841,12 +20117,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasCcEnableAr
     if self.hasCcEnableArenas_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasCcEnableArenas_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasCcEnableArenas, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasCcEnableArenas) -> Bool {
     if lhs.hasCcEnableArenas_p != rhs.hasCcEnableArenas_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20870,12 +20144,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasCcGenericS
     if self.hasCcGenericServices_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasCcGenericServices_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasCcGenericServices, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasCcGenericServices) -> Bool {
     if lhs.hasCcGenericServices_p != rhs.hasCcGenericServices_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20899,12 +20171,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasClientStre
     if self.hasClientStreaming_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasClientStreaming_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasClientStreaming, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasClientStreaming) -> Bool {
     if lhs.hasClientStreaming_p != rhs.hasClientStreaming_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20928,12 +20198,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasCsharpName
     if self.hasCsharpNamespace_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasCsharpNamespace_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasCsharpNamespace, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasCsharpNamespace) -> Bool {
     if lhs.hasCsharpNamespace_p != rhs.hasCsharpNamespace_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20957,12 +20225,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasCtype: Swi
     if self.hasCtype_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasCtype_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasCtype, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasCtype) -> Bool {
     if lhs.hasCtype_p != rhs.hasCtype_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -20986,12 +20252,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasDefaultVal
     if self.hasDefaultValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasDefaultValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasDefaultValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasDefaultValue) -> Bool {
     if lhs.hasDefaultValue_p != rhs.hasDefaultValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21015,12 +20279,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasDeprecated
     if self.hasDeprecated_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasDeprecated_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasDeprecated, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasDeprecated) -> Bool {
     if lhs.hasDeprecated_p != rhs.hasDeprecated_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21044,12 +20306,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasDoubleValu
     if self.hasDoubleValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasDoubleValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasDoubleValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasDoubleValue) -> Bool {
     if lhs.hasDoubleValue_p != rhs.hasDoubleValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21073,12 +20333,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasEnd: Swift
     if self.hasEnd_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasEnd_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasEnd, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasEnd) -> Bool {
     if lhs.hasEnd_p != rhs.hasEnd_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21102,12 +20360,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasExtendee: 
     if self.hasExtendee_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasExtendee_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasExtendee, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasExtendee) -> Bool {
     if lhs.hasExtendee_p != rhs.hasExtendee_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21131,12 +20387,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasExtensionV
     if self.hasExtensionValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasExtensionValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasExtensionValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasExtensionValue) -> Bool {
     if lhs.hasExtensionValue_p != rhs.hasExtensionValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21160,12 +20414,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasGoPackage:
     if self.hasGoPackage_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasGoPackage_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasGoPackage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasGoPackage) -> Bool {
     if lhs.hasGoPackage_p != rhs.hasGoPackage_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21189,12 +20441,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hash: SwiftPr
     if self.hash != 0 {
       try visitor.visitSingularInt32Field(value: self.hash, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hash, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hash) -> Bool {
     if lhs.hash != rhs.hash {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21218,12 +20468,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Hashable: Swi
     if self.hashable != 0 {
       try visitor.visitSingularInt32Field(value: self.hashable, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Hashable, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Hashable) -> Bool {
     if lhs.hashable != rhs.hashable {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21247,12 +20495,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasher: Swift
     if self.hasher != 0 {
       try visitor.visitSingularInt32Field(value: self.hasher, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasher, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasher) -> Bool {
     if lhs.hasher != rhs.hasher {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21276,12 +20522,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hashValueMess
     if self.hashValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hashValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hashValueMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hashValueMessage) -> Bool {
     if lhs.hashValue_p != rhs.hashValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21305,12 +20549,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.HashVisitor: 
     if self.hashVisitor != 0 {
       try visitor.visitSingularInt32Field(value: self.hashVisitor, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.HashVisitor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.HashVisitor) -> Bool {
     if lhs.hashVisitor != rhs.hashVisitor {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21334,12 +20576,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasIdempotenc
     if self.hasIdempotencyLevel_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasIdempotencyLevel_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasIdempotencyLevel, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasIdempotencyLevel) -> Bool {
     if lhs.hasIdempotencyLevel_p != rhs.hasIdempotencyLevel_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21363,12 +20603,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasIdentifier
     if self.hasIdentifierValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasIdentifierValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasIdentifierValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasIdentifierValue) -> Bool {
     if lhs.hasIdentifierValue_p != rhs.hasIdentifierValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21392,12 +20630,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasInputType:
     if self.hasInputType_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasInputType_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasInputType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasInputType) -> Bool {
     if lhs.hasInputType_p != rhs.hasInputType_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21421,12 +20657,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasIsExtensio
     if self.hasIsExtension_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasIsExtension_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasIsExtension, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasIsExtension) -> Bool {
     if lhs.hasIsExtension_p != rhs.hasIsExtension_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21450,12 +20684,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaGenera
     if self.hasJavaGenerateEqualsAndHash_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasJavaGenerateEqualsAndHash_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaGenerateEqualsAndHash, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaGenerateEqualsAndHash) -> Bool {
     if lhs.hasJavaGenerateEqualsAndHash_p != rhs.hasJavaGenerateEqualsAndHash_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21479,12 +20711,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaGeneri
     if self.hasJavaGenericServices_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasJavaGenericServices_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaGenericServices, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaGenericServices) -> Bool {
     if lhs.hasJavaGenericServices_p != rhs.hasJavaGenericServices_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21508,12 +20738,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaMultip
     if self.hasJavaMultipleFiles_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasJavaMultipleFiles_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaMultipleFiles, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaMultipleFiles) -> Bool {
     if lhs.hasJavaMultipleFiles_p != rhs.hasJavaMultipleFiles_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21537,12 +20765,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaOuterC
     if self.hasJavaOuterClassname_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasJavaOuterClassname_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaOuterClassname, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaOuterClassname) -> Bool {
     if lhs.hasJavaOuterClassname_p != rhs.hasJavaOuterClassname_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21566,12 +20792,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaPackag
     if self.hasJavaPackage_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasJavaPackage_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaPackage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaPackage) -> Bool {
     if lhs.hasJavaPackage_p != rhs.hasJavaPackage_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21595,12 +20819,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaString
     if self.hasJavaStringCheckUtf8_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasJavaStringCheckUtf8_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaStringCheckUtf8, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJavaStringCheckUtf8) -> Bool {
     if lhs.hasJavaStringCheckUtf8_p != rhs.hasJavaStringCheckUtf8_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21624,12 +20846,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJsonName: 
     if self.hasJsonName_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasJsonName_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJsonName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJsonName) -> Bool {
     if lhs.hasJsonName_p != rhs.hasJsonName_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21653,12 +20873,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJstype: Sw
     if self.hasJstype_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasJstype_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJstype, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasJstype) -> Bool {
     if lhs.hasJstype_p != rhs.hasJstype_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21682,12 +20900,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasLabel: Swi
     if self.hasLabel_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasLabel_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasLabel, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasLabel) -> Bool {
     if lhs.hasLabel_p != rhs.hasLabel_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21711,12 +20927,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasLazy: Swif
     if self.hasLazy_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasLazy_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasLazy, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasLazy) -> Bool {
     if lhs.hasLazy_p != rhs.hasLazy_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21740,12 +20954,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasLeadingCom
     if self.hasLeadingComments_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasLeadingComments_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasLeadingComments, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasLeadingComments) -> Bool {
     if lhs.hasLeadingComments_p != rhs.hasLeadingComments_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21769,12 +20981,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasMapEntry: 
     if self.hasMapEntry_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasMapEntry_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasMapEntry, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasMapEntry) -> Bool {
     if lhs.hasMapEntry_p != rhs.hasMapEntry_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21798,12 +21008,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasMessageSet
     if self.hasMessageSetWireFormat_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasMessageSetWireFormat_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasMessageSetWireFormat, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasMessageSetWireFormat) -> Bool {
     if lhs.hasMessageSetWireFormat_p != rhs.hasMessageSetWireFormat_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21827,12 +21035,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasName: Swif
     if self.hasName_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasName_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasName) -> Bool {
     if lhs.hasName_p != rhs.hasName_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21856,12 +21062,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasNamePart: 
     if self.hasNamePart_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasNamePart_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasNamePart, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasNamePart) -> Bool {
     if lhs.hasNamePart_p != rhs.hasNamePart_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21885,12 +21089,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasNegativeIn
     if self.hasNegativeIntValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasNegativeIntValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasNegativeIntValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasNegativeIntValue) -> Bool {
     if lhs.hasNegativeIntValue_p != rhs.hasNegativeIntValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21914,12 +21116,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasNoStandard
     if self.hasNoStandardDescriptorAccessor_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasNoStandardDescriptorAccessor_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasNoStandardDescriptorAccessor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasNoStandardDescriptorAccessor) -> Bool {
     if lhs.hasNoStandardDescriptorAccessor_p != rhs.hasNoStandardDescriptorAccessor_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21943,12 +21143,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasNumber: Sw
     if self.hasNumber_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasNumber_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasNumber, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasNumber) -> Bool {
     if lhs.hasNumber_p != rhs.hasNumber_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -21972,12 +21170,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasObjcClassP
     if self.hasObjcClassPrefix_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasObjcClassPrefix_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasObjcClassPrefix, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasObjcClassPrefix) -> Bool {
     if lhs.hasObjcClassPrefix_p != rhs.hasObjcClassPrefix_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22001,12 +21197,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasOneofIndex
     if self.hasOneofIndex_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasOneofIndex_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasOneofIndex, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasOneofIndex) -> Bool {
     if lhs.hasOneofIndex_p != rhs.hasOneofIndex_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22030,12 +21224,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasOptimizeFo
     if self.hasOptimizeFor_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasOptimizeFor_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasOptimizeFor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasOptimizeFor) -> Bool {
     if lhs.hasOptimizeFor_p != rhs.hasOptimizeFor_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22059,12 +21251,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasOptions: S
     if self.hasOptions_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasOptions_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasOptions) -> Bool {
     if lhs.hasOptions_p != rhs.hasOptions_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22088,12 +21278,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasOutputType
     if self.hasOutputType_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasOutputType_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasOutputType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasOutputType) -> Bool {
     if lhs.hasOutputType_p != rhs.hasOutputType_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22117,12 +21305,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPackage: S
     if self.hasPackage_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasPackage_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPackage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPackage) -> Bool {
     if lhs.hasPackage_p != rhs.hasPackage_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22146,12 +21332,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPacked: Sw
     if self.hasPacked_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasPacked_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPacked, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPacked) -> Bool {
     if lhs.hasPacked_p != rhs.hasPacked_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22175,12 +21359,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPhpClassPr
     if self.hasPhpClassPrefix_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasPhpClassPrefix_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPhpClassPrefix, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPhpClassPrefix) -> Bool {
     if lhs.hasPhpClassPrefix_p != rhs.hasPhpClassPrefix_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22204,12 +21386,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPhpGeneric
     if self.hasPhpGenericServices_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasPhpGenericServices_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPhpGenericServices, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPhpGenericServices) -> Bool {
     if lhs.hasPhpGenericServices_p != rhs.hasPhpGenericServices_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22233,12 +21413,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPhpMetadat
     if self.hasPhpMetadataNamespace_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasPhpMetadataNamespace_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPhpMetadataNamespace, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPhpMetadataNamespace) -> Bool {
     if lhs.hasPhpMetadataNamespace_p != rhs.hasPhpMetadataNamespace_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22262,12 +21440,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPhpNamespa
     if self.hasPhpNamespace_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasPhpNamespace_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPhpNamespace, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPhpNamespace) -> Bool {
     if lhs.hasPhpNamespace_p != rhs.hasPhpNamespace_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22291,12 +21467,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPositiveIn
     if self.hasPositiveIntValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasPositiveIntValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPositiveIntValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPositiveIntValue) -> Bool {
     if lhs.hasPositiveIntValue_p != rhs.hasPositiveIntValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22320,12 +21494,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPyGenericS
     if self.hasPyGenericServices_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasPyGenericServices_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPyGenericServices, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasPyGenericServices) -> Bool {
     if lhs.hasPyGenericServices_p != rhs.hasPyGenericServices_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22349,12 +21521,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasRubyPackag
     if self.hasRubyPackage_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasRubyPackage_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasRubyPackage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasRubyPackage) -> Bool {
     if lhs.hasRubyPackage_p != rhs.hasRubyPackage_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22378,12 +21548,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasServerStre
     if self.hasServerStreaming_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasServerStreaming_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasServerStreaming, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasServerStreaming) -> Bool {
     if lhs.hasServerStreaming_p != rhs.hasServerStreaming_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22407,12 +21575,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSourceCode
     if self.hasSourceCodeInfo_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasSourceCodeInfo_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSourceCodeInfo, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSourceCodeInfo) -> Bool {
     if lhs.hasSourceCodeInfo_p != rhs.hasSourceCodeInfo_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22436,12 +21602,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSourceCont
     if self.hasSourceContext_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasSourceContext_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSourceContext, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSourceContext) -> Bool {
     if lhs.hasSourceContext_p != rhs.hasSourceContext_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22465,12 +21629,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSourceFile
     if self.hasSourceFile_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasSourceFile_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSourceFile, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSourceFile) -> Bool {
     if lhs.hasSourceFile_p != rhs.hasSourceFile_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22494,12 +21656,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasStart: Swi
     if self.hasStart_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasStart_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasStart, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasStart) -> Bool {
     if lhs.hasStart_p != rhs.hasStart_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22523,12 +21683,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasStringValu
     if self.hasStringValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasStringValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasStringValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasStringValue) -> Bool {
     if lhs.hasStringValue_p != rhs.hasStringValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22552,12 +21710,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSwiftPrefi
     if self.hasSwiftPrefix_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasSwiftPrefix_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSwiftPrefix, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSwiftPrefix) -> Bool {
     if lhs.hasSwiftPrefix_p != rhs.hasSwiftPrefix_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22581,12 +21737,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSyntax: Sw
     if self.hasSyntax_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasSyntax_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSyntax, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasSyntax) -> Bool {
     if lhs.hasSyntax_p != rhs.hasSyntax_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22610,12 +21764,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasTrailingCo
     if self.hasTrailingComments_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasTrailingComments_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasTrailingComments, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasTrailingComments) -> Bool {
     if lhs.hasTrailingComments_p != rhs.hasTrailingComments_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22639,12 +21791,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasType: Swif
     if self.hasType_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasType_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasType) -> Bool {
     if lhs.hasType_p != rhs.hasType_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22668,12 +21818,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasTypeName: 
     if self.hasTypeName_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasTypeName_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasTypeName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasTypeName) -> Bool {
     if lhs.hasTypeName_p != rhs.hasTypeName_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22697,12 +21845,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasValue: Swi
     if self.hasValue_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasValue_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasValue) -> Bool {
     if lhs.hasValue_p != rhs.hasValue_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22726,12 +21872,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasWeak: Swif
     if self.hasWeak_p != 0 {
       try visitor.visitSingularInt32Field(value: self.hasWeak_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasWeak, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hasWeak) -> Bool {
     if lhs.hasWeak_p != rhs.hasWeak_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22755,12 +21899,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hour: SwiftPr
     if self.hour != 0 {
       try visitor.visitSingularInt32Field(value: self.hour, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hour, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.hour) -> Bool {
     if lhs.hour != rhs.hour {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22784,12 +21926,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.i: SwiftProto
     if self.i != 0 {
       try visitor.visitSingularInt32Field(value: self.i, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.i, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.i) -> Bool {
     if lhs.i != rhs.i {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22813,12 +21953,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.idempotencyLe
     if self.idempotencyLevel != 0 {
       try visitor.visitSingularInt32Field(value: self.idempotencyLevel, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.idempotencyLevel, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.idempotencyLevel) -> Bool {
     if lhs.idempotencyLevel != rhs.idempotencyLevel {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22842,12 +21980,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.identifierVal
     if self.identifierValue != 0 {
       try visitor.visitSingularInt32Field(value: self.identifierValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.identifierValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.identifierValue) -> Bool {
     if lhs.identifierValue != rhs.identifierValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22871,12 +22007,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ifMessage: Sw
     if self.`if` != 0 {
       try visitor.visitSingularInt32Field(value: self.`if`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ifMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ifMessage) -> Bool {
     if lhs.`if` != rhs.`if` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22900,12 +22034,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ignoreUnknown
     if self.ignoreUnknownFields != 0 {
       try visitor.visitSingularInt32Field(value: self.ignoreUnknownFields, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ignoreUnknownFields, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ignoreUnknownFields) -> Bool {
     if lhs.ignoreUnknownFields != rhs.ignoreUnknownFields {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22929,12 +22061,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.index: SwiftP
     if self.index != 0 {
       try visitor.visitSingularInt32Field(value: self.index, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.index, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.index) -> Bool {
     if lhs.index != rhs.index {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22958,12 +22088,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.initMessage: 
     if self.init_p != 0 {
       try visitor.visitSingularInt32Field(value: self.init_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.initMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.initMessage) -> Bool {
     if lhs.init_p != rhs.init_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -22987,12 +22115,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.inoutMessage:
     if self.`inout` != 0 {
       try visitor.visitSingularInt32Field(value: self.`inout`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.inoutMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.inoutMessage) -> Bool {
     if lhs.`inout` != rhs.`inout` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23016,12 +22142,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.inputType: Sw
     if self.inputType != 0 {
       try visitor.visitSingularInt32Field(value: self.inputType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.inputType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.inputType) -> Bool {
     if lhs.inputType != rhs.inputType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23045,12 +22169,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.insert: Swift
     if self.insert != 0 {
       try visitor.visitSingularInt32Field(value: self.insert, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.insert, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.insert) -> Bool {
     if lhs.insert != rhs.insert {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23074,12 +22196,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.IntMessage: S
     if self.int != 0 {
       try visitor.visitSingularInt32Field(value: self.int, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.IntMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.IntMessage) -> Bool {
     if lhs.int != rhs.int {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23103,12 +22223,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int32Message:
     if self.int32 != 0 {
       try visitor.visitSingularInt32Field(value: self.int32, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int32Message, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int32Message) -> Bool {
     if lhs.int32 != rhs.int32 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23132,12 +22250,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int32Value: S
     if self.int32Value != 0 {
       try visitor.visitSingularInt32Field(value: self.int32Value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int32Value, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int32Value) -> Bool {
     if lhs.int32Value != rhs.int32Value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23161,12 +22277,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int64Message:
     if self.int64 != 0 {
       try visitor.visitSingularInt32Field(value: self.int64, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int64Message, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int64Message) -> Bool {
     if lhs.int64 != rhs.int64 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23190,12 +22304,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int64Value: S
     if self.int64Value != 0 {
       try visitor.visitSingularInt32Field(value: self.int64Value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int64Value, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int64Value) -> Bool {
     if lhs.int64Value != rhs.int64Value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23219,12 +22331,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int8: SwiftPr
     if self.int8 != 0 {
       try visitor.visitSingularInt32Field(value: self.int8, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int8, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Int8) -> Bool {
     if lhs.int8 != rhs.int8 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23248,12 +22358,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.integerLitera
     if self.integerLiteral != 0 {
       try visitor.visitSingularInt32Field(value: self.integerLiteral, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.integerLiteral, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.integerLiteral) -> Bool {
     if lhs.integerLiteral != rhs.integerLiteral {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23277,12 +22385,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.IntegerLitera
     if self.integerLiteralType != 0 {
       try visitor.visitSingularInt32Field(value: self.integerLiteralType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.IntegerLiteralType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.IntegerLiteralType) -> Bool {
     if lhs.integerLiteralType != rhs.integerLiteralType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23306,12 +22412,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.intern: Swift
     if self.intern != 0 {
       try visitor.visitSingularInt32Field(value: self.intern, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.intern, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.intern) -> Bool {
     if lhs.intern != rhs.intern {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23335,12 +22439,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Internal: Swi
     if self.`internal` != 0 {
       try visitor.visitSingularInt32Field(value: self.`internal`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Internal, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Internal) -> Bool {
     if lhs.`internal` != rhs.`internal` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23364,12 +22466,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.InternalState
     if self.internalState != 0 {
       try visitor.visitSingularInt32Field(value: self.internalState, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.InternalState, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.InternalState) -> Bool {
     if lhs.internalState != rhs.internalState {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23393,12 +22493,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.into: SwiftPr
     if self.into != 0 {
       try visitor.visitSingularInt32Field(value: self.into, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.into, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.into) -> Bool {
     if lhs.into != rhs.into {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23422,12 +22520,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ints: SwiftPr
     if self.ints != 0 {
       try visitor.visitSingularInt32Field(value: self.ints, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ints, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ints) -> Bool {
     if lhs.ints != rhs.ints {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23451,12 +22547,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isA: SwiftPro
     if self.isA != 0 {
       try visitor.visitSingularInt32Field(value: self.isA, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isA, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isA) -> Bool {
     if lhs.isA != rhs.isA {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23480,12 +22574,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isEqual: Swif
     if self.isEqual != 0 {
       try visitor.visitSingularInt32Field(value: self.isEqual, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isEqual, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isEqual) -> Bool {
     if lhs.isEqual != rhs.isEqual {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23509,12 +22601,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isEqualTo: Sw
     if self.isEqualTo != 0 {
       try visitor.visitSingularInt32Field(value: self.isEqualTo, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isEqualTo, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isEqualTo) -> Bool {
     if lhs.isEqualTo != rhs.isEqualTo {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23538,12 +22628,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isExtension: 
     if self.isExtension != 0 {
       try visitor.visitSingularInt32Field(value: self.isExtension, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isExtension, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isExtension) -> Bool {
     if lhs.isExtension != rhs.isExtension {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23567,12 +22655,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isInitialized
     if self.isInitialized_p != 0 {
       try visitor.visitSingularInt32Field(value: self.isInitialized_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isInitializedMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.isInitializedMessage) -> Bool {
     if lhs.isInitialized_p != rhs.isInitialized_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23596,12 +22682,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.itemTagsEncod
     if self.itemTagsEncodedSize != 0 {
       try visitor.visitSingularInt32Field(value: self.itemTagsEncodedSize, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.itemTagsEncodedSize, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.itemTagsEncodedSize) -> Bool {
     if lhs.itemTagsEncodedSize != rhs.itemTagsEncodedSize {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23625,12 +22709,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.i_2166136261:
     if self.i2166136261 != 0 {
       try visitor.visitSingularInt32Field(value: self.i2166136261, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.i_2166136261, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.i_2166136261) -> Bool {
     if lhs.i2166136261 != rhs.i2166136261 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23654,12 +22736,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaGenerateE
     if self.javaGenerateEqualsAndHash != 0 {
       try visitor.visitSingularInt32Field(value: self.javaGenerateEqualsAndHash, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaGenerateEqualsAndHash, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaGenerateEqualsAndHash) -> Bool {
     if lhs.javaGenerateEqualsAndHash != rhs.javaGenerateEqualsAndHash {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23683,12 +22763,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaGenericSe
     if self.javaGenericServices != 0 {
       try visitor.visitSingularInt32Field(value: self.javaGenericServices, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaGenericServices, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaGenericServices) -> Bool {
     if lhs.javaGenericServices != rhs.javaGenericServices {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23712,12 +22790,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaMultipleF
     if self.javaMultipleFiles != 0 {
       try visitor.visitSingularInt32Field(value: self.javaMultipleFiles, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaMultipleFiles, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaMultipleFiles) -> Bool {
     if lhs.javaMultipleFiles != rhs.javaMultipleFiles {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23741,12 +22817,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaOuterClas
     if self.javaOuterClassname != 0 {
       try visitor.visitSingularInt32Field(value: self.javaOuterClassname, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaOuterClassname, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaOuterClassname) -> Bool {
     if lhs.javaOuterClassname != rhs.javaOuterClassname {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23770,12 +22844,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaPackage: 
     if self.javaPackage != 0 {
       try visitor.visitSingularInt32Field(value: self.javaPackage, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaPackage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaPackage) -> Bool {
     if lhs.javaPackage != rhs.javaPackage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23799,12 +22871,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaStringChe
     if self.javaStringCheckUtf8 != 0 {
       try visitor.visitSingularInt32Field(value: self.javaStringCheckUtf8, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaStringCheckUtf8, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.javaStringCheckUtf8) -> Bool {
     if lhs.javaStringCheckUtf8 != rhs.javaStringCheckUtf8 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23828,12 +22898,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONDecoder: 
     if self.jsondecoder != 0 {
       try visitor.visitSingularInt32Field(value: self.jsondecoder, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONDecoder, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONDecoder) -> Bool {
     if lhs.jsondecoder != rhs.jsondecoder {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23857,12 +22925,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONDecodingE
     if self.jsondecodingError != 0 {
       try visitor.visitSingularInt32Field(value: self.jsondecodingError, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONDecodingError, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONDecodingError) -> Bool {
     if lhs.jsondecodingError != rhs.jsondecodingError {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23886,12 +22952,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONDecodingO
     if self.jsondecodingOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.jsondecodingOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONDecodingOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONDecodingOptions) -> Bool {
     if lhs.jsondecodingOptions != rhs.jsondecodingOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23915,12 +22979,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonEncoder: 
     if self.jsonEncoder != 0 {
       try visitor.visitSingularInt32Field(value: self.jsonEncoder, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonEncoder, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonEncoder) -> Bool {
     if lhs.jsonEncoder != rhs.jsonEncoder {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23944,12 +23006,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONEncodingE
     if self.jsonencodingError != 0 {
       try visitor.visitSingularInt32Field(value: self.jsonencodingError, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONEncodingError, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONEncodingError) -> Bool {
     if lhs.jsonencodingError != rhs.jsonencodingError {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -23973,12 +23033,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONEncodingO
     if self.jsonencodingOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.jsonencodingOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONEncodingOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONEncodingOptions) -> Bool {
     if lhs.jsonencodingOptions != rhs.jsonencodingOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24002,12 +23060,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONEncodingV
     if self.jsonencodingVisitor != 0 {
       try visitor.visitSingularInt32Field(value: self.jsonencodingVisitor, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONEncodingVisitor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONEncodingVisitor) -> Bool {
     if lhs.jsonencodingVisitor != rhs.jsonencodingVisitor {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24031,12 +23087,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONMapEncodi
     if self.jsonmapEncodingVisitor != 0 {
       try visitor.visitSingularInt32Field(value: self.jsonmapEncodingVisitor, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONMapEncodingVisitor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONMapEncodingVisitor) -> Bool {
     if lhs.jsonmapEncodingVisitor != rhs.jsonmapEncodingVisitor {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24060,12 +23114,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonName: Swi
     if self.jsonName != 0 {
       try visitor.visitSingularInt32Field(value: self.jsonName, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonName) -> Bool {
     if lhs.jsonName != rhs.jsonName {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24089,12 +23141,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonPath: Swi
     if self.jsonPath != 0 {
       try visitor.visitSingularInt32Field(value: self.jsonPath, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonPath, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonPath) -> Bool {
     if lhs.jsonPath != rhs.jsonPath {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24118,12 +23168,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonPaths: Sw
     if self.jsonPaths != 0 {
       try visitor.visitSingularInt32Field(value: self.jsonPaths, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonPaths, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonPaths) -> Bool {
     if lhs.jsonPaths != rhs.jsonPaths {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24147,12 +23195,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONScanner: 
     if self.jsonscanner != 0 {
       try visitor.visitSingularInt32Field(value: self.jsonscanner, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONScanner, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.JSONScanner) -> Bool {
     if lhs.jsonscanner != rhs.jsonscanner {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24176,12 +23222,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonString: S
     if self.jsonString != 0 {
       try visitor.visitSingularInt32Field(value: self.jsonString, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonString, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonString) -> Bool {
     if lhs.jsonString != rhs.jsonString {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24205,12 +23249,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonText: Swi
     if self.jsonText != 0 {
       try visitor.visitSingularInt32Field(value: self.jsonText, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonText, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonText) -> Bool {
     if lhs.jsonText != rhs.jsonText {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24234,12 +23276,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonUTF8Data:
     if self.jsonUtf8Data != 0 {
       try visitor.visitSingularInt32Field(value: self.jsonUtf8Data, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonUTF8Data, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jsonUTF8Data) -> Bool {
     if lhs.jsonUtf8Data != rhs.jsonUtf8Data {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24263,12 +23303,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jstype: Swift
     if self.jstype != 0 {
       try visitor.visitSingularInt32Field(value: self.jstype, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jstype, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.jstype) -> Bool {
     if lhs.jstype != rhs.jstype {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24292,12 +23330,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.k: SwiftProto
     if self.k != 0 {
       try visitor.visitSingularInt32Field(value: self.k, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.k, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.k) -> Bool {
     if lhs.k != rhs.k {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24321,12 +23357,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Key: SwiftPro
     if self.key != 0 {
       try visitor.visitSingularInt32Field(value: self.key, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Key, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Key) -> Bool {
     if lhs.key != rhs.key {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24350,12 +23384,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.keyField: Swi
     if self.keyField != 0 {
       try visitor.visitSingularInt32Field(value: self.keyField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.keyField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.keyField) -> Bool {
     if lhs.keyField != rhs.keyField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24379,12 +23411,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.KeyType: Swif
     if self.keyType != 0 {
       try visitor.visitSingularInt32Field(value: self.keyType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.KeyType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.KeyType) -> Bool {
     if lhs.keyType != rhs.keyType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24408,12 +23438,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.kind: SwiftPr
     if self.kind != 0 {
       try visitor.visitSingularInt32Field(value: self.kind, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.kind, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.kind) -> Bool {
     if lhs.kind != rhs.kind {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24437,12 +23465,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.l: SwiftProto
     if self.l != 0 {
       try visitor.visitSingularInt32Field(value: self.l, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.l, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.l) -> Bool {
     if lhs.l != rhs.l {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24466,12 +23492,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.label: SwiftP
     if self.label != 0 {
       try visitor.visitSingularInt32Field(value: self.label, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.label, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.label) -> Bool {
     if lhs.label != rhs.label {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24495,12 +23519,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.lazy: SwiftPr
     if self.lazy != 0 {
       try visitor.visitSingularInt32Field(value: self.lazy, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.lazy, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.lazy) -> Bool {
     if lhs.lazy != rhs.lazy {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24524,12 +23546,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.leadingCommen
     if self.leadingComments != 0 {
       try visitor.visitSingularInt32Field(value: self.leadingComments, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.leadingComments, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.leadingComments) -> Bool {
     if lhs.leadingComments != rhs.leadingComments {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24553,12 +23573,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.leadingDetach
     if self.leadingDetachedComments != 0 {
       try visitor.visitSingularInt32Field(value: self.leadingDetachedComments, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.leadingDetachedComments, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.leadingDetachedComments) -> Bool {
     if lhs.leadingDetachedComments != rhs.leadingDetachedComments {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24582,12 +23600,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.length: Swift
     if self.length != 0 {
       try visitor.visitSingularInt32Field(value: self.length, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.length, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.length) -> Bool {
     if lhs.length != rhs.length {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24611,12 +23627,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.letMessage: S
     if self.`let` != 0 {
       try visitor.visitSingularInt32Field(value: self.`let`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.letMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.letMessage) -> Bool {
     if lhs.`let` != rhs.`let` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24640,12 +23654,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.lhs: SwiftPro
     if self.lhs != 0 {
       try visitor.visitSingularInt32Field(value: self.lhs, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.lhs, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.lhs) -> Bool {
     if lhs.lhs != rhs.lhs {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24669,12 +23681,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.list: SwiftPr
     if self.list != 0 {
       try visitor.visitSingularInt32Field(value: self.list, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.list, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.list) -> Bool {
     if lhs.list != rhs.list {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24698,12 +23708,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.listOfMessage
     if self.listOfMessages != 0 {
       try visitor.visitSingularInt32Field(value: self.listOfMessages, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.listOfMessages, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.listOfMessages) -> Bool {
     if lhs.listOfMessages != rhs.listOfMessages {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24727,12 +23735,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.listValue: Sw
     if self.listValue != 0 {
       try visitor.visitSingularInt32Field(value: self.listValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.listValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.listValue) -> Bool {
     if lhs.listValue != rhs.listValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24756,12 +23762,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.littleEndian:
     if self.littleEndian != 0 {
       try visitor.visitSingularInt32Field(value: self.littleEndian, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.littleEndian, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.littleEndian) -> Bool {
     if lhs.littleEndian != rhs.littleEndian {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24785,12 +23789,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.littleEndianB
     if self.littleEndianBytes != 0 {
       try visitor.visitSingularInt32Field(value: self.littleEndianBytes, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.littleEndianBytes, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.littleEndianBytes) -> Bool {
     if lhs.littleEndianBytes != rhs.littleEndianBytes {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24814,12 +23816,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.load: SwiftPr
     if self.load != 0 {
       try visitor.visitSingularInt32Field(value: self.load, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.load, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.load) -> Bool {
     if lhs.load != rhs.load {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24843,12 +23843,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.localHasher: 
     if self.localHasher != 0 {
       try visitor.visitSingularInt32Field(value: self.localHasher, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.localHasher, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.localHasher) -> Bool {
     if lhs.localHasher != rhs.localHasher {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24872,12 +23870,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.location: Swi
     if self.location != 0 {
       try visitor.visitSingularInt32Field(value: self.location, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.location, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.location) -> Bool {
     if lhs.location != rhs.location {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24901,12 +23897,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.M: SwiftProto
     if self.m != 0 {
       try visitor.visitSingularInt32Field(value: self.m, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.M, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.M) -> Bool {
     if lhs.m != rhs.m {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24930,12 +23924,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.major: SwiftP
     if self.major != 0 {
       try visitor.visitSingularInt32Field(value: self.major, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.major, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.major) -> Bool {
     if lhs.major != rhs.major {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24959,12 +23951,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.makeIterator:
     if self.makeIterator != 0 {
       try visitor.visitSingularInt32Field(value: self.makeIterator, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.makeIterator, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.makeIterator) -> Bool {
     if lhs.makeIterator != rhs.makeIterator {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -24988,12 +23978,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapEntry: Swi
     if self.mapEntry != 0 {
       try visitor.visitSingularInt32Field(value: self.mapEntry, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapEntry, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapEntry) -> Bool {
     if lhs.mapEntry != rhs.mapEntry {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25017,12 +24005,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapHash: Swif
     if self.mapHash != 0 {
       try visitor.visitSingularInt32Field(value: self.mapHash, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapHash, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapHash) -> Bool {
     if lhs.mapHash != rhs.mapHash {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25046,12 +24032,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MapKeyType: S
     if self.mapKeyType != 0 {
       try visitor.visitSingularInt32Field(value: self.mapKeyType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MapKeyType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MapKeyType) -> Bool {
     if lhs.mapKeyType != rhs.mapKeyType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25075,12 +24059,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapNameResolv
     if self.mapNameResolver != 0 {
       try visitor.visitSingularInt32Field(value: self.mapNameResolver, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapNameResolver, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapNameResolver) -> Bool {
     if lhs.mapNameResolver != rhs.mapNameResolver {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25104,12 +24086,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapToMessages
     if self.mapToMessages != 0 {
       try visitor.visitSingularInt32Field(value: self.mapToMessages, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapToMessages, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapToMessages) -> Bool {
     if lhs.mapToMessages != rhs.mapToMessages {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25133,12 +24113,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MapValueType:
     if self.mapValueType != 0 {
       try visitor.visitSingularInt32Field(value: self.mapValueType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MapValueType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MapValueType) -> Bool {
     if lhs.mapValueType != rhs.mapValueType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25162,12 +24140,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapVisitor: S
     if self.mapVisitor != 0 {
       try visitor.visitSingularInt32Field(value: self.mapVisitor, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapVisitor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mapVisitor) -> Bool {
     if lhs.mapVisitor != rhs.mapVisitor {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25191,12 +24167,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mdayStart: Sw
     if self.mdayStart != 0 {
       try visitor.visitSingularInt32Field(value: self.mdayStart, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mdayStart, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mdayStart) -> Bool {
     if lhs.mdayStart != rhs.mdayStart {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25220,12 +24194,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.merge: SwiftP
     if self.merge != 0 {
       try visitor.visitSingularInt32Field(value: self.merge, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.merge, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.merge) -> Bool {
     if lhs.merge != rhs.merge {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25249,12 +24221,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.message: Swif
     if self.message != 0 {
       try visitor.visitSingularInt32Field(value: self.message, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.message, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.message) -> Bool {
     if lhs.message != rhs.message {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25278,12 +24248,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.messageDepthL
     if self.messageDepthLimit != 0 {
       try visitor.visitSingularInt32Field(value: self.messageDepthLimit, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.messageDepthLimit, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.messageDepthLimit) -> Bool {
     if lhs.messageDepthLimit != rhs.messageDepthLimit {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25307,12 +24275,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageExtens
     if self.messageExtension != 0 {
       try visitor.visitSingularInt32Field(value: self.messageExtension, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageExtension, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageExtension) -> Bool {
     if lhs.messageExtension != rhs.messageExtension {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25336,12 +24302,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageImplem
     if self.messageImplementationBase != 0 {
       try visitor.visitSingularInt32Field(value: self.messageImplementationBase, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageImplementationBase, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageImplementationBase) -> Bool {
     if lhs.messageImplementationBase != rhs.messageImplementationBase {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25365,12 +24329,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageOption
     if self.messageOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.messageOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageOptions) -> Bool {
     if lhs.messageOptions != rhs.messageOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25394,12 +24356,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageSet: S
     if self.messageSet != 0 {
       try visitor.visitSingularInt32Field(value: self.messageSet, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageSet, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MessageSet) -> Bool {
     if lhs.messageSet != rhs.messageSet {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25423,12 +24383,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.messageSetWir
     if self.messageSetWireFormat != 0 {
       try visitor.visitSingularInt32Field(value: self.messageSetWireFormat, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.messageSetWireFormat, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.messageSetWireFormat) -> Bool {
     if lhs.messageSetWireFormat != rhs.messageSetWireFormat {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25452,12 +24410,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.messageType: 
     if self.messageType != 0 {
       try visitor.visitSingularInt32Field(value: self.messageType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.messageType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.messageType) -> Bool {
     if lhs.messageType != rhs.messageType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25481,12 +24437,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Method: Swift
     if self.method != 0 {
       try visitor.visitSingularInt32Field(value: self.method, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Method, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Method) -> Bool {
     if lhs.method != rhs.method {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25510,12 +24464,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MethodDescrip
     if self.methodDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.methodDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MethodDescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MethodDescriptorProto) -> Bool {
     if lhs.methodDescriptorProto != rhs.methodDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25539,12 +24491,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MethodOptions
     if self.methodOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.methodOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MethodOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.MethodOptions) -> Bool {
     if lhs.methodOptions != rhs.methodOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25568,12 +24518,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.methods: Swif
     if self.methods != 0 {
       try visitor.visitSingularInt32Field(value: self.methods, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.methods, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.methods) -> Bool {
     if lhs.methods != rhs.methods {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25597,12 +24545,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.minor: SwiftP
     if self.minor != 0 {
       try visitor.visitSingularInt32Field(value: self.minor, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.minor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.minor) -> Bool {
     if lhs.minor != rhs.minor {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25626,12 +24572,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Mixin: SwiftP
     if self.mixin != 0 {
       try visitor.visitSingularInt32Field(value: self.mixin, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Mixin, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Mixin) -> Bool {
     if lhs.mixin != rhs.mixin {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25655,12 +24599,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mixins: Swift
     if self.mixins != 0 {
       try visitor.visitSingularInt32Field(value: self.mixins, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mixins, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mixins) -> Bool {
     if lhs.mixins != rhs.mixins {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25684,12 +24626,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.month: SwiftP
     if self.month != 0 {
       try visitor.visitSingularInt32Field(value: self.month, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.month, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.month) -> Bool {
     if lhs.month != rhs.month {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25713,12 +24653,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.msgExtension:
     if self.msgExtension != 0 {
       try visitor.visitSingularInt32Field(value: self.msgExtension, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.msgExtension, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.msgExtension) -> Bool {
     if lhs.msgExtension != rhs.msgExtension {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25742,12 +24680,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mutating: Swi
     if self.mutating != 0 {
       try visitor.visitSingularInt32Field(value: self.mutating, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mutating, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.mutating) -> Bool {
     if lhs.mutating != rhs.mutating {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25771,12 +24707,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.n: SwiftProto
     if self.n != 0 {
       try visitor.visitSingularInt32Field(value: self.n, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.n, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.n) -> Bool {
     if lhs.n != rhs.n {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25800,12 +24734,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.name: SwiftPr
     if self.name != 0 {
       try visitor.visitSingularInt32Field(value: self.name, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.name, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.name) -> Bool {
     if lhs.name != rhs.name {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25829,12 +24761,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.NameDescripti
     if self.nameDescription != 0 {
       try visitor.visitSingularInt32Field(value: self.nameDescription, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.NameDescription, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.NameDescription) -> Bool {
     if lhs.nameDescription != rhs.nameDescription {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25858,12 +24788,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.NameMap: Swif
     if self.nameMap != 0 {
       try visitor.visitSingularInt32Field(value: self.nameMap, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.NameMap, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.NameMap) -> Bool {
     if lhs.nameMap != rhs.nameMap {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25887,12 +24815,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.NamePart: Swi
     if self.namePart != 0 {
       try visitor.visitSingularInt32Field(value: self.namePart, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.NamePart, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.NamePart) -> Bool {
     if lhs.namePart != rhs.namePart {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25916,12 +24842,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nameResolver:
     if self.nameResolver != 0 {
       try visitor.visitSingularInt32Field(value: self.nameResolver, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nameResolver, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nameResolver) -> Bool {
     if lhs.nameResolver != rhs.nameResolver {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25945,12 +24869,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.names: SwiftP
     if self.names != 0 {
       try visitor.visitSingularInt32Field(value: self.names, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.names, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.names) -> Bool {
     if lhs.names != rhs.names {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -25974,12 +24896,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nanos: SwiftP
     if self.nanos != 0 {
       try visitor.visitSingularInt32Field(value: self.nanos, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nanos, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nanos) -> Bool {
     if lhs.nanos != rhs.nanos {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26003,12 +24923,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nativeBytes: 
     if self.nativeBytes != 0 {
       try visitor.visitSingularInt32Field(value: self.nativeBytes, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nativeBytes, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nativeBytes) -> Bool {
     if lhs.nativeBytes != rhs.nativeBytes {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26032,12 +24950,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nativeEndianB
     if self.nativeEndianBytes != 0 {
       try visitor.visitSingularInt32Field(value: self.nativeEndianBytes, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nativeEndianBytes, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nativeEndianBytes) -> Bool {
     if lhs.nativeEndianBytes != rhs.nativeEndianBytes {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26061,12 +24977,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.negativeIntVa
     if self.negativeIntValue != 0 {
       try visitor.visitSingularInt32Field(value: self.negativeIntValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.negativeIntValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.negativeIntValue) -> Bool {
     if lhs.negativeIntValue != rhs.negativeIntValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26090,12 +25004,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nestedType: S
     if self.nestedType != 0 {
       try visitor.visitSingularInt32Field(value: self.nestedType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nestedType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nestedType) -> Bool {
     if lhs.nestedType != rhs.nestedType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26119,12 +25031,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.newL: SwiftPr
     if self.newL != 0 {
       try visitor.visitSingularInt32Field(value: self.newL, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.newL, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.newL) -> Bool {
     if lhs.newL != rhs.newL {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26148,12 +25058,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.newList: Swif
     if self.newList != 0 {
       try visitor.visitSingularInt32Field(value: self.newList, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.newList, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.newList) -> Bool {
     if lhs.newList != rhs.newList {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26177,12 +25085,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.newValue: Swi
     if self.newValue != 0 {
       try visitor.visitSingularInt32Field(value: self.newValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.newValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.newValue) -> Bool {
     if lhs.newValue != rhs.newValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26206,12 +25112,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nextByte: Swi
     if self.nextByte != 0 {
       try visitor.visitSingularInt32Field(value: self.nextByte, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nextByte, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nextByte) -> Bool {
     if lhs.nextByte != rhs.nextByte {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26235,12 +25139,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nextFieldNumb
     if self.nextFieldNumber != 0 {
       try visitor.visitSingularInt32Field(value: self.nextFieldNumber, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nextFieldNumber, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nextFieldNumber) -> Bool {
     if lhs.nextFieldNumber != rhs.nextFieldNumber {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26264,12 +25166,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nilMessage: S
     if self.`nil` != 0 {
       try visitor.visitSingularInt32Field(value: self.`nil`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nilMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nilMessage) -> Bool {
     if lhs.`nil` != rhs.`nil` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26293,12 +25193,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nilLiteral: S
     if self.nilLiteral != 0 {
       try visitor.visitSingularInt32Field(value: self.nilLiteral, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nilLiteral, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nilLiteral) -> Bool {
     if lhs.nilLiteral != rhs.nilLiteral {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26322,12 +25220,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.noStandardDes
     if self.noStandardDescriptorAccessor != 0 {
       try visitor.visitSingularInt32Field(value: self.noStandardDescriptorAccessor, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.noStandardDescriptorAccessor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.noStandardDescriptorAccessor) -> Bool {
     if lhs.noStandardDescriptorAccessor != rhs.noStandardDescriptorAccessor {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26351,12 +25247,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nullValue: Sw
     if self.nullValue != 0 {
       try visitor.visitSingularInt32Field(value: self.nullValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nullValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.nullValue) -> Bool {
     if lhs.nullValue != rhs.nullValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26380,12 +25274,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.number: Swift
     if self.number != 0 {
       try visitor.visitSingularInt32Field(value: self.number, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.number, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.number) -> Bool {
     if lhs.number != rhs.number {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26409,12 +25301,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.numberValue: 
     if self.numberValue != 0 {
       try visitor.visitSingularInt32Field(value: self.numberValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.numberValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.numberValue) -> Bool {
     if lhs.numberValue != rhs.numberValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26438,12 +25328,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.objcClassPref
     if self.objcClassPrefix != 0 {
       try visitor.visitSingularInt32Field(value: self.objcClassPrefix, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.objcClassPrefix, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.objcClassPrefix) -> Bool {
     if lhs.objcClassPrefix != rhs.objcClassPrefix {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26467,12 +25355,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.of: SwiftProt
     if self.of != 0 {
       try visitor.visitSingularInt32Field(value: self.of, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.of, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.of) -> Bool {
     if lhs.of != rhs.of {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26496,12 +25382,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.oneofDecl: Sw
     if self.oneofDecl != 0 {
       try visitor.visitSingularInt32Field(value: self.oneofDecl, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.oneofDecl, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.oneofDecl) -> Bool {
     if lhs.oneofDecl != rhs.oneofDecl {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26525,12 +25409,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OneofDescript
     if self.oneofDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.oneofDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OneofDescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OneofDescriptorProto) -> Bool {
     if lhs.oneofDescriptorProto != rhs.oneofDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26554,12 +25436,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.oneofIndex: S
     if self.oneofIndex != 0 {
       try visitor.visitSingularInt32Field(value: self.oneofIndex, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.oneofIndex, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.oneofIndex) -> Bool {
     if lhs.oneofIndex != rhs.oneofIndex {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26583,12 +25463,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OneofOptions:
     if self.oneofOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.oneofOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OneofOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OneofOptions) -> Bool {
     if lhs.oneofOptions != rhs.oneofOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26612,12 +25490,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.oneofs: Swift
     if self.oneofs != 0 {
       try visitor.visitSingularInt32Field(value: self.oneofs, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.oneofs, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.oneofs) -> Bool {
     if lhs.oneofs != rhs.oneofs {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26641,12 +25517,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OneOf_Kind: S
     if self.oneOfKind != 0 {
       try visitor.visitSingularInt32Field(value: self.oneOfKind, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OneOf_Kind, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OneOf_Kind) -> Bool {
     if lhs.oneOfKind != rhs.oneOfKind {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26670,12 +25544,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.optimizeFor: 
     if self.optimizeFor != 0 {
       try visitor.visitSingularInt32Field(value: self.optimizeFor, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.optimizeFor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.optimizeFor) -> Bool {
     if lhs.optimizeFor != rhs.optimizeFor {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26699,12 +25571,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptimizeMode:
     if self.optimizeMode != 0 {
       try visitor.visitSingularInt32Field(value: self.optimizeMode, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptimizeMode, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptimizeMode) -> Bool {
     if lhs.optimizeMode != rhs.optimizeMode {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26728,12 +25598,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Option: Swift
     if self.option != 0 {
       try visitor.visitSingularInt32Field(value: self.option, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Option, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Option) -> Bool {
     if lhs.option != rhs.option {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26757,12 +25625,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalEnumE
     if self.optionalEnumExtensionField != 0 {
       try visitor.visitSingularInt32Field(value: self.optionalEnumExtensionField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalEnumExtensionField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalEnumExtensionField) -> Bool {
     if lhs.optionalEnumExtensionField != rhs.optionalEnumExtensionField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26786,12 +25652,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalExten
     if self.optionalExtensionField != 0 {
       try visitor.visitSingularInt32Field(value: self.optionalExtensionField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalExtensionField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalExtensionField) -> Bool {
     if lhs.optionalExtensionField != rhs.optionalExtensionField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26815,12 +25679,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalGroup
     if self.optionalGroupExtensionField != 0 {
       try visitor.visitSingularInt32Field(value: self.optionalGroupExtensionField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalGroupExtensionField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalGroupExtensionField) -> Bool {
     if lhs.optionalGroupExtensionField != rhs.optionalGroupExtensionField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26844,12 +25706,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalMessa
     if self.optionalMessageExtensionField != 0 {
       try visitor.visitSingularInt32Field(value: self.optionalMessageExtensionField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalMessageExtensionField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.OptionalMessageExtensionField) -> Bool {
     if lhs.optionalMessageExtensionField != rhs.optionalMessageExtensionField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26873,12 +25733,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.options: Swif
     if self.options != 0 {
       try visitor.visitSingularInt32Field(value: self.options, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.options, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.options) -> Bool {
     if lhs.options != rhs.options {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26902,12 +25760,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.other: SwiftP
     if self.other != 0 {
       try visitor.visitSingularInt32Field(value: self.other, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.other, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.other) -> Bool {
     if lhs.other != rhs.other {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26931,12 +25787,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.others: Swift
     if self.others != 0 {
       try visitor.visitSingularInt32Field(value: self.others, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.others, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.others) -> Bool {
     if lhs.others != rhs.others {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26960,12 +25814,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.out: SwiftPro
     if self.out != 0 {
       try visitor.visitSingularInt32Field(value: self.out, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.out, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.out) -> Bool {
     if lhs.out != rhs.out {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -26989,12 +25841,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.outputType: S
     if self.outputType != 0 {
       try visitor.visitSingularInt32Field(value: self.outputType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.outputType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.outputType) -> Bool {
     if lhs.outputType != rhs.outputType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27018,12 +25868,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.p: SwiftProto
     if self.p != 0 {
       try visitor.visitSingularInt32Field(value: self.p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.p, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.p) -> Bool {
     if lhs.p != rhs.p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27047,12 +25895,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.package: Swif
     if self.package != 0 {
       try visitor.visitSingularInt32Field(value: self.package, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.package, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.package) -> Bool {
     if lhs.package != rhs.package {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27076,12 +25922,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.packed: Swift
     if self.packed != 0 {
       try visitor.visitSingularInt32Field(value: self.packed, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.packed, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.packed) -> Bool {
     if lhs.packed != rhs.packed {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27105,12 +25949,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.PackedEnumExt
     if self.packedEnumExtensionField != 0 {
       try visitor.visitSingularInt32Field(value: self.packedEnumExtensionField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.PackedEnumExtensionField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.PackedEnumExtensionField) -> Bool {
     if lhs.packedEnumExtensionField != rhs.packedEnumExtensionField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27134,12 +25976,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.PackedExtensi
     if self.packedExtensionField != 0 {
       try visitor.visitSingularInt32Field(value: self.packedExtensionField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.PackedExtensionField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.PackedExtensionField) -> Bool {
     if lhs.packedExtensionField != rhs.packedExtensionField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27163,12 +26003,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.packedSize: S
     if self.packedSize != 0 {
       try visitor.visitSingularInt32Field(value: self.packedSize, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.packedSize, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.packedSize) -> Bool {
     if lhs.packedSize != rhs.packedSize {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27192,12 +26030,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.padding: Swif
     if self.padding != 0 {
       try visitor.visitSingularInt32Field(value: self.padding, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.padding, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.padding) -> Bool {
     if lhs.padding != rhs.padding {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27221,12 +26057,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.parent: Swift
     if self.parent != 0 {
       try visitor.visitSingularInt32Field(value: self.parent, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.parent, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.parent) -> Bool {
     if lhs.parent != rhs.parent {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27250,12 +26084,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.parse: SwiftP
     if self.parse != 0 {
       try visitor.visitSingularInt32Field(value: self.parse, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.parse, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.parse) -> Bool {
     if lhs.parse != rhs.parse {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27279,12 +26111,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.partial: Swif
     if self.partial != 0 {
       try visitor.visitSingularInt32Field(value: self.partial, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.partial, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.partial) -> Bool {
     if lhs.partial != rhs.partial {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27308,12 +26138,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.path: SwiftPr
     if self.path != 0 {
       try visitor.visitSingularInt32Field(value: self.path, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.path, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.path) -> Bool {
     if lhs.path != rhs.path {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27337,12 +26165,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.paths: SwiftP
     if self.paths != 0 {
       try visitor.visitSingularInt32Field(value: self.paths, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.paths, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.paths) -> Bool {
     if lhs.paths != rhs.paths {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27366,12 +26192,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.payload: Swif
     if self.payload != 0 {
       try visitor.visitSingularInt32Field(value: self.payload, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.payload, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.payload) -> Bool {
     if lhs.payload != rhs.payload {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27395,12 +26219,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.payloadSize: 
     if self.payloadSize != 0 {
       try visitor.visitSingularInt32Field(value: self.payloadSize, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.payloadSize, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.payloadSize) -> Bool {
     if lhs.payloadSize != rhs.payloadSize {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27424,12 +26246,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.phpClassPrefi
     if self.phpClassPrefix != 0 {
       try visitor.visitSingularInt32Field(value: self.phpClassPrefix, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.phpClassPrefix, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.phpClassPrefix) -> Bool {
     if lhs.phpClassPrefix != rhs.phpClassPrefix {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27453,12 +26273,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.phpGenericSer
     if self.phpGenericServices != 0 {
       try visitor.visitSingularInt32Field(value: self.phpGenericServices, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.phpGenericServices, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.phpGenericServices) -> Bool {
     if lhs.phpGenericServices != rhs.phpGenericServices {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27482,12 +26300,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.phpMetadataNa
     if self.phpMetadataNamespace != 0 {
       try visitor.visitSingularInt32Field(value: self.phpMetadataNamespace, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.phpMetadataNamespace, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.phpMetadataNamespace) -> Bool {
     if lhs.phpMetadataNamespace != rhs.phpMetadataNamespace {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27511,12 +26327,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.phpNamespace:
     if self.phpNamespace != 0 {
       try visitor.visitSingularInt32Field(value: self.phpNamespace, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.phpNamespace, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.phpNamespace) -> Bool {
     if lhs.phpNamespace != rhs.phpNamespace {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27540,12 +26354,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.pointer: Swif
     if self.pointer != 0 {
       try visitor.visitSingularInt32Field(value: self.pointer, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.pointer, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.pointer) -> Bool {
     if lhs.pointer != rhs.pointer {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27569,12 +26381,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.pos: SwiftPro
     if self.pos != 0 {
       try visitor.visitSingularInt32Field(value: self.pos, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.pos, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.pos) -> Bool {
     if lhs.pos != rhs.pos {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27598,12 +26408,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.positiveIntVa
     if self.positiveIntValue != 0 {
       try visitor.visitSingularInt32Field(value: self.positiveIntValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.positiveIntValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.positiveIntValue) -> Bool {
     if lhs.positiveIntValue != rhs.positiveIntValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27627,12 +26435,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.prefix: Swift
     if self.prefix != 0 {
       try visitor.visitSingularInt32Field(value: self.prefix, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.prefix, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.prefix) -> Bool {
     if lhs.prefix != rhs.prefix {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27656,12 +26462,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.preserveProto
     if self.preserveProtoFieldNames != 0 {
       try visitor.visitSingularInt32Field(value: self.preserveProtoFieldNames, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.preserveProtoFieldNames, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.preserveProtoFieldNames) -> Bool {
     if lhs.preserveProtoFieldNames != rhs.preserveProtoFieldNames {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27685,12 +26489,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.preTraverse: 
     if self.preTraverse != 0 {
       try visitor.visitSingularInt32Field(value: self.preTraverse, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.preTraverse, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.preTraverse) -> Bool {
     if lhs.preTraverse != rhs.preTraverse {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27714,12 +26516,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.printUnknownF
     if self.printUnknownFields != 0 {
       try visitor.visitSingularInt32Field(value: self.printUnknownFields, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.printUnknownFields, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.printUnknownFields) -> Bool {
     if lhs.printUnknownFields != rhs.printUnknownFields {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27743,12 +26543,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.proto2: Swift
     if self.proto2 != 0 {
       try visitor.visitSingularInt32Field(value: self.proto2, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.proto2, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.proto2) -> Bool {
     if lhs.proto2 != rhs.proto2 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27772,12 +26570,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.proto3Default
     if self.proto3DefaultValue != 0 {
       try visitor.visitSingularInt32Field(value: self.proto3DefaultValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.proto3DefaultValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.proto3DefaultValue) -> Bool {
     if lhs.proto3DefaultValue != rhs.proto3DefaultValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27801,12 +26597,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufAPIVe
     if self.protobufApiversionCheck != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufApiversionCheck, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufAPIVersionCheck, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufAPIVersionCheck) -> Bool {
     if lhs.protobufApiversionCheck != rhs.protobufApiversionCheck {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27830,12 +26624,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufAPIVe
     if self.protobufApiversion2 != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufApiversion2, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufAPIVersion_2, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufAPIVersion_2) -> Bool {
     if lhs.protobufApiversion2 != rhs.protobufApiversion2 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27859,12 +26651,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufBool:
     if self.protobufBool != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufBool, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufBool, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufBool) -> Bool {
     if lhs.protobufBool != rhs.protobufBool {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27888,12 +26678,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufBytes
     if self.protobufBytes != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufBytes, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufBytes, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufBytes) -> Bool {
     if lhs.protobufBytes != rhs.protobufBytes {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27917,12 +26705,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufDoubl
     if self.protobufDouble != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufDouble, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufDouble, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufDouble) -> Bool {
     if lhs.protobufDouble != rhs.protobufDouble {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27946,12 +26732,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufEnumM
     if self.protobufEnumMap != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufEnumMap, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufEnumMap, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufEnumMap) -> Bool {
     if lhs.protobufEnumMap != rhs.protobufEnumMap {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -27975,12 +26759,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobufExten
     if self.protobufExtension != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufExtension, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobufExtension, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobufExtension) -> Bool {
     if lhs.protobufExtension != rhs.protobufExtension {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28004,12 +26786,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufFixed
     if self.protobufFixed32 != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufFixed32, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufFixed32, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufFixed32) -> Bool {
     if lhs.protobufFixed32 != rhs.protobufFixed32 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28033,12 +26813,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufFixed
     if self.protobufFixed64 != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufFixed64, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufFixed64, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufFixed64) -> Bool {
     if lhs.protobufFixed64 != rhs.protobufFixed64 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28062,12 +26840,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufFloat
     if self.protobufFloat != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufFloat, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufFloat, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufFloat) -> Bool {
     if lhs.protobufFloat != rhs.protobufFloat {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28091,12 +26867,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufInt32
     if self.protobufInt32 != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufInt32, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufInt32, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufInt32) -> Bool {
     if lhs.protobufInt32 != rhs.protobufInt32 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28120,12 +26894,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufInt64
     if self.protobufInt64 != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufInt64, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufInt64, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufInt64) -> Bool {
     if lhs.protobufInt64 != rhs.protobufInt64 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28149,12 +26921,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufMap: 
     if self.protobufMap != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufMap, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufMap, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufMap) -> Bool {
     if lhs.protobufMap != rhs.protobufMap {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28178,12 +26948,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufMessa
     if self.protobufMessageMap != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufMessageMap, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufMessageMap, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufMessageMap) -> Bool {
     if lhs.protobufMessageMap != rhs.protobufMessageMap {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28207,12 +26975,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSFixe
     if self.protobufSfixed32 != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufSfixed32, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSFixed32, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSFixed32) -> Bool {
     if lhs.protobufSfixed32 != rhs.protobufSfixed32 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28236,12 +27002,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSFixe
     if self.protobufSfixed64 != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufSfixed64, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSFixed64, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSFixed64) -> Bool {
     if lhs.protobufSfixed64 != rhs.protobufSfixed64 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28265,12 +27029,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSInt3
     if self.protobufSint32 != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufSint32, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSInt32, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSInt32) -> Bool {
     if lhs.protobufSint32 != rhs.protobufSint32 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28294,12 +27056,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSInt6
     if self.protobufSint64 != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufSint64, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSInt64, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufSInt64) -> Bool {
     if lhs.protobufSint64 != rhs.protobufSint64 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28323,12 +27083,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufStrin
     if self.protobufString != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufString, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufString, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufString) -> Bool {
     if lhs.protobufString != rhs.protobufString {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28352,12 +27110,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufUInt3
     if self.protobufUint32 != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufUint32, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufUInt32, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufUInt32) -> Bool {
     if lhs.protobufUint32 != rhs.protobufUint32 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28381,12 +27137,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufUInt6
     if self.protobufUint64 != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufUint64, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufUInt64, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtobufUInt64) -> Bool {
     if lhs.protobufUint64 != rhs.protobufUint64 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28410,12 +27164,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_exte
     if self.protobufExtensionFieldValues != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufExtensionFieldValues, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_extensionFieldValues, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_extensionFieldValues) -> Bool {
     if lhs.protobufExtensionFieldValues != rhs.protobufExtensionFieldValues {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28439,12 +27191,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_fiel
     if self.protobufFieldNumber != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufFieldNumber, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_fieldNumber, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_fieldNumber) -> Bool {
     if lhs.protobufFieldNumber != rhs.protobufFieldNumber {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28468,12 +27218,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_gene
     if self.protobufGeneratedIsEqualTo != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufGeneratedIsEqualTo, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_generated_isEqualTo, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_generated_isEqualTo) -> Bool {
     if lhs.protobufGeneratedIsEqualTo != rhs.protobufGeneratedIsEqualTo {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28497,12 +27245,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_name
     if self.protobufNameMap != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufNameMap, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_nameMap, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_nameMap) -> Bool {
     if lhs.protobufNameMap != rhs.protobufNameMap {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28526,12 +27272,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_newF
     if self.protobufNewField != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufNewField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_newField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_newField) -> Bool {
     if lhs.protobufNewField != rhs.protobufNewField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28555,12 +27299,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_pack
     if self.protobufPackage != 0 {
       try visitor.visitSingularInt32Field(value: self.protobufPackage, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_package, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protobuf_package) -> Bool {
     if lhs.protobufPackage != rhs.protobufPackage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28584,12 +27326,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protocolMessa
     if self.`protocol` != 0 {
       try visitor.visitSingularInt32Field(value: self.`protocol`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protocolMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protocolMessage) -> Bool {
     if lhs.`protocol` != rhs.`protocol` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28613,12 +27353,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoFieldNam
     if self.protoFieldName != 0 {
       try visitor.visitSingularInt32Field(value: self.protoFieldName, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoFieldName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoFieldName) -> Bool {
     if lhs.protoFieldName != rhs.protoFieldName {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28642,12 +27380,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageN
     if self.protoMessageName != 0 {
       try visitor.visitSingularInt32Field(value: self.protoMessageName, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageNameMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoMessageNameMessage) -> Bool {
     if lhs.protoMessageName != rhs.protoMessageName {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28671,12 +27407,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtoNameProv
     if self.protoNameProviding != 0 {
       try visitor.visitSingularInt32Field(value: self.protoNameProviding, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtoNameProviding, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ProtoNameProviding) -> Bool {
     if lhs.protoNameProviding != rhs.protoNameProviding {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28700,12 +27434,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoPaths: S
     if self.protoPaths != 0 {
       try visitor.visitSingularInt32Field(value: self.protoPaths, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoPaths, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.protoPaths) -> Bool {
     if lhs.protoPaths != rhs.protoPaths {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28729,12 +27461,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.publicMessage
     if self.`public` != 0 {
       try visitor.visitSingularInt32Field(value: self.`public`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.publicMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.publicMessage) -> Bool {
     if lhs.`public` != rhs.`public` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28758,12 +27488,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.publicDepende
     if self.publicDependency != 0 {
       try visitor.visitSingularInt32Field(value: self.publicDependency, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.publicDependency, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.publicDependency) -> Bool {
     if lhs.publicDependency != rhs.publicDependency {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28787,12 +27515,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putBoolValue:
     if self.putBoolValue != 0 {
       try visitor.visitSingularInt32Field(value: self.putBoolValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putBoolValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putBoolValue) -> Bool {
     if lhs.putBoolValue != rhs.putBoolValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28816,12 +27542,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putBytesValue
     if self.putBytesValue != 0 {
       try visitor.visitSingularInt32Field(value: self.putBytesValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putBytesValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putBytesValue) -> Bool {
     if lhs.putBytesValue != rhs.putBytesValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28845,12 +27569,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putDoubleValu
     if self.putDoubleValue != 0 {
       try visitor.visitSingularInt32Field(value: self.putDoubleValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putDoubleValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putDoubleValue) -> Bool {
     if lhs.putDoubleValue != rhs.putDoubleValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28874,12 +27596,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putEnumValue:
     if self.putEnumValue != 0 {
       try visitor.visitSingularInt32Field(value: self.putEnumValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putEnumValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putEnumValue) -> Bool {
     if lhs.putEnumValue != rhs.putEnumValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28903,12 +27623,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putFixedUInt3
     if self.putFixedUint32 != 0 {
       try visitor.visitSingularInt32Field(value: self.putFixedUint32, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putFixedUInt32, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putFixedUInt32) -> Bool {
     if lhs.putFixedUint32 != rhs.putFixedUint32 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28932,12 +27650,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putFixedUInt6
     if self.putFixedUint64 != 0 {
       try visitor.visitSingularInt32Field(value: self.putFixedUint64, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putFixedUInt64, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putFixedUInt64) -> Bool {
     if lhs.putFixedUint64 != rhs.putFixedUint64 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28961,12 +27677,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putFloatValue
     if self.putFloatValue != 0 {
       try visitor.visitSingularInt32Field(value: self.putFloatValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putFloatValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putFloatValue) -> Bool {
     if lhs.putFloatValue != rhs.putFloatValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -28990,12 +27704,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putInt64: Swi
     if self.putInt64 != 0 {
       try visitor.visitSingularInt32Field(value: self.putInt64, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putInt64, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putInt64) -> Bool {
     if lhs.putInt64 != rhs.putInt64 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29019,12 +27731,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putStringValu
     if self.putStringValue != 0 {
       try visitor.visitSingularInt32Field(value: self.putStringValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putStringValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putStringValue) -> Bool {
     if lhs.putStringValue != rhs.putStringValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29048,12 +27758,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putUInt64: Sw
     if self.putUint64 != 0 {
       try visitor.visitSingularInt32Field(value: self.putUint64, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putUInt64, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putUInt64) -> Bool {
     if lhs.putUint64 != rhs.putUint64 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29077,12 +27785,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putUInt64Hex:
     if self.putUint64Hex != 0 {
       try visitor.visitSingularInt32Field(value: self.putUint64Hex, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putUInt64Hex, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putUInt64Hex) -> Bool {
     if lhs.putUint64Hex != rhs.putUint64Hex {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29106,12 +27812,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putVarInt: Sw
     if self.putVarInt != 0 {
       try visitor.visitSingularInt32Field(value: self.putVarInt, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putVarInt, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putVarInt) -> Bool {
     if lhs.putVarInt != rhs.putVarInt {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29135,12 +27839,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putZigZagVarI
     if self.putZigZagVarInt != 0 {
       try visitor.visitSingularInt32Field(value: self.putZigZagVarInt, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putZigZagVarInt, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.putZigZagVarInt) -> Bool {
     if lhs.putZigZagVarInt != rhs.putZigZagVarInt {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29164,12 +27866,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.pyGenericServ
     if self.pyGenericServices != 0 {
       try visitor.visitSingularInt32Field(value: self.pyGenericServices, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.pyGenericServices, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.pyGenericServices) -> Bool {
     if lhs.pyGenericServices != rhs.pyGenericServices {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29193,12 +27893,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rawChars: Swi
     if self.rawChars != 0 {
       try visitor.visitSingularInt32Field(value: self.rawChars, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rawChars, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rawChars) -> Bool {
     if lhs.rawChars != rhs.rawChars {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29222,12 +27920,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RawRepresenta
     if self.rawRepresentable != 0 {
       try visitor.visitSingularInt32Field(value: self.rawRepresentable, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RawRepresentable, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RawRepresentable) -> Bool {
     if lhs.rawRepresentable != rhs.rawRepresentable {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29251,12 +27947,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RawValue: Swi
     if self.rawValue != 0 {
       try visitor.visitSingularInt32Field(value: self.rawValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RawValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RawValue) -> Bool {
     if lhs.rawValue != rhs.rawValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29280,12 +27974,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.readBuffer: S
     if self.readBuffer != 0 {
       try visitor.visitSingularInt32Field(value: self.readBuffer, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.readBuffer, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.readBuffer) -> Bool {
     if lhs.readBuffer != rhs.readBuffer {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29309,12 +28001,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.register: Swi
     if self.register != 0 {
       try visitor.visitSingularInt32Field(value: self.register, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.register, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.register) -> Bool {
     if lhs.register != rhs.register {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29338,12 +28028,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedEnumE
     if self.repeatedEnumExtensionField != 0 {
       try visitor.visitSingularInt32Field(value: self.repeatedEnumExtensionField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedEnumExtensionField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedEnumExtensionField) -> Bool {
     if lhs.repeatedEnumExtensionField != rhs.repeatedEnumExtensionField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29367,12 +28055,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedExten
     if self.repeatedExtensionField != 0 {
       try visitor.visitSingularInt32Field(value: self.repeatedExtensionField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedExtensionField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedExtensionField) -> Bool {
     if lhs.repeatedExtensionField != rhs.repeatedExtensionField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29396,12 +28082,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedGroup
     if self.repeatedGroupExtensionField != 0 {
       try visitor.visitSingularInt32Field(value: self.repeatedGroupExtensionField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedGroupExtensionField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedGroupExtensionField) -> Bool {
     if lhs.repeatedGroupExtensionField != rhs.repeatedGroupExtensionField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29425,12 +28109,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedMessa
     if self.repeatedMessageExtensionField != 0 {
       try visitor.visitSingularInt32Field(value: self.repeatedMessageExtensionField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedMessageExtensionField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.RepeatedMessageExtensionField) -> Bool {
     if lhs.repeatedMessageExtensionField != rhs.repeatedMessageExtensionField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29454,12 +28136,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.requestStream
     if self.requestStreaming != 0 {
       try visitor.visitSingularInt32Field(value: self.requestStreaming, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.requestStreaming, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.requestStreaming) -> Bool {
     if lhs.requestStreaming != rhs.requestStreaming {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29483,12 +28163,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.requestTypeUR
     if self.requestTypeURL != 0 {
       try visitor.visitSingularInt32Field(value: self.requestTypeURL, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.requestTypeURL, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.requestTypeURL) -> Bool {
     if lhs.requestTypeURL != rhs.requestTypeURL {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29512,12 +28190,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.requiredSize:
     if self.requiredSize != 0 {
       try visitor.visitSingularInt32Field(value: self.requiredSize, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.requiredSize, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.requiredSize) -> Bool {
     if lhs.requiredSize != rhs.requiredSize {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29541,12 +28217,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.reservedName:
     if self.reservedName != 0 {
       try visitor.visitSingularInt32Field(value: self.reservedName, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.reservedName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.reservedName) -> Bool {
     if lhs.reservedName != rhs.reservedName {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29570,12 +28244,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.reservedRange
     if self.reservedRange != 0 {
       try visitor.visitSingularInt32Field(value: self.reservedRange, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.reservedRange, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.reservedRange) -> Bool {
     if lhs.reservedRange != rhs.reservedRange {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29599,12 +28271,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.responseStrea
     if self.responseStreaming != 0 {
       try visitor.visitSingularInt32Field(value: self.responseStreaming, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.responseStreaming, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.responseStreaming) -> Bool {
     if lhs.responseStreaming != rhs.responseStreaming {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29628,12 +28298,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.responseTypeU
     if self.responseTypeURL != 0 {
       try visitor.visitSingularInt32Field(value: self.responseTypeURL, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.responseTypeURL, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.responseTypeURL) -> Bool {
     if lhs.responseTypeURL != rhs.responseTypeURL {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29657,12 +28325,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.result: Swift
     if self.result != 0 {
       try visitor.visitSingularInt32Field(value: self.result, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.result, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.result) -> Bool {
     if lhs.result != rhs.result {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29686,12 +28352,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rethrowsMessa
     if self.`rethrows` != 0 {
       try visitor.visitSingularInt32Field(value: self.`rethrows`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rethrowsMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rethrowsMessage) -> Bool {
     if lhs.`rethrows` != rhs.`rethrows` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29715,12 +28379,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.returnMessage
     if self.`return` != 0 {
       try visitor.visitSingularInt32Field(value: self.`return`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.returnMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.returnMessage) -> Bool {
     if lhs.`return` != rhs.`return` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29744,12 +28406,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.revision: Swi
     if self.revision != 0 {
       try visitor.visitSingularInt32Field(value: self.revision, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.revision, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.revision) -> Bool {
     if lhs.revision != rhs.revision {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29773,12 +28433,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rhs: SwiftPro
     if self.rhs != 0 {
       try visitor.visitSingularInt32Field(value: self.rhs, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rhs, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rhs) -> Bool {
     if lhs.rhs != rhs.rhs {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29802,12 +28460,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.root: SwiftPr
     if self.root != 0 {
       try visitor.visitSingularInt32Field(value: self.root, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.root, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.root) -> Bool {
     if lhs.root != rhs.root {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29831,12 +28487,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rubyPackage: 
     if self.rubyPackage != 0 {
       try visitor.visitSingularInt32Field(value: self.rubyPackage, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rubyPackage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.rubyPackage) -> Bool {
     if lhs.rubyPackage != rhs.rubyPackage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29860,12 +28514,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.s: SwiftProto
     if self.s != 0 {
       try visitor.visitSingularInt32Field(value: self.s, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.s, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.s) -> Bool {
     if lhs.s != rhs.s {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29889,12 +28541,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sawBackslash:
     if self.sawBackslash != 0 {
       try visitor.visitSingularInt32Field(value: self.sawBackslash, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sawBackslash, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sawBackslash) -> Bool {
     if lhs.sawBackslash != rhs.sawBackslash {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29918,12 +28568,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sawSection4Ch
     if self.sawSection4Characters != 0 {
       try visitor.visitSingularInt32Field(value: self.sawSection4Characters, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sawSection4Characters, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sawSection4Characters) -> Bool {
     if lhs.sawSection4Characters != rhs.sawSection4Characters {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29947,12 +28595,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sawSection5Ch
     if self.sawSection5Characters != 0 {
       try visitor.visitSingularInt32Field(value: self.sawSection5Characters, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sawSection5Characters, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sawSection5Characters) -> Bool {
     if lhs.sawSection5Characters != rhs.sawSection5Characters {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -29976,12 +28622,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.scanner: Swif
     if self.scanner != 0 {
       try visitor.visitSingularInt32Field(value: self.scanner, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.scanner, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.scanner) -> Bool {
     if lhs.scanner != rhs.scanner {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30005,12 +28649,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.seconds: Swif
     if self.seconds != 0 {
       try visitor.visitSingularInt32Field(value: self.seconds, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.seconds, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.seconds) -> Bool {
     if lhs.seconds != rhs.seconds {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30034,12 +28676,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.selfMessage: 
     if self.self_p != 0 {
       try visitor.visitSingularInt32Field(value: self.self_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.selfMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.selfMessage) -> Bool {
     if lhs.self_p != rhs.self_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30063,12 +28703,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.separator: Sw
     if self.separator != 0 {
       try visitor.visitSingularInt32Field(value: self.separator, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.separator, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.separator) -> Bool {
     if lhs.separator != rhs.separator {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30092,12 +28730,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serialize: Sw
     if self.serialize != 0 {
       try visitor.visitSingularInt32Field(value: self.serialize, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serialize, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serialize) -> Bool {
     if lhs.serialize != rhs.serialize {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30121,12 +28757,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serializedDat
     if self.serializedData != 0 {
       try visitor.visitSingularInt32Field(value: self.serializedData, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serializedData, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serializedData) -> Bool {
     if lhs.serializedData != rhs.serializedData {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30150,12 +28784,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serializedSiz
     if self.serializedSize != 0 {
       try visitor.visitSingularInt32Field(value: self.serializedSize, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serializedSize, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serializedSize) -> Bool {
     if lhs.serializedSize != rhs.serializedSize {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30179,12 +28811,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serverStreami
     if self.serverStreaming != 0 {
       try visitor.visitSingularInt32Field(value: self.serverStreaming, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serverStreaming, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.serverStreaming) -> Bool {
     if lhs.serverStreaming != rhs.serverStreaming {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30208,12 +28838,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.service: Swif
     if self.service != 0 {
       try visitor.visitSingularInt32Field(value: self.service, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.service, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.service) -> Bool {
     if lhs.service != rhs.service {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30237,12 +28865,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ServiceDescri
     if self.serviceDescriptorProto != 0 {
       try visitor.visitSingularInt32Field(value: self.serviceDescriptorProto, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ServiceDescriptorProto, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ServiceDescriptorProto) -> Bool {
     if lhs.serviceDescriptorProto != rhs.serviceDescriptorProto {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30266,12 +28892,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ServiceOption
     if self.serviceOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.serviceOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ServiceOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ServiceOptions) -> Bool {
     if lhs.serviceOptions != rhs.serviceOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30295,12 +28919,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.set: SwiftPro
     if self.set != 0 {
       try visitor.visitSingularInt32Field(value: self.set, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.set, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.set) -> Bool {
     if lhs.set != rhs.set {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30324,12 +28946,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.setExtensionV
     if self.setExtensionValue != 0 {
       try visitor.visitSingularInt32Field(value: self.setExtensionValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.setExtensionValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.setExtensionValue) -> Bool {
     if lhs.setExtensionValue != rhs.setExtensionValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30353,12 +28973,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.shift: SwiftP
     if self.shift != 0 {
       try visitor.visitSingularInt32Field(value: self.shift, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.shift, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.shift) -> Bool {
     if lhs.shift != rhs.shift {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30382,12 +29000,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.SimpleExtensi
     if self.simpleExtensionMap != 0 {
       try visitor.visitSingularInt32Field(value: self.simpleExtensionMap, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.SimpleExtensionMap, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.SimpleExtensionMap) -> Bool {
     if lhs.simpleExtensionMap != rhs.simpleExtensionMap {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30411,12 +29027,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sizer: SwiftP
     if self.sizer != 0 {
       try visitor.visitSingularInt32Field(value: self.sizer, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sizer, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sizer) -> Bool {
     if lhs.sizer != rhs.sizer {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30440,12 +29054,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.source: Swift
     if self.source != 0 {
       try visitor.visitSingularInt32Field(value: self.source, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.source, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.source) -> Bool {
     if lhs.source != rhs.source {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30469,12 +29081,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sourceCodeInf
     if self.sourceCodeInfo != 0 {
       try visitor.visitSingularInt32Field(value: self.sourceCodeInfo, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sourceCodeInfo, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sourceCodeInfo) -> Bool {
     if lhs.sourceCodeInfo != rhs.sourceCodeInfo {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30498,12 +29108,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sourceContext
     if self.sourceContext != 0 {
       try visitor.visitSingularInt32Field(value: self.sourceContext, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sourceContext, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sourceContext) -> Bool {
     if lhs.sourceContext != rhs.sourceContext {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30527,12 +29135,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sourceEncodin
     if self.sourceEncoding != 0 {
       try visitor.visitSingularInt32Field(value: self.sourceEncoding, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sourceEncoding, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sourceEncoding) -> Bool {
     if lhs.sourceEncoding != rhs.sourceEncoding {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30556,12 +29162,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sourceFile: S
     if self.sourceFile != 0 {
       try visitor.visitSingularInt32Field(value: self.sourceFile, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sourceFile, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.sourceFile) -> Bool {
     if lhs.sourceFile != rhs.sourceFile {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30585,12 +29189,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.span: SwiftPr
     if self.span != 0 {
       try visitor.visitSingularInt32Field(value: self.span, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.span, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.span) -> Bool {
     if lhs.span != rhs.span {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30614,12 +29216,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.split: SwiftP
     if self.split != 0 {
       try visitor.visitSingularInt32Field(value: self.split, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.split, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.split) -> Bool {
     if lhs.split != rhs.split {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30643,12 +29243,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.start: SwiftP
     if self.start != 0 {
       try visitor.visitSingularInt32Field(value: self.start, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.start, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.start) -> Bool {
     if lhs.start != rhs.start {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30672,12 +29270,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startArray: S
     if self.startArray != 0 {
       try visitor.visitSingularInt32Field(value: self.startArray, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startArray, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startArray) -> Bool {
     if lhs.startArray != rhs.startArray {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30701,12 +29297,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startField: S
     if self.startField != 0 {
       try visitor.visitSingularInt32Field(value: self.startField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startField) -> Bool {
     if lhs.startField != rhs.startField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30730,12 +29324,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startIndex: S
     if self.startIndex != 0 {
       try visitor.visitSingularInt32Field(value: self.startIndex, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startIndex, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startIndex) -> Bool {
     if lhs.startIndex != rhs.startIndex {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30759,12 +29351,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startMessageF
     if self.startMessageField != 0 {
       try visitor.visitSingularInt32Field(value: self.startMessageField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startMessageField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startMessageField) -> Bool {
     if lhs.startMessageField != rhs.startMessageField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30788,12 +29378,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startObject: 
     if self.startObject != 0 {
       try visitor.visitSingularInt32Field(value: self.startObject, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startObject, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startObject) -> Bool {
     if lhs.startObject != rhs.startObject {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30817,12 +29405,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startRegularF
     if self.startRegularField != 0 {
       try visitor.visitSingularInt32Field(value: self.startRegularField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startRegularField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.startRegularField) -> Bool {
     if lhs.startRegularField != rhs.startRegularField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30846,12 +29432,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.state: SwiftP
     if self.state != 0 {
       try visitor.visitSingularInt32Field(value: self.state, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.state, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.state) -> Bool {
     if lhs.state != rhs.state {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30875,12 +29459,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.staticMessage
     if self.`static` != 0 {
       try visitor.visitSingularInt32Field(value: self.`static`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.staticMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.staticMessage) -> Bool {
     if lhs.`static` != rhs.`static` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30904,12 +29486,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.StaticString:
     if self.staticString != 0 {
       try visitor.visitSingularInt32Field(value: self.staticString, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.StaticString, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.StaticString) -> Bool {
     if lhs.staticString != rhs.staticString {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30933,12 +29513,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.storage: Swif
     if self.storage != 0 {
       try visitor.visitSingularInt32Field(value: self.storage, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.storage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.storage) -> Bool {
     if lhs.storage != rhs.storage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30962,12 +29540,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.StringMessage
     if self.string != 0 {
       try visitor.visitSingularInt32Field(value: self.string, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.StringMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.StringMessage) -> Bool {
     if lhs.string != rhs.string {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -30991,12 +29567,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.stringLiteral
     if self.stringLiteral != 0 {
       try visitor.visitSingularInt32Field(value: self.stringLiteral, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.stringLiteral, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.stringLiteral) -> Bool {
     if lhs.stringLiteral != rhs.stringLiteral {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31020,12 +29594,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.StringLiteral
     if self.stringLiteralType != 0 {
       try visitor.visitSingularInt32Field(value: self.stringLiteralType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.StringLiteralType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.StringLiteralType) -> Bool {
     if lhs.stringLiteralType != rhs.stringLiteralType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31049,12 +29621,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.stringResult:
     if self.stringResult != 0 {
       try visitor.visitSingularInt32Field(value: self.stringResult, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.stringResult, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.stringResult) -> Bool {
     if lhs.stringResult != rhs.stringResult {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31078,12 +29648,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.stringValue: 
     if self.stringValue != 0 {
       try visitor.visitSingularInt32Field(value: self.stringValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.stringValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.stringValue) -> Bool {
     if lhs.stringValue != rhs.stringValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31107,12 +29675,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.structMessage
     if self.`struct` != 0 {
       try visitor.visitSingularInt32Field(value: self.`struct`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.structMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.structMessage) -> Bool {
     if lhs.`struct` != rhs.`struct` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31136,12 +29702,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.structValue: 
     if self.structValue != 0 {
       try visitor.visitSingularInt32Field(value: self.structValue, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.structValue, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.structValue) -> Bool {
     if lhs.structValue != rhs.structValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31165,12 +29729,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.subDecoder: S
     if self.subDecoder != 0 {
       try visitor.visitSingularInt32Field(value: self.subDecoder, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.subDecoder, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.subDecoder) -> Bool {
     if lhs.subDecoder != rhs.subDecoder {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31194,12 +29756,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.subscriptMess
     if self.`subscript` != 0 {
       try visitor.visitSingularInt32Field(value: self.`subscript`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.subscriptMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.subscriptMessage) -> Bool {
     if lhs.`subscript` != rhs.`subscript` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31223,12 +29783,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.subVisitor: S
     if self.subVisitor != 0 {
       try visitor.visitSingularInt32Field(value: self.subVisitor, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.subVisitor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.subVisitor) -> Bool {
     if lhs.subVisitor != rhs.subVisitor {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31252,12 +29810,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Swift: SwiftP
     if self.swift != 0 {
       try visitor.visitSingularInt32Field(value: self.swift, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Swift, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Swift) -> Bool {
     if lhs.swift != rhs.swift {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31281,12 +29837,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.swiftPrefix: 
     if self.swiftPrefix != 0 {
       try visitor.visitSingularInt32Field(value: self.swiftPrefix, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.swiftPrefix, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.swiftPrefix) -> Bool {
     if lhs.swiftPrefix != rhs.swiftPrefix {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31310,12 +29864,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.SwiftProtobuf
     if self.swiftProtobuf != 0 {
       try visitor.visitSingularInt32Field(value: self.swiftProtobuf, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.SwiftProtobufMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.SwiftProtobufMessage) -> Bool {
     if lhs.swiftProtobuf != rhs.swiftProtobuf {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31339,12 +29891,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.syntax: Swift
     if self.syntax != 0 {
       try visitor.visitSingularInt32Field(value: self.syntax, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.syntax, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.syntax) -> Bool {
     if lhs.syntax != rhs.syntax {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31368,12 +29918,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.T: SwiftProto
     if self.t != 0 {
       try visitor.visitSingularInt32Field(value: self.t, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.T, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.T) -> Bool {
     if lhs.t != rhs.t {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31397,12 +29945,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.tag: SwiftPro
     if self.tag != 0 {
       try visitor.visitSingularInt32Field(value: self.tag, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.tag, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.tag) -> Bool {
     if lhs.tag != rhs.tag {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31426,12 +29972,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.terminator: S
     if self.terminator != 0 {
       try visitor.visitSingularInt32Field(value: self.terminator, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.terminator, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.terminator) -> Bool {
     if lhs.terminator != rhs.terminator {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31455,12 +29999,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.testDecoder: 
     if self.testDecoder != 0 {
       try visitor.visitSingularInt32Field(value: self.testDecoder, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.testDecoder, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.testDecoder) -> Bool {
     if lhs.testDecoder != rhs.testDecoder {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31484,12 +30026,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.text: SwiftPr
     if self.text != 0 {
       try visitor.visitSingularInt32Field(value: self.text, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.text, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.text) -> Bool {
     if lhs.text != rhs.text {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31513,12 +30053,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.textDecoder: 
     if self.textDecoder != 0 {
       try visitor.visitSingularInt32Field(value: self.textDecoder, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.textDecoder, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.textDecoder) -> Bool {
     if lhs.textDecoder != rhs.textDecoder {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31542,12 +30080,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatDec
     if self.textFormatDecoder != 0 {
       try visitor.visitSingularInt32Field(value: self.textFormatDecoder, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatDecoder, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatDecoder) -> Bool {
     if lhs.textFormatDecoder != rhs.textFormatDecoder {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31571,12 +30107,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatDec
     if self.textFormatDecodingError != 0 {
       try visitor.visitSingularInt32Field(value: self.textFormatDecodingError, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatDecodingError, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatDecodingError) -> Bool {
     if lhs.textFormatDecodingError != rhs.textFormatDecodingError {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31600,12 +30134,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatEnc
     if self.textFormatEncodingOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.textFormatEncodingOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatEncodingOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatEncodingOptions) -> Bool {
     if lhs.textFormatEncodingOptions != rhs.textFormatEncodingOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31629,12 +30161,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatEnc
     if self.textFormatEncodingVisitor != 0 {
       try visitor.visitSingularInt32Field(value: self.textFormatEncodingVisitor, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatEncodingVisitor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TextFormatEncodingVisitor) -> Bool {
     if lhs.textFormatEncodingVisitor != rhs.textFormatEncodingVisitor {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31658,12 +30188,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.textFormatStr
     if self.textFormatString != 0 {
       try visitor.visitSingularInt32Field(value: self.textFormatString, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.textFormatString, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.textFormatString) -> Bool {
     if lhs.textFormatString != rhs.textFormatString {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31687,12 +30215,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.throwsMessage
     if self.`throws` != 0 {
       try visitor.visitSingularInt32Field(value: self.`throws`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.throwsMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.throwsMessage) -> Bool {
     if lhs.`throws` != rhs.`throws` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31716,12 +30242,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.timeInterval:
     if self.timeInterval != 0 {
       try visitor.visitSingularInt32Field(value: self.timeInterval, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.timeInterval, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.timeInterval) -> Bool {
     if lhs.timeInterval != rhs.timeInterval {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31745,12 +30269,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.timeIntervalS
     if self.timeIntervalSince1970 != 0 {
       try visitor.visitSingularInt32Field(value: self.timeIntervalSince1970, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.timeIntervalSince1970, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.timeIntervalSince1970) -> Bool {
     if lhs.timeIntervalSince1970 != rhs.timeIntervalSince1970 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31774,12 +30296,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.timeIntervalS
     if self.timeIntervalSinceReferenceDate != 0 {
       try visitor.visitSingularInt32Field(value: self.timeIntervalSinceReferenceDate, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.timeIntervalSinceReferenceDate, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.timeIntervalSinceReferenceDate) -> Bool {
     if lhs.timeIntervalSinceReferenceDate != rhs.timeIntervalSinceReferenceDate {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31803,12 +30323,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Timestamp: Sw
     if self.timestamp != 0 {
       try visitor.visitSingularInt32Field(value: self.timestamp, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Timestamp, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Timestamp) -> Bool {
     if lhs.timestamp != rhs.timestamp {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31832,12 +30350,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.total: SwiftP
     if self.total != 0 {
       try visitor.visitSingularInt32Field(value: self.total, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.total, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.total) -> Bool {
     if lhs.total != rhs.total {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31861,12 +30377,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.totalSize: Sw
     if self.totalSize != 0 {
       try visitor.visitSingularInt32Field(value: self.totalSize, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.totalSize, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.totalSize) -> Bool {
     if lhs.totalSize != rhs.totalSize {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31890,12 +30404,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.trailingComme
     if self.trailingComments != 0 {
       try visitor.visitSingularInt32Field(value: self.trailingComments, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.trailingComments, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.trailingComments) -> Bool {
     if lhs.trailingComments != rhs.trailingComments {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31919,12 +30431,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.traverseMessa
     if self.traverse != 0 {
       try visitor.visitSingularInt32Field(value: self.traverse, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.traverseMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.traverseMessage) -> Bool {
     if lhs.traverse != rhs.traverse {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31948,12 +30458,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.trueMessage: 
     if self.`true` != 0 {
       try visitor.visitSingularInt32Field(value: self.`true`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.trueMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.trueMessage) -> Bool {
     if lhs.`true` != rhs.`true` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -31977,12 +30485,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.tryMessage: S
     if self.`try` != 0 {
       try visitor.visitSingularInt32Field(value: self.`try`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.tryMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.tryMessage) -> Bool {
     if lhs.`try` != rhs.`try` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32006,12 +30512,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.type: SwiftPr
     if self.type != 0 {
       try visitor.visitSingularInt32Field(value: self.type, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.type, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.type) -> Bool {
     if lhs.type != rhs.type {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32035,12 +30539,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typealiasMess
     if self.`typealias` != 0 {
       try visitor.visitSingularInt32Field(value: self.`typealias`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typealiasMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typealiasMessage) -> Bool {
     if lhs.`typealias` != rhs.`typealias` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32064,12 +30566,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TypeEnum: Swi
     if self.typeEnum != 0 {
       try visitor.visitSingularInt32Field(value: self.typeEnum, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TypeEnum, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.TypeEnum) -> Bool {
     if lhs.typeEnum != rhs.typeEnum {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32093,12 +30593,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeName: Swi
     if self.typeName != 0 {
       try visitor.visitSingularInt32Field(value: self.typeName, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeName, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeName) -> Bool {
     if lhs.typeName != rhs.typeName {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32122,12 +30620,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typePrefix: S
     if self.typePrefix != 0 {
       try visitor.visitSingularInt32Field(value: self.typePrefix, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typePrefix, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typePrefix) -> Bool {
     if lhs.typePrefix != rhs.typePrefix {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32151,12 +30647,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeStart: Sw
     if self.typeStart != 0 {
       try visitor.visitSingularInt32Field(value: self.typeStart, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeStart, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeStart) -> Bool {
     if lhs.typeStart != rhs.typeStart {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32180,12 +30674,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeUnknown: 
     if self.typeUnknown != 0 {
       try visitor.visitSingularInt32Field(value: self.typeUnknown, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeUnknown, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeUnknown) -> Bool {
     if lhs.typeUnknown != rhs.typeUnknown {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32209,12 +30701,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeURL: Swif
     if self.typeURL != 0 {
       try visitor.visitSingularInt32Field(value: self.typeURL, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeURL, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.typeURL) -> Bool {
     if lhs.typeURL != rhs.typeURL {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32238,12 +30728,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt32Message
     if self.uint32 != 0 {
       try visitor.visitSingularInt32Field(value: self.uint32, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt32Message, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt32Message) -> Bool {
     if lhs.uint32 != rhs.uint32 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32267,12 +30755,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt32Value: 
     if self.uint32Value != 0 {
       try visitor.visitSingularInt32Field(value: self.uint32Value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt32Value, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt32Value) -> Bool {
     if lhs.uint32Value != rhs.uint32Value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32296,12 +30782,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt64Message
     if self.uint64 != 0 {
       try visitor.visitSingularInt32Field(value: self.uint64, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt64Message, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt64Message) -> Bool {
     if lhs.uint64 != rhs.uint64 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32325,12 +30809,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt64Value: 
     if self.uint64Value != 0 {
       try visitor.visitSingularInt32Field(value: self.uint64Value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt64Value, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt64Value) -> Bool {
     if lhs.uint64Value != rhs.uint64Value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32354,12 +30836,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt8: SwiftP
     if self.uint8 != 0 {
       try visitor.visitSingularInt32Field(value: self.uint8, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt8, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UInt8) -> Bool {
     if lhs.uint8 != rhs.uint8 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32383,12 +30863,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unicodeScalar
     if self.unicodeScalarLiteral != 0 {
       try visitor.visitSingularInt32Field(value: self.unicodeScalarLiteral, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unicodeScalarLiteral, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unicodeScalarLiteral) -> Bool {
     if lhs.unicodeScalarLiteral != rhs.unicodeScalarLiteral {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32412,12 +30890,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnicodeScalar
     if self.unicodeScalarLiteralType != 0 {
       try visitor.visitSingularInt32Field(value: self.unicodeScalarLiteralType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnicodeScalarLiteralType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnicodeScalarLiteralType) -> Bool {
     if lhs.unicodeScalarLiteralType != rhs.unicodeScalarLiteralType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32441,12 +30917,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unicodeScalar
     if self.unicodeScalars != 0 {
       try visitor.visitSingularInt32Field(value: self.unicodeScalars, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unicodeScalars, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unicodeScalars) -> Bool {
     if lhs.unicodeScalars != rhs.unicodeScalars {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32470,12 +30944,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnicodeScalar
     if self.unicodeScalarView != 0 {
       try visitor.visitSingularInt32Field(value: self.unicodeScalarView, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnicodeScalarView, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnicodeScalarView) -> Bool {
     if lhs.unicodeScalarView != rhs.unicodeScalarView {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32499,12 +30971,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.uninterpreted
     if self.uninterpretedOption != 0 {
       try visitor.visitSingularInt32Field(value: self.uninterpretedOption, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.uninterpretedOption, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.uninterpretedOption) -> Bool {
     if lhs.uninterpretedOption != rhs.uninterpretedOption {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32528,12 +30998,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.union: SwiftP
     if self.union != 0 {
       try visitor.visitSingularInt32Field(value: self.union, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.union, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.union) -> Bool {
     if lhs.union != rhs.union {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32557,12 +31025,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.uniqueStorage
     if self.uniqueStorage != 0 {
       try visitor.visitSingularInt32Field(value: self.uniqueStorage, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.uniqueStorage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.uniqueStorage) -> Bool {
     if lhs.uniqueStorage != rhs.uniqueStorage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32586,12 +31052,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unknown: Swif
     if self.unknown != 0 {
       try visitor.visitSingularInt32Field(value: self.unknown, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unknown, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unknown) -> Bool {
     if lhs.unknown != rhs.unknown {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32615,12 +31079,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unknownFields
     if self.unknownFields_p != 0 {
       try visitor.visitSingularInt32Field(value: self.unknownFields_p, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unknownFieldsMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unknownFieldsMessage) -> Bool {
     if lhs.unknownFields_p != rhs.unknownFields_p {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32644,12 +31106,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnknownStorag
     if self.unknownStorage != 0 {
       try visitor.visitSingularInt32Field(value: self.unknownStorage, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnknownStorage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnknownStorage) -> Bool {
     if lhs.unknownStorage != rhs.unknownStorage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32673,12 +31133,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unpackTo: Swi
     if self.unpackTo != 0 {
       try visitor.visitSingularInt32Field(value: self.unpackTo, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unpackTo, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.unpackTo) -> Bool {
     if lhs.unpackTo != rhs.unpackTo {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32702,12 +31160,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutable
     if self.unsafeMutablePointer != 0 {
       try visitor.visitSingularInt32Field(value: self.unsafeMutablePointer, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutablePointer, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutablePointer) -> Bool {
     if lhs.unsafeMutablePointer != rhs.unsafeMutablePointer {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32731,12 +31187,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutable
     if self.unsafeMutableRawBufferPointer != 0 {
       try visitor.visitSingularInt32Field(value: self.unsafeMutableRawBufferPointer, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutableRawBufferPointer, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutableRawBufferPointer) -> Bool {
     if lhs.unsafeMutableRawBufferPointer != rhs.unsafeMutableRawBufferPointer {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32760,12 +31214,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutable
     if self.unsafeMutableRawPointer != 0 {
       try visitor.visitSingularInt32Field(value: self.unsafeMutableRawPointer, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutableRawPointer, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeMutableRawPointer) -> Bool {
     if lhs.unsafeMutableRawPointer != rhs.unsafeMutableRawPointer {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32789,12 +31241,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeRawBuff
     if self.unsafeRawBufferPointer != 0 {
       try visitor.visitSingularInt32Field(value: self.unsafeRawBufferPointer, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeRawBufferPointer, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeRawBufferPointer) -> Bool {
     if lhs.unsafeRawBufferPointer != rhs.unsafeRawBufferPointer {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32818,12 +31268,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeRawPoin
     if self.unsafeRawPointer != 0 {
       try visitor.visitSingularInt32Field(value: self.unsafeRawPointer, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeRawPointer, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UnsafeRawPointer) -> Bool {
     if lhs.unsafeRawPointer != rhs.unsafeRawPointer {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32847,12 +31295,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.updatedOption
     if self.updatedOptions != 0 {
       try visitor.visitSingularInt32Field(value: self.updatedOptions, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.updatedOptions, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.updatedOptions) -> Bool {
     if lhs.updatedOptions != rhs.updatedOptions {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32876,12 +31322,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.url: SwiftPro
     if self.url != 0 {
       try visitor.visitSingularInt32Field(value: self.url, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.url, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.url) -> Bool {
     if lhs.url != rhs.url {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32905,12 +31349,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.utf8: SwiftPr
     if self.utf8 != 0 {
       try visitor.visitSingularInt32Field(value: self.utf8, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.utf8, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.utf8) -> Bool {
     if lhs.utf8 != rhs.utf8 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32934,12 +31376,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.utf8ToDouble:
     if self.utf8ToDouble != 0 {
       try visitor.visitSingularInt32Field(value: self.utf8ToDouble, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.utf8ToDouble, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.utf8ToDouble) -> Bool {
     if lhs.utf8ToDouble != rhs.utf8ToDouble {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32963,12 +31403,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UTF8View: Swi
     if self.utf8View != 0 {
       try visitor.visitSingularInt32Field(value: self.utf8View, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UTF8View, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.UTF8View) -> Bool {
     if lhs.utf8View != rhs.utf8View {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -32992,12 +31430,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.v: SwiftProto
     if self.v != 0 {
       try visitor.visitSingularInt32Field(value: self.v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.v, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.v) -> Bool {
     if lhs.v != rhs.v {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33021,12 +31457,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.value: SwiftP
     if self.value != 0 {
       try visitor.visitSingularInt32Field(value: self.value, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.value, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.value) -> Bool {
     if lhs.value != rhs.value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33050,12 +31484,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.valueField: S
     if self.valueField != 0 {
       try visitor.visitSingularInt32Field(value: self.valueField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.valueField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.valueField) -> Bool {
     if lhs.valueField != rhs.valueField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33079,12 +31511,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.values: Swift
     if self.values != 0 {
       try visitor.visitSingularInt32Field(value: self.values, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.values, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.values) -> Bool {
     if lhs.values != rhs.values {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33108,12 +31538,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ValueType: Sw
     if self.valueType != 0 {
       try visitor.visitSingularInt32Field(value: self.valueType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ValueType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.ValueType) -> Bool {
     if lhs.valueType != rhs.valueType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33137,12 +31565,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.varMessage: S
     if self.`var` != 0 {
       try visitor.visitSingularInt32Field(value: self.`var`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.varMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.varMessage) -> Bool {
     if lhs.`var` != rhs.`var` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33166,12 +31592,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Version: Swif
     if self.version != 0 {
       try visitor.visitSingularInt32Field(value: self.version, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Version, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.Version) -> Bool {
     if lhs.version != rhs.version {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33195,12 +31619,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.versionString
     if self.versionString != 0 {
       try visitor.visitSingularInt32Field(value: self.versionString, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.versionString, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.versionString) -> Bool {
     if lhs.versionString != rhs.versionString {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33224,12 +31646,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitExtensio
     if self.visitExtensionFields != 0 {
       try visitor.visitSingularInt32Field(value: self.visitExtensionFields, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitExtensionFields, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitExtensionFields) -> Bool {
     if lhs.visitExtensionFields != rhs.visitExtensionFields {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33253,12 +31673,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitExtensio
     if self.visitExtensionFieldsAsMessageSet != 0 {
       try visitor.visitSingularInt32Field(value: self.visitExtensionFieldsAsMessageSet, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitExtensionFieldsAsMessageSet, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitExtensionFieldsAsMessageSet) -> Bool {
     if lhs.visitExtensionFieldsAsMessageSet != rhs.visitExtensionFieldsAsMessageSet {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33282,12 +31700,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitMapField
     if self.visitMapField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitMapField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitMapField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitMapField) -> Bool {
     if lhs.visitMapField != rhs.visitMapField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33311,12 +31727,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitor: Swif
     if self.visitor != 0 {
       try visitor.visitSingularInt32Field(value: self.visitor, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitor, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitor) -> Bool {
     if lhs.visitor != rhs.visitor {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33340,12 +31754,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPacked: 
     if self.visitPacked != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPacked, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPacked, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPacked) -> Bool {
     if lhs.visitPacked != rhs.visitPacked {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33369,12 +31781,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedBo
     if self.visitPackedBoolField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPackedBoolField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedBoolField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedBoolField) -> Bool {
     if lhs.visitPackedBoolField != rhs.visitPackedBoolField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33398,12 +31808,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedDo
     if self.visitPackedDoubleField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPackedDoubleField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedDoubleField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedDoubleField) -> Bool {
     if lhs.visitPackedDoubleField != rhs.visitPackedDoubleField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33427,12 +31835,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedEn
     if self.visitPackedEnumField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPackedEnumField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedEnumField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedEnumField) -> Bool {
     if lhs.visitPackedEnumField != rhs.visitPackedEnumField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33456,12 +31862,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedFi
     if self.visitPackedFixed32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPackedFixed32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedFixed32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedFixed32Field) -> Bool {
     if lhs.visitPackedFixed32Field != rhs.visitPackedFixed32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33485,12 +31889,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedFi
     if self.visitPackedFixed64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPackedFixed64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedFixed64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedFixed64Field) -> Bool {
     if lhs.visitPackedFixed64Field != rhs.visitPackedFixed64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33514,12 +31916,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedFl
     if self.visitPackedFloatField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPackedFloatField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedFloatField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedFloatField) -> Bool {
     if lhs.visitPackedFloatField != rhs.visitPackedFloatField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33543,12 +31943,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedIn
     if self.visitPackedInt32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPackedInt32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedInt32Field) -> Bool {
     if lhs.visitPackedInt32Field != rhs.visitPackedInt32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33572,12 +31970,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedIn
     if self.visitPackedInt64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPackedInt64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedInt64Field) -> Bool {
     if lhs.visitPackedInt64Field != rhs.visitPackedInt64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33601,12 +31997,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSF
     if self.visitPackedSfixed32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPackedSfixed32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSFixed32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSFixed32Field) -> Bool {
     if lhs.visitPackedSfixed32Field != rhs.visitPackedSfixed32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33630,12 +32024,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSF
     if self.visitPackedSfixed64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPackedSfixed64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSFixed64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSFixed64Field) -> Bool {
     if lhs.visitPackedSfixed64Field != rhs.visitPackedSfixed64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33659,12 +32051,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSI
     if self.visitPackedSint32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPackedSint32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSInt32Field) -> Bool {
     if lhs.visitPackedSint32Field != rhs.visitPackedSint32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33688,12 +32078,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSI
     if self.visitPackedSint64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPackedSint64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedSInt64Field) -> Bool {
     if lhs.visitPackedSint64Field != rhs.visitPackedSint64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33717,12 +32105,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedUI
     if self.visitPackedUint32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPackedUint32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedUInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedUInt32Field) -> Bool {
     if lhs.visitPackedUint32Field != rhs.visitPackedUint32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33746,12 +32132,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedUI
     if self.visitPackedUint64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitPackedUint64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedUInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitPackedUInt64Field) -> Bool {
     if lhs.visitPackedUint64Field != rhs.visitPackedUint64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33775,12 +32159,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeated != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeated, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated) -> Bool {
     if lhs.visitRepeated != rhs.visitRepeated {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33804,12 +32186,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedBoolField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedBoolField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedBoolField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedBoolField) -> Bool {
     if lhs.visitRepeatedBoolField != rhs.visitRepeatedBoolField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33833,12 +32213,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedBytesField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedBytesField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedBytesField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedBytesField) -> Bool {
     if lhs.visitRepeatedBytesField != rhs.visitRepeatedBytesField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33862,12 +32240,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedDoubleField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedDoubleField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedDoubleField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedDoubleField) -> Bool {
     if lhs.visitRepeatedDoubleField != rhs.visitRepeatedDoubleField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33891,12 +32267,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedEnumField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedEnumField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedEnumField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedEnumField) -> Bool {
     if lhs.visitRepeatedEnumField != rhs.visitRepeatedEnumField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33920,12 +32294,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedFixed32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedFixed32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedFixed32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedFixed32Field) -> Bool {
     if lhs.visitRepeatedFixed32Field != rhs.visitRepeatedFixed32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33949,12 +32321,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedFixed64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedFixed64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedFixed64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedFixed64Field) -> Bool {
     if lhs.visitRepeatedFixed64Field != rhs.visitRepeatedFixed64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -33978,12 +32348,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedFloatField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedFloatField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedFloatField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedFloatField) -> Bool {
     if lhs.visitRepeatedFloatField != rhs.visitRepeatedFloatField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34007,12 +32375,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedGroupField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedGroupField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedGroupField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedGroupField) -> Bool {
     if lhs.visitRepeatedGroupField != rhs.visitRepeatedGroupField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34036,12 +32402,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedInt32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedInt32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedInt32Field) -> Bool {
     if lhs.visitRepeatedInt32Field != rhs.visitRepeatedInt32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34065,12 +32429,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedInt64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedInt64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedInt64Field) -> Bool {
     if lhs.visitRepeatedInt64Field != rhs.visitRepeatedInt64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34094,12 +32456,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedMessageField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedMessageField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedMessageField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedMessageField) -> Bool {
     if lhs.visitRepeatedMessageField != rhs.visitRepeatedMessageField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34123,12 +32483,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedSfixed32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedSfixed32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedSFixed32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedSFixed32Field) -> Bool {
     if lhs.visitRepeatedSfixed32Field != rhs.visitRepeatedSfixed32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34152,12 +32510,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedSfixed64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedSfixed64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedSFixed64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedSFixed64Field) -> Bool {
     if lhs.visitRepeatedSfixed64Field != rhs.visitRepeatedSfixed64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34181,12 +32537,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedSint32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedSint32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedSInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedSInt32Field) -> Bool {
     if lhs.visitRepeatedSint32Field != rhs.visitRepeatedSint32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34210,12 +32564,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedSint64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedSint64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedSInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedSInt64Field) -> Bool {
     if lhs.visitRepeatedSint64Field != rhs.visitRepeatedSint64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34239,12 +32591,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedStringField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedStringField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedStringField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedStringField) -> Bool {
     if lhs.visitRepeatedStringField != rhs.visitRepeatedStringField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34268,12 +32618,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedUint32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedUint32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedUInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedUInt32Field) -> Bool {
     if lhs.visitRepeatedUint32Field != rhs.visitRepeatedUint32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34297,12 +32645,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeated
     if self.visitRepeatedUint64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitRepeatedUint64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedUInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitRepeatedUInt64Field) -> Bool {
     if lhs.visitRepeatedUint64Field != rhs.visitRepeatedUint64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34326,12 +32672,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingular != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingular, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular) -> Bool {
     if lhs.visitSingular != rhs.visitSingular {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34355,12 +32699,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularBoolField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularBoolField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularBoolField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularBoolField) -> Bool {
     if lhs.visitSingularBoolField != rhs.visitSingularBoolField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34384,12 +32726,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularBytesField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularBytesField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularBytesField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularBytesField) -> Bool {
     if lhs.visitSingularBytesField != rhs.visitSingularBytesField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34413,12 +32753,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularDoubleField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularDoubleField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularDoubleField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularDoubleField) -> Bool {
     if lhs.visitSingularDoubleField != rhs.visitSingularDoubleField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34442,12 +32780,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularEnumField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularEnumField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularEnumField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularEnumField) -> Bool {
     if lhs.visitSingularEnumField != rhs.visitSingularEnumField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34471,12 +32807,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularFixed32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularFixed32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularFixed32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularFixed32Field) -> Bool {
     if lhs.visitSingularFixed32Field != rhs.visitSingularFixed32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34500,12 +32834,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularFixed64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularFixed64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularFixed64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularFixed64Field) -> Bool {
     if lhs.visitSingularFixed64Field != rhs.visitSingularFixed64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34529,12 +32861,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularFloatField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularFloatField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularFloatField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularFloatField) -> Bool {
     if lhs.visitSingularFloatField != rhs.visitSingularFloatField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34558,12 +32888,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularGroupField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularGroupField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularGroupField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularGroupField) -> Bool {
     if lhs.visitSingularGroupField != rhs.visitSingularGroupField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34587,12 +32915,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularInt32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularInt32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularInt32Field) -> Bool {
     if lhs.visitSingularInt32Field != rhs.visitSingularInt32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34616,12 +32942,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularInt64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularInt64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularInt64Field) -> Bool {
     if lhs.visitSingularInt64Field != rhs.visitSingularInt64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34645,12 +32969,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularMessageField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularMessageField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularMessageField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularMessageField) -> Bool {
     if lhs.visitSingularMessageField != rhs.visitSingularMessageField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34674,12 +32996,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularSfixed32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularSfixed32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularSFixed32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularSFixed32Field) -> Bool {
     if lhs.visitSingularSfixed32Field != rhs.visitSingularSfixed32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34703,12 +33023,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularSfixed64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularSfixed64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularSFixed64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularSFixed64Field) -> Bool {
     if lhs.visitSingularSfixed64Field != rhs.visitSingularSfixed64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34732,12 +33050,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularSint32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularSint32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularSInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularSInt32Field) -> Bool {
     if lhs.visitSingularSint32Field != rhs.visitSingularSint32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34761,12 +33077,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularSint64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularSint64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularSInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularSInt64Field) -> Bool {
     if lhs.visitSingularSint64Field != rhs.visitSingularSint64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34790,12 +33104,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularStringField != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularStringField, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularStringField, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularStringField) -> Bool {
     if lhs.visitSingularStringField != rhs.visitSingularStringField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34819,12 +33131,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularUint32Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularUint32Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularUInt32Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularUInt32Field) -> Bool {
     if lhs.visitSingularUint32Field != rhs.visitSingularUint32Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34848,12 +33158,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingular
     if self.visitSingularUint64Field != 0 {
       try visitor.visitSingularInt32Field(value: self.visitSingularUint64Field, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularUInt64Field, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitSingularUInt64Field) -> Bool {
     if lhs.visitSingularUint64Field != rhs.visitSingularUint64Field {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34877,12 +33185,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitUnknown:
     if self.visitUnknown != 0 {
       try visitor.visitSingularInt32Field(value: self.visitUnknown, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitUnknown, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.visitUnknown) -> Bool {
     if lhs.visitUnknown != rhs.visitUnknown {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34906,12 +33212,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.wasDecoded: S
     if self.wasDecoded != 0 {
       try visitor.visitSingularInt32Field(value: self.wasDecoded, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.wasDecoded, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.wasDecoded) -> Bool {
     if lhs.wasDecoded != rhs.wasDecoded {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34935,12 +33239,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.weak: SwiftPr
     if self.weak != 0 {
       try visitor.visitSingularInt32Field(value: self.weak, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.weak, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.weak) -> Bool {
     if lhs.weak != rhs.weak {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34964,12 +33266,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.weakDependenc
     if self.weakDependency != 0 {
       try visitor.visitSingularInt32Field(value: self.weakDependency, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.weakDependency, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.weakDependency) -> Bool {
     if lhs.weakDependency != rhs.weakDependency {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -34993,12 +33293,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.whereMessage:
     if self.`where` != 0 {
       try visitor.visitSingularInt32Field(value: self.`where`, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.whereMessage, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.whereMessage) -> Bool {
     if lhs.`where` != rhs.`where` {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -35022,12 +33320,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.wireFormat: S
     if self.wireFormat != 0 {
       try visitor.visitSingularInt32Field(value: self.wireFormat, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.wireFormat, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.wireFormat) -> Bool {
     if lhs.wireFormat != rhs.wireFormat {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -35051,12 +33347,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.with: SwiftPr
     if self.with != 0 {
       try visitor.visitSingularInt32Field(value: self.with, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.with, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.with) -> Bool {
     if lhs.with != rhs.with {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -35080,12 +33374,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.withUnsafeByt
     if self.withUnsafeBytes != 0 {
       try visitor.visitSingularInt32Field(value: self.withUnsafeBytes, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.withUnsafeBytes, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.withUnsafeBytes) -> Bool {
     if lhs.withUnsafeBytes != rhs.withUnsafeBytes {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -35109,12 +33401,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.withUnsafeMut
     if self.withUnsafeMutableBytes != 0 {
       try visitor.visitSingularInt32Field(value: self.withUnsafeMutableBytes, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.withUnsafeMutableBytes, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.withUnsafeMutableBytes) -> Bool {
     if lhs.withUnsafeMutableBytes != rhs.withUnsafeMutableBytes {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -35138,12 +33428,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.work: SwiftPr
     if self.work != 0 {
       try visitor.visitSingularInt32Field(value: self.work, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.work, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.work) -> Bool {
     if lhs.work != rhs.work {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -35167,12 +33455,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.WrappedType: 
     if self.wrappedType != 0 {
       try visitor.visitSingularInt32Field(value: self.wrappedType, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.WrappedType, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.WrappedType) -> Bool {
     if lhs.wrappedType != rhs.wrappedType {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -35196,12 +33482,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.written: Swif
     if self.written != 0 {
       try visitor.visitSingularInt32Field(value: self.written, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.written, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.written) -> Bool {
     if lhs.written != rhs.written {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -35225,12 +33509,10 @@ extension ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.yday: SwiftPr
     if self.yday != 0 {
       try visitor.visitSingularInt32Field(value: self.yday, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.yday, rhs: ProtobufUnittestGenerated_GeneratedSwiftReservedMessages.yday) -> Bool {
     if lhs.yday != rhs.yday {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

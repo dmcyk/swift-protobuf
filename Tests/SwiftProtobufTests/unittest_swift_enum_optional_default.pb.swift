@@ -171,11 +171,9 @@ extension ProtobufUnittest_Extend_EnumOptionalDefault: SwiftProtobuf.Message, Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_Extend_EnumOptionalDefault, rhs: ProtobufUnittest_Extend_EnumOptionalDefault) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -230,7 +228,6 @@ extension ProtobufUnittest_Extend_EnumOptionalDefault.NestedMessage: SwiftProtob
         try visitor.visitSingularEnumField(value: v, fieldNumber: 17)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_Extend_EnumOptionalDefault.NestedMessage, rhs: ProtobufUnittest_Extend_EnumOptionalDefault.NestedMessage) -> Bool {
@@ -244,7 +241,6 @@ extension ProtobufUnittest_Extend_EnumOptionalDefault.NestedMessage: SwiftProtob
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -274,12 +270,10 @@ extension ProtobufUnittest_Extend_EnumOptionalDefault.NestedMessage2: SwiftProto
     if let v = self._optionalEnum {
       try visitor.visitSingularEnumField(value: v, fieldNumber: 17)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_Extend_EnumOptionalDefault.NestedMessage2, rhs: ProtobufUnittest_Extend_EnumOptionalDefault.NestedMessage2) -> Bool {
     if lhs._optionalEnum != rhs._optionalEnum {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

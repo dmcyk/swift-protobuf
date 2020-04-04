@@ -115,13 +115,11 @@ extension ProtobufUnittest_TestEmbedOptimizedForSize: SwiftProtobuf.Message, Swi
     if !self.repeatedMessage.isEmpty {
       try visitor.visitRepeatedMessageField(value: self.repeatedMessage, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestEmbedOptimizedForSize, rhs: ProtobufUnittest_TestEmbedOptimizedForSize) -> Bool {
     if lhs._optionalMessage != rhs._optionalMessage {return false}
     if lhs.repeatedMessage != rhs.repeatedMessage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

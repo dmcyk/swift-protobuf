@@ -1102,7 +1102,6 @@ extension Proto3ArenaUnittest_TestAllTypes: SwiftProtobuf.Message, SwiftProtobuf
         try visitor.visitSingularMessageField(value: v, fieldNumber: 115)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto3ArenaUnittest_TestAllTypes, rhs: Proto3ArenaUnittest_TestAllTypes) -> Bool {
@@ -1163,7 +1162,6 @@ extension Proto3ArenaUnittest_TestAllTypes: SwiftProtobuf.Message, SwiftProtobuf
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1197,12 +1195,10 @@ extension Proto3ArenaUnittest_TestAllTypes.NestedMessage: SwiftProtobuf.Message,
     if self.bb != 0 {
       try visitor.visitSingularInt32Field(value: self.bb, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto3ArenaUnittest_TestAllTypes.NestedMessage, rhs: Proto3ArenaUnittest_TestAllTypes.NestedMessage) -> Bool {
     if lhs.bb != rhs.bb {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1291,7 +1287,6 @@ extension Proto3ArenaUnittest_TestPackedTypes: SwiftProtobuf.Message, SwiftProto
     if !self.packedEnum.isEmpty {
       try visitor.visitPackedEnumField(value: self.packedEnum, fieldNumber: 103)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto3ArenaUnittest_TestPackedTypes, rhs: Proto3ArenaUnittest_TestPackedTypes) -> Bool {
@@ -1309,7 +1304,6 @@ extension Proto3ArenaUnittest_TestPackedTypes: SwiftProtobuf.Message, SwiftProto
     if lhs.packedDouble != rhs.packedDouble {return false}
     if lhs.packedBool != rhs.packedBool {return false}
     if lhs.packedEnum != rhs.packedEnum {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1398,7 +1392,6 @@ extension Proto3ArenaUnittest_TestUnpackedTypes: SwiftProtobuf.Message, SwiftPro
     if !self.repeatedNestedEnum.isEmpty {
       try visitor.visitRepeatedEnumField(value: self.repeatedNestedEnum, fieldNumber: 14)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto3ArenaUnittest_TestUnpackedTypes, rhs: Proto3ArenaUnittest_TestUnpackedTypes) -> Bool {
@@ -1416,7 +1409,6 @@ extension Proto3ArenaUnittest_TestUnpackedTypes: SwiftProtobuf.Message, SwiftPro
     if lhs.repeatedDouble != rhs.repeatedDouble {return false}
     if lhs.repeatedBool != rhs.repeatedBool {return false}
     if lhs.repeatedNestedEnum != rhs.repeatedNestedEnum {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1478,7 +1470,6 @@ extension Proto3ArenaUnittest_NestedTestAllTypes: SwiftProtobuf.Message, SwiftPr
         try visitor.visitRepeatedMessageField(value: _storage._repeatedChild, fieldNumber: 3)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto3ArenaUnittest_NestedTestAllTypes, rhs: Proto3ArenaUnittest_NestedTestAllTypes) -> Bool {
@@ -1493,7 +1484,6 @@ extension Proto3ArenaUnittest_NestedTestAllTypes: SwiftProtobuf.Message, SwiftPr
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1517,12 +1507,10 @@ extension Proto3ArenaUnittest_ForeignMessage: SwiftProtobuf.Message, SwiftProtob
     if self.c != 0 {
       try visitor.visitSingularInt32Field(value: self.c, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto3ArenaUnittest_ForeignMessage, rhs: Proto3ArenaUnittest_ForeignMessage) -> Bool {
     if lhs.c != rhs.c {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1537,11 +1525,9 @@ extension Proto3ArenaUnittest_TestEmptyMessage: SwiftProtobuf.Message, SwiftProt
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto3ArenaUnittest_TestEmptyMessage, rhs: Proto3ArenaUnittest_TestEmptyMessage) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1556,11 +1542,9 @@ extension Proto3ArenaUnittest_TestPickleNestedMessage: SwiftProtobuf.Message, Sw
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto3ArenaUnittest_TestPickleNestedMessage, rhs: Proto3ArenaUnittest_TestPickleNestedMessage) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1584,12 +1568,10 @@ extension Proto3ArenaUnittest_TestPickleNestedMessage.NestedMessage: SwiftProtob
     if self.bb != 0 {
       try visitor.visitSingularInt32Field(value: self.bb, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto3ArenaUnittest_TestPickleNestedMessage.NestedMessage, rhs: Proto3ArenaUnittest_TestPickleNestedMessage.NestedMessage) -> Bool {
     if lhs.bb != rhs.bb {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1613,12 +1595,10 @@ extension Proto3ArenaUnittest_TestPickleNestedMessage.NestedMessage.NestedNested
     if self.cc != 0 {
       try visitor.visitSingularInt32Field(value: self.cc, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto3ArenaUnittest_TestPickleNestedMessage.NestedMessage.NestedNestedMessage, rhs: Proto3ArenaUnittest_TestPickleNestedMessage.NestedMessage.NestedNestedMessage) -> Bool {
     if lhs.cc != rhs.cc {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

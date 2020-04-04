@@ -190,11 +190,9 @@ extension ProtobufObjcUnittest_TestObjCStartupMessage: SwiftProtobuf.Message, Sw
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
     try visitor.visitExtensionFields(fields: _protobuf_extensionFieldValues, start: 1, end: 536870912)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufObjcUnittest_TestObjCStartupMessage, rhs: ProtobufObjcUnittest_TestObjCStartupMessage) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -210,11 +208,9 @@ extension ProtobufObjcUnittest_TestObjCStartupNested: SwiftProtobuf.Message, Swi
   }
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufObjcUnittest_TestObjCStartupNested, rhs: ProtobufObjcUnittest_TestObjCStartupNested) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

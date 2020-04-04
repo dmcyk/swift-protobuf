@@ -518,7 +518,6 @@ extension Google_Protobuf_Type: SwiftProtobuf.Message, SwiftProtobuf._MessageImp
     if self.syntax != .proto2 {
       try visitor.visitSingularEnumField(value: self.syntax, fieldNumber: 6)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Type, rhs: Google_Protobuf_Type) -> Bool {
@@ -528,7 +527,6 @@ extension Google_Protobuf_Type: SwiftProtobuf.Message, SwiftProtobuf._MessageImp
     if lhs.options != rhs.options {return false}
     if lhs._sourceContext != rhs._sourceContext {return false}
     if lhs.syntax != rhs.syntax {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -597,7 +595,6 @@ extension Google_Protobuf_Field: SwiftProtobuf.Message, SwiftProtobuf._MessageIm
     if !self.defaultValue.isEmpty {
       try visitor.visitSingularStringField(value: self.defaultValue, fieldNumber: 11)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Field, rhs: Google_Protobuf_Field) -> Bool {
@@ -611,7 +608,6 @@ extension Google_Protobuf_Field: SwiftProtobuf.Message, SwiftProtobuf._MessageIm
     if lhs.options != rhs.options {return false}
     if lhs.jsonName != rhs.jsonName {return false}
     if lhs.defaultValue != rhs.defaultValue {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -688,7 +684,6 @@ extension Google_Protobuf_Enum: SwiftProtobuf.Message, SwiftProtobuf._MessageImp
     if self.syntax != .proto2 {
       try visitor.visitSingularEnumField(value: self.syntax, fieldNumber: 5)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Enum, rhs: Google_Protobuf_Enum) -> Bool {
@@ -697,7 +692,6 @@ extension Google_Protobuf_Enum: SwiftProtobuf.Message, SwiftProtobuf._MessageImp
     if lhs.options != rhs.options {return false}
     if lhs._sourceContext != rhs._sourceContext {return false}
     if lhs.syntax != rhs.syntax {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -731,14 +725,12 @@ extension Google_Protobuf_EnumValue: SwiftProtobuf.Message, SwiftProtobuf._Messa
     if !self.options.isEmpty {
       try visitor.visitRepeatedMessageField(value: self.options, fieldNumber: 3)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_EnumValue, rhs: Google_Protobuf_EnumValue) -> Bool {
     if lhs.name != rhs.name {return false}
     if lhs.number != rhs.number {return false}
     if lhs.options != rhs.options {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -767,13 +759,11 @@ extension Google_Protobuf_Option: SwiftProtobuf.Message, SwiftProtobuf._MessageI
     if let v = self._value {
       try visitor.visitSingularMessageField(value: v, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Option, rhs: Google_Protobuf_Option) -> Bool {
     if lhs.name != rhs.name {return false}
     if lhs._value != rhs._value {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

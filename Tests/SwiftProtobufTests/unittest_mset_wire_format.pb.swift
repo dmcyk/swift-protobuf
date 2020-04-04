@@ -109,11 +109,9 @@ extension Proto2WireformatUnittest_TestMessageSet: SwiftProtobuf.Message, SwiftP
 
   func traverse<V: SwiftProtobuf.Visitor>(visitor: inout V) throws {
     try visitor.visitExtensionFieldsAsMessageSet(fields: _protobuf_extensionFieldValues, start: 4, end: 2147483647)
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto2WireformatUnittest_TestMessageSet, rhs: Proto2WireformatUnittest_TestMessageSet) -> Bool {
-    if lhs.unknownFields != rhs.unknownFields {return false}
     if lhs._protobuf_extensionFieldValues != rhs._protobuf_extensionFieldValues {return false}
     return true
   }
@@ -143,12 +141,10 @@ extension Proto2WireformatUnittest_TestMessageSetWireFormatContainer: SwiftProto
     if let v = self._messageSet {
       try visitor.visitSingularMessageField(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto2WireformatUnittest_TestMessageSetWireFormatContainer, rhs: Proto2WireformatUnittest_TestMessageSetWireFormatContainer) -> Bool {
     if lhs._messageSet != rhs._messageSet {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

@@ -260,12 +260,10 @@ extension Google_Protobuf_Struct: SwiftProtobuf.Message, SwiftProtobuf._MessageI
     if !self.fields.isEmpty {
       try visitor.visitMapField(fieldType: SwiftProtobuf._ProtobufMessageMap<SwiftProtobuf.ProtobufString,Google_Protobuf_Value>.self, value: self.fields, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Struct, rhs: Google_Protobuf_Struct) -> Bool {
     if lhs.fields != rhs.fields {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -341,12 +339,10 @@ extension Google_Protobuf_Value: SwiftProtobuf.Message, SwiftProtobuf._MessageIm
       try visitor.visitSingularMessageField(value: v, fieldNumber: 6)
     case nil: break
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_Value, rhs: Google_Protobuf_Value) -> Bool {
     if lhs.kind != rhs.kind {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -370,12 +366,10 @@ extension Google_Protobuf_ListValue: SwiftProtobuf.Message, SwiftProtobuf._Messa
     if !self.values.isEmpty {
       try visitor.visitRepeatedMessageField(value: self.values, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   public static func ==(lhs: Google_Protobuf_ListValue, rhs: Google_Protobuf_ListValue) -> Bool {
     if lhs.values != rhs.values {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

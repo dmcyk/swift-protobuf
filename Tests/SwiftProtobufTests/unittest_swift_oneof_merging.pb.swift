@@ -235,12 +235,10 @@ extension SwiftUnittest_TestMessage: SwiftProtobuf.Message, SwiftProtobuf._Messa
       try visitor.visitSingularBytesField(value: v, fieldNumber: 114)
     case nil: break
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: SwiftUnittest_TestMessage, rhs: SwiftUnittest_TestMessage) -> Bool {
     if lhs.oneofField != rhs.oneofField {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -274,14 +272,12 @@ extension SwiftUnittest_TestMessage.NestedMessage: SwiftProtobuf.Message, SwiftP
     if let v = self._c {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 3)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: SwiftUnittest_TestMessage.NestedMessage, rhs: SwiftUnittest_TestMessage.NestedMessage) -> Bool {
     if lhs._a != rhs._a {return false}
     if lhs._b != rhs._b {return false}
     if lhs._c != rhs._c {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -310,13 +306,11 @@ extension SwiftUnittest_TestParsingMerge: SwiftProtobuf.Message, SwiftProtobuf._
     if !self.repeatedMessage.isEmpty {
       try visitor.visitRepeatedMessageField(value: self.repeatedMessage, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: SwiftUnittest_TestParsingMerge, rhs: SwiftUnittest_TestParsingMerge) -> Bool {
     if lhs._optionalMessage != rhs._optionalMessage {return false}
     if lhs.repeatedMessage != rhs.repeatedMessage {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -345,13 +339,11 @@ extension SwiftUnittest_TestParsingMerge.RepeatedFieldsGenerator: SwiftProtobuf.
     if !self.field2.isEmpty {
       try visitor.visitRepeatedMessageField(value: self.field2, fieldNumber: 2)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: SwiftUnittest_TestParsingMerge.RepeatedFieldsGenerator, rhs: SwiftUnittest_TestParsingMerge.RepeatedFieldsGenerator) -> Bool {
     if lhs.field1 != rhs.field1 {return false}
     if lhs.field2 != rhs.field2 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

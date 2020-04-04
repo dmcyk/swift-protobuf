@@ -1187,7 +1187,6 @@ extension ProtobufUnittest_TestAllRequiredTypes: SwiftProtobuf.Message, SwiftPro
       case nil: break
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestAllRequiredTypes, rhs: ProtobufUnittest_TestAllRequiredTypes) -> Bool {
@@ -1246,7 +1245,6 @@ extension ProtobufUnittest_TestAllRequiredTypes: SwiftProtobuf.Message, SwiftPro
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1284,12 +1282,10 @@ extension ProtobufUnittest_TestAllRequiredTypes.NestedMessage: SwiftProtobuf.Mes
     if let v = self._bb {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestAllRequiredTypes.NestedMessage, rhs: ProtobufUnittest_TestAllRequiredTypes.NestedMessage) -> Bool {
     if lhs._bb != rhs._bb {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1318,12 +1314,10 @@ extension ProtobufUnittest_TestAllRequiredTypes.RequiredGroup: SwiftProtobuf.Mes
     if let v = self._a {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 17)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestAllRequiredTypes.RequiredGroup, rhs: ProtobufUnittest_TestAllRequiredTypes.RequiredGroup) -> Bool {
     if lhs._a != rhs._a {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1382,7 +1376,6 @@ extension ProtobufUnittest_TestSomeRequiredTypes: SwiftProtobuf.Message, SwiftPr
     if let v = self._requiredNestedEnum {
       try visitor.visitSingularEnumField(value: v, fieldNumber: 6)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_TestSomeRequiredTypes, rhs: ProtobufUnittest_TestSomeRequiredTypes) -> Bool {
@@ -1392,7 +1385,6 @@ extension ProtobufUnittest_TestSomeRequiredTypes: SwiftProtobuf.Message, SwiftPr
     if lhs._requiredString != rhs._requiredString {return false}
     if lhs._requiredBytes != rhs._requiredBytes {return false}
     if lhs._requiredNestedEnum != rhs._requiredNestedEnum {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

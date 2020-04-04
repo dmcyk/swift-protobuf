@@ -920,7 +920,6 @@ extension Proto2NofieldpresenceUnittest_TestAllTypes: SwiftProtobuf.Message, Swi
       case nil: break
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto2NofieldpresenceUnittest_TestAllTypes, rhs: Proto2NofieldpresenceUnittest_TestAllTypes) -> Bool {
@@ -979,7 +978,6 @@ extension Proto2NofieldpresenceUnittest_TestAllTypes: SwiftProtobuf.Message, Swi
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1011,12 +1009,10 @@ extension Proto2NofieldpresenceUnittest_TestAllTypes.NestedMessage: SwiftProtobu
     if self.bb != 0 {
       try visitor.visitSingularInt32Field(value: self.bb, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto2NofieldpresenceUnittest_TestAllTypes.NestedMessage, rhs: Proto2NofieldpresenceUnittest_TestAllTypes.NestedMessage) -> Bool {
     if lhs.bb != rhs.bb {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1045,12 +1041,10 @@ extension Proto2NofieldpresenceUnittest_TestProto2Required: SwiftProtobuf.Messag
     if let v = self._proto2 {
       try visitor.visitSingularMessageField(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto2NofieldpresenceUnittest_TestProto2Required, rhs: Proto2NofieldpresenceUnittest_TestProto2Required) -> Bool {
     if lhs._proto2 != rhs._proto2 {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -1074,12 +1068,10 @@ extension Proto2NofieldpresenceUnittest_ForeignMessage: SwiftProtobuf.Message, S
     if self.c != 0 {
       try visitor.visitSingularInt32Field(value: self.c, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: Proto2NofieldpresenceUnittest_ForeignMessage, rhs: Proto2NofieldpresenceUnittest_ForeignMessage) -> Bool {
     if lhs.c != rhs.c {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

@@ -227,7 +227,6 @@ extension ProtobufUnittest_CycleFoo: SwiftProtobuf.Message, SwiftProtobuf._Messa
         try visitor.visitSingularMessageField(value: v, fieldNumber: 3)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_CycleFoo, rhs: ProtobufUnittest_CycleFoo) -> Bool {
@@ -242,7 +241,6 @@ extension ProtobufUnittest_CycleFoo: SwiftProtobuf.Message, SwiftProtobuf._Messa
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -304,7 +302,6 @@ extension ProtobufUnittest_CycleBar: SwiftProtobuf.Message, SwiftProtobuf._Messa
         try visitor.visitSingularMessageField(value: v, fieldNumber: 3)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_CycleBar, rhs: ProtobufUnittest_CycleBar) -> Bool {
@@ -319,7 +316,6 @@ extension ProtobufUnittest_CycleBar: SwiftProtobuf.Message, SwiftProtobuf._Messa
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -381,7 +377,6 @@ extension ProtobufUnittest_CycleBaz: SwiftProtobuf.Message, SwiftProtobuf._Messa
         try visitor.visitSingularMessageField(value: v, fieldNumber: 3)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittest_CycleBaz, rhs: ProtobufUnittest_CycleBaz) -> Bool {
@@ -396,7 +391,6 @@ extension ProtobufUnittest_CycleBaz: SwiftProtobuf.Message, SwiftProtobuf._Messa
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

@@ -191,12 +191,10 @@ extension ProtobufUnittestImport_ImportMessage: SwiftProtobuf.Message, SwiftProt
     if let v = self._d {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestImport_ImportMessage, rhs: ProtobufUnittestImport_ImportMessage) -> Bool {
     if lhs._d != rhs._d {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

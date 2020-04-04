@@ -2243,7 +2243,6 @@ extension ProtobufTestMessages_Proto3_TestAllTypesProto3: SwiftProtobuf.Message,
         try visitor.visitSingularInt32Field(value: _storage._fieldName18__, fieldNumber: 418)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufTestMessages_Proto3_TestAllTypesProto3, rhs: ProtobufTestMessages_Proto3_TestAllTypesProto3) -> Bool {
@@ -2396,7 +2395,6 @@ extension ProtobufTestMessages_Proto3_TestAllTypesProto3: SwiftProtobuf.Message,
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2468,7 +2466,6 @@ extension ProtobufTestMessages_Proto3_TestAllTypesProto3.NestedMessage: SwiftPro
         try visitor.visitSingularMessageField(value: v, fieldNumber: 2)
       }
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufTestMessages_Proto3_TestAllTypesProto3.NestedMessage, rhs: ProtobufTestMessages_Proto3_TestAllTypesProto3.NestedMessage) -> Bool {
@@ -2482,7 +2479,6 @@ extension ProtobufTestMessages_Proto3_TestAllTypesProto3.NestedMessage: SwiftPro
       }
       if !storagesAreEqual {return false}
     }
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
@@ -2506,12 +2502,10 @@ extension ProtobufTestMessages_Proto3_ForeignMessage: SwiftProtobuf.Message, Swi
     if self.c != 0 {
       try visitor.visitSingularInt32Field(value: self.c, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufTestMessages_Proto3_ForeignMessage, rhs: ProtobufTestMessages_Proto3_ForeignMessage) -> Bool {
     if lhs.c != rhs.c {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }

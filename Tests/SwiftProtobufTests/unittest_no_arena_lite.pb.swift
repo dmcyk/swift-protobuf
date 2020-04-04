@@ -94,12 +94,10 @@ extension ProtobufUnittestNoArena_ForeignMessageLite: SwiftProtobuf.Message, Swi
     if let v = self._c {
       try visitor.visitSingularInt32Field(value: v, fieldNumber: 1)
     }
-    try unknownFields.traverse(visitor: &visitor)
   }
 
   static func ==(lhs: ProtobufUnittestNoArena_ForeignMessageLite, rhs: ProtobufUnittestNoArena_ForeignMessageLite) -> Bool {
     if lhs._c != rhs._c {return false}
-    if lhs.unknownFields != rhs.unknownFields {return false}
     return true
   }
 }
